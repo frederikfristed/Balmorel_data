@@ -226,18 +226,14 @@ SET ALLOWEDINV_INDIVUSERS(AAA,GGG) "Area, technology where technolgy may be inve
 /                                                                                                                                                                                                     
 *GROUP 1 - Areas with space heating                                                                                                                                                                   
 DK1_IDVU-SPACEHEAT.(                                                                                                                                                                                  
-                                                                                                                                                                                                      
 GNR_HP_ELEC_AIR-AIR_COP-490_SS-3-KW_Y-2020                                                                                                                                                            
 GNR_HP_ELEC_AIR-AIR_COP-340_SS-4-KW_Y-2030                                                                                                                                                            
 GNR_HP_ELEC_AIR-AIR_COP-350_SS-4-KW_Y-2040                                                                                                                                                            
 GNR_HP_ELEC_AIR-AIR_COP-360_SS-4-KW_Y-2050                                                                                                                                                            
-                                                                                                                                                                                                      
-                                                                                                                                                                                                      
 )                                                                                                                                                                                                     
                                                                                                                                                                                                       
 *GROUP 2 -  Areas with water heating                                                                                                                                                                  
 DK1_IDVU-HOTWTR.(                                                                                                                                                                                     
-                                                                                                                                                                                                      
 GNR_BO_ELEC_E-100_SS-3-KW-FEED_Y-2020                                                                                                                                                                 
 GNR_BO_ELEC_E-100_SS-3-KW-FEED_Y-2030                                                                                                                                                                 
 GNR_BO_ELEC_E-100_SS-3-KW-FEED_Y-2040                                                                                                                                                                 
@@ -263,8 +259,6 @@ GNR_SH_SUN_SS-4-KW_Y-2020
 GNR_SH_SUN_SS-4-KW_Y-2030                                                                                                                                                                             
 GNR_SH_SUN_SS-4-KW_Y-2040                                                                                                                                                                             
 GNR_SH_SUN_SS-4-KW_Y-2050                                                                                                                                                                             
-                                                                                                                                                                                                      
-                                                                                                                                                                                                      
 )                                                                                                                                                                                                     
                                                                                                                                                                                                       
                                                                                                                                                                                                       
@@ -492,3 +486,333 @@ $label NO_INDIVUSERS_AGKN
 AGKN(AAA,G)=YES$(ALLOWEDINV_INDIVUSERS(AAA,G) OR AGKN(AAA,G)                                                                                                                                          
 $ifi %GROUP_DEMAND_SHIFT%==yes OR INDIV_AGKN_GROUP(G,AAA)                                                                                                                                             
 );                                                                                                                                                                                                    
+$ifi not %GHEATSAVING%==yes $goto NO_HEAT_SAVING                                                                                                                                                      
+AGKN('DK1_IDVU-SPACEHEAT','DK_HEATSAVINGS_STEP1') = YES;                                                                                                                                              
+AGKN('DK2_IDVU-SPACEHEAT','DK_HEATSAVINGS_STEP1') = YES;                                                                                                                                              
+AGKN('BE_IDVU-SPACEHEAT','BE_HEATSAVINGS_STEP1') = YES;                                                                                                                                               
+AGKN('DE4-E_IDVU-SPACEHEAT','DE_HEATSAVINGS_STEP1') = YES;                                                                                                                                            
+AGKN('DE4-N_IDVU-SPACEHEAT','DE_HEATSAVINGS_STEP1') = YES;                                                                                                                                            
+AGKN('DE4-S_IDVU-SPACEHEAT','DE_HEATSAVINGS_STEP1') = YES;                                                                                                                                            
+AGKN('DE4-W_IDVU-SPACEHEAT','DE_HEATSAVINGS_STEP1') = YES;                                                                                                                                            
+AGKN('EE_IDVU-SPACEHEAT','EE_HEATSAVINGS_STEP1') = YES;                                                                                                                                               
+AGKN('FIN_IDVU-SPACEHEAT','FI_HEATSAVINGS_STEP1') = YES;                                                                                                                                              
+AGKN('FR_IDVU-SPACEHEAT','FR_HEATSAVINGS_STEP1') = YES;                                                                                                                                               
+AGKN('LT_IDVU-SPACEHEAT','LT_HEATSAVINGS_STEP1') = YES;                                                                                                                                               
+AGKN('LV_IDVU-SPACEHEAT','LV_HEATSAVINGS_STEP1') = YES;                                                                                                                                               
+AGKN('NL_IDVU-SPACEHEAT','NL_HEATSAVINGS_STEP1') = YES;                                                                                                                                               
+AGKN('NO1_IDVU-SPACEHEAT','NO_HEATSAVINGS_STEP1') = YES;                                                                                                                                              
+AGKN('NO2_IDVU-SPACEHEAT','NO_HEATSAVINGS_STEP1') = YES;                                                                                                                                              
+AGKN('NO3_IDVU-SPACEHEAT','NO_HEATSAVINGS_STEP1') = YES;                                                                                                                                              
+AGKN('NO4_IDVU-SPACEHEAT','NO_HEATSAVINGS_STEP1') = YES;                                                                                                                                              
+AGKN('NO5_IDVU-SPACEHEAT','NO_HEATSAVINGS_STEP1') = YES;                                                                                                                                              
+AGKN('PL_IDVU-SPACEHEAT','PL_HEATSAVINGS_STEP1') = YES;                                                                                                                                               
+AGKN('SE1_IDVU-SPACEHEAT','SE_HEATSAVINGS_STEP1') = YES;                                                                                                                                              
+AGKN('SE2_IDVU-SPACEHEAT','SE_HEATSAVINGS_STEP1') = YES;                                                                                                                                              
+AGKN('SE3_IDVU-SPACEHEAT','SE_HEATSAVINGS_STEP1') = YES;                                                                                                                                              
+AGKN('SE4_IDVU-SPACEHEAT','SE_HEATSAVINGS_STEP1') = YES;                                                                                                                                              
+AGKN('UK_IDVU-SPACEHEAT','UK_HEATSAVINGS_STEP1') = YES;                                                                                                                                               
+AGKN('IT_IDVU-SPACEHEAT','IT_HEATSAVINGS_STEP1') = YES;                                                                                                                                               
+AGKN('CH_IDVU-SPACEHEAT','CH_HEATSAVINGS_STEP1') = YES;                                                                                                                                               
+AGKN('AT_IDVU-SPACEHEAT','AT_HEATSAVINGS_STEP1') = YES;                                                                                                                                               
+AGKN('CZ_IDVU-SPACEHEAT','CZ_HEATSAVINGS_STEP1') = YES;                                                                                                                                               
+AGKN('ES_IDVU-SPACEHEAT','ES_HEATSAVINGS_STEP1') = YES;                                                                                                                                               
+AGKN('PT_IDVU-SPACEHEAT','PT_HEATSAVINGS_STEP1') = YES;                                                                                                                                               
+AGKN('SK_IDVU-SPACEHEAT','SK_HEATSAVINGS_STEP1') = YES;                                                                                                                                               
+AGKN('HU_IDVU-SPACEHEAT','HU_HEATSAVINGS_STEP1') = YES;                                                                                                                                               
+AGKN('SI_IDVU-SPACEHEAT','SI_HEATSAVINGS_STEP1') = YES;                                                                                                                                               
+AGKN('HR_IDVU-SPACEHEAT','HR_HEATSAVINGS_STEP1') = YES;                                                                                                                                               
+AGKN('RO_IDVU-SPACEHEAT','RO_HEATSAVINGS_STEP1') = YES;                                                                                                                                               
+AGKN('BG_IDVU-SPACEHEAT','BG_HEATSAVINGS_STEP1') = YES;                                                                                                                                               
+AGKN('GR_IDVU-SPACEHEAT','GR_HEATSAVINGS_STEP1') = YES;                                                                                                                                               
+AGKN('IE_IDVU-SPACEHEAT','IE_HEATSAVINGS_STEP1') = YES;                                                                                                                                               
+AGKN('LU_IDVU-SPACEHEAT','LU_HEATSAVINGS_STEP1') = YES;                                                                                                                                               
+AGKN('AL_IDVU-SPACEHEAT','AL_HEATSAVINGS_STEP1') = YES;                                                                                                                                               
+AGKN('ME_IDVU-SPACEHEAT','ME_HEATSAVINGS_STEP1') = YES;                                                                                                                                               
+AGKN('MK_IDVU-SPACEHEAT','MK_HEATSAVINGS_STEP1') = YES;                                                                                                                                               
+AGKN('BA_IDVU-SPACEHEAT','BA_HEATSAVINGS_STEP1') = YES;                                                                                                                                               
+AGKN('RS_IDVU-SPACEHEAT','RS_HEATSAVINGS_STEP1') = YES;                                                                                                                                               
+AGKN('TR_IDVU-SPACEHEAT','TR_HEATSAVINGS_STEP1') = YES;                                                                                                                                               
+AGKN('CY_IDVU-SPACEHEAT','CY_HEATSAVINGS_STEP1') = YES;                                                                                                                                               
+                                                                                                                                                                                                      
+AGKN('DK1_IDVU-SPACEHEAT','DK_HEATSAVINGS_STEP2') = YES;                                                                                                                                              
+AGKN('DK2_IDVU-SPACEHEAT','DK_HEATSAVINGS_STEP2') = YES;                                                                                                                                              
+AGKN('BE_IDVU-SPACEHEAT','BE_HEATSAVINGS_STEP2') = YES;                                                                                                                                               
+AGKN('DE4-E_IDVU-SPACEHEAT','DE_HEATSAVINGS_STEP2') = YES;                                                                                                                                            
+AGKN('DE4-N_IDVU-SPACEHEAT','DE_HEATSAVINGS_STEP2') = YES;                                                                                                                                            
+AGKN('DE4-S_IDVU-SPACEHEAT','DE_HEATSAVINGS_STEP2') = YES;                                                                                                                                            
+AGKN('DE4-W_IDVU-SPACEHEAT','DE_HEATSAVINGS_STEP2') = YES;                                                                                                                                            
+AGKN('EE_IDVU-SPACEHEAT','EE_HEATSAVINGS_STEP2') = YES;                                                                                                                                               
+AGKN('FIN_IDVU-SPACEHEAT','FI_HEATSAVINGS_STEP2') = YES;                                                                                                                                              
+AGKN('FR_IDVU-SPACEHEAT','FR_HEATSAVINGS_STEP2') = YES;                                                                                                                                               
+AGKN('LT_IDVU-SPACEHEAT','LT_HEATSAVINGS_STEP2') = YES;                                                                                                                                               
+AGKN('LV_IDVU-SPACEHEAT','LV_HEATSAVINGS_STEP2') = YES;                                                                                                                                               
+AGKN('NL_IDVU-SPACEHEAT','NL_HEATSAVINGS_STEP2') = YES;                                                                                                                                               
+AGKN('NO1_IDVU-SPACEHEAT','NO_HEATSAVINGS_STEP2') = YES;                                                                                                                                              
+AGKN('NO2_IDVU-SPACEHEAT','NO_HEATSAVINGS_STEP2') = YES;                                                                                                                                              
+AGKN('NO3_IDVU-SPACEHEAT','NO_HEATSAVINGS_STEP2') = YES;                                                                                                                                              
+AGKN('NO4_IDVU-SPACEHEAT','NO_HEATSAVINGS_STEP2') = YES;                                                                                                                                              
+AGKN('NO5_IDVU-SPACEHEAT','NO_HEATSAVINGS_STEP2') = YES;                                                                                                                                              
+AGKN('PL_IDVU-SPACEHEAT','PL_HEATSAVINGS_STEP2') = YES;                                                                                                                                               
+AGKN('SE1_IDVU-SPACEHEAT','SE_HEATSAVINGS_STEP2') = YES;                                                                                                                                              
+AGKN('SE2_IDVU-SPACEHEAT','SE_HEATSAVINGS_STEP2') = YES;                                                                                                                                              
+AGKN('SE3_IDVU-SPACEHEAT','SE_HEATSAVINGS_STEP2') = YES;                                                                                                                                              
+AGKN('SE4_IDVU-SPACEHEAT','SE_HEATSAVINGS_STEP2') = YES;                                                                                                                                              
+AGKN('UK_IDVU-SPACEHEAT','UK_HEATSAVINGS_STEP2') = YES;                                                                                                                                               
+AGKN('IT_IDVU-SPACEHEAT','IT_HEATSAVINGS_STEP2') = YES;                                                                                                                                               
+AGKN('CH_IDVU-SPACEHEAT','CH_HEATSAVINGS_STEP2') = YES;                                                                                                                                               
+AGKN('AT_IDVU-SPACEHEAT','AT_HEATSAVINGS_STEP2') = YES;                                                                                                                                               
+AGKN('CZ_IDVU-SPACEHEAT','CZ_HEATSAVINGS_STEP2') = YES;                                                                                                                                               
+AGKN('ES_IDVU-SPACEHEAT','ES_HEATSAVINGS_STEP2') = YES;                                                                                                                                               
+AGKN('PT_IDVU-SPACEHEAT','PT_HEATSAVINGS_STEP2') = YES;                                                                                                                                               
+AGKN('SK_IDVU-SPACEHEAT','SK_HEATSAVINGS_STEP2') = YES;                                                                                                                                               
+AGKN('HU_IDVU-SPACEHEAT','HU_HEATSAVINGS_STEP2') = YES;                                                                                                                                               
+AGKN('SI_IDVU-SPACEHEAT','SI_HEATSAVINGS_STEP2') = YES;                                                                                                                                               
+AGKN('HR_IDVU-SPACEHEAT','HR_HEATSAVINGS_STEP2') = YES;                                                                                                                                               
+AGKN('RO_IDVU-SPACEHEAT','RO_HEATSAVINGS_STEP2') = YES;                                                                                                                                               
+AGKN('BG_IDVU-SPACEHEAT','BG_HEATSAVINGS_STEP2') = YES;                                                                                                                                               
+AGKN('GR_IDVU-SPACEHEAT','GR_HEATSAVINGS_STEP2') = YES;                                                                                                                                               
+AGKN('IE_IDVU-SPACEHEAT','IE_HEATSAVINGS_STEP2') = YES;                                                                                                                                               
+AGKN('LU_IDVU-SPACEHEAT','LU_HEATSAVINGS_STEP2') = YES;                                                                                                                                               
+AGKN('AL_IDVU-SPACEHEAT','AL_HEATSAVINGS_STEP2') = YES;                                                                                                                                               
+AGKN('ME_IDVU-SPACEHEAT','ME_HEATSAVINGS_STEP2') = YES;                                                                                                                                               
+AGKN('MK_IDVU-SPACEHEAT','MK_HEATSAVINGS_STEP2') = YES;                                                                                                                                               
+AGKN('BA_IDVU-SPACEHEAT','BA_HEATSAVINGS_STEP2') = YES;                                                                                                                                               
+AGKN('RS_IDVU-SPACEHEAT','RS_HEATSAVINGS_STEP2') = YES;                                                                                                                                               
+AGKN('TR_IDVU-SPACEHEAT','TR_HEATSAVINGS_STEP2') = YES;                                                                                                                                               
+AGKN('CY_IDVU-SPACEHEAT','CY_HEATSAVINGS_STEP2') = YES;                                                                                                                                               
+                                                                                                                                                                                                      
+AGKN('DK1_IDVU-SPACEHEAT','DK_HEATSAVINGS_STEP3') = YES;                                                                                                                                              
+AGKN('DK2_IDVU-SPACEHEAT','DK_HEATSAVINGS_STEP3') = YES;                                                                                                                                              
+AGKN('BE_IDVU-SPACEHEAT','BE_HEATSAVINGS_STEP3') = YES;                                                                                                                                               
+AGKN('DE4-E_IDVU-SPACEHEAT','DE_HEATSAVINGS_STEP3') = YES;                                                                                                                                            
+AGKN('DE4-N_IDVU-SPACEHEAT','DE_HEATSAVINGS_STEP3') = YES;                                                                                                                                            
+AGKN('DE4-S_IDVU-SPACEHEAT','DE_HEATSAVINGS_STEP3') = YES;                                                                                                                                            
+AGKN('DE4-W_IDVU-SPACEHEAT','DE_HEATSAVINGS_STEP3') = YES;                                                                                                                                            
+AGKN('EE_IDVU-SPACEHEAT','EE_HEATSAVINGS_STEP3') = YES;                                                                                                                                               
+AGKN('FIN_IDVU-SPACEHEAT','FI_HEATSAVINGS_STEP3') = YES;                                                                                                                                              
+AGKN('FR_IDVU-SPACEHEAT','FR_HEATSAVINGS_STEP3') = YES;                                                                                                                                               
+AGKN('LT_IDVU-SPACEHEAT','LT_HEATSAVINGS_STEP3') = YES;                                                                                                                                               
+AGKN('LV_IDVU-SPACEHEAT','LV_HEATSAVINGS_STEP3') = YES;                                                                                                                                               
+AGKN('NL_IDVU-SPACEHEAT','NL_HEATSAVINGS_STEP3') = YES;                                                                                                                                               
+AGKN('NO1_IDVU-SPACEHEAT','NO_HEATSAVINGS_STEP3') = YES;                                                                                                                                              
+AGKN('NO2_IDVU-SPACEHEAT','NO_HEATSAVINGS_STEP3') = YES;                                                                                                                                              
+AGKN('NO3_IDVU-SPACEHEAT','NO_HEATSAVINGS_STEP3') = YES;                                                                                                                                              
+AGKN('NO4_IDVU-SPACEHEAT','NO_HEATSAVINGS_STEP3') = YES;                                                                                                                                              
+AGKN('NO5_IDVU-SPACEHEAT','NO_HEATSAVINGS_STEP3') = YES;                                                                                                                                              
+AGKN('PL_IDVU-SPACEHEAT','PL_HEATSAVINGS_STEP3') = YES;                                                                                                                                               
+AGKN('SE1_IDVU-SPACEHEAT','SE_HEATSAVINGS_STEP3') = YES;                                                                                                                                              
+AGKN('SE2_IDVU-SPACEHEAT','SE_HEATSAVINGS_STEP3') = YES;                                                                                                                                              
+AGKN('SE3_IDVU-SPACEHEAT','SE_HEATSAVINGS_STEP3') = YES;                                                                                                                                              
+AGKN('SE4_IDVU-SPACEHEAT','SE_HEATSAVINGS_STEP3') = YES;                                                                                                                                              
+AGKN('UK_IDVU-SPACEHEAT','UK_HEATSAVINGS_STEP3') = YES;                                                                                                                                               
+AGKN('IT_IDVU-SPACEHEAT','IT_HEATSAVINGS_STEP3') = YES;                                                                                                                                               
+AGKN('CH_IDVU-SPACEHEAT','CH_HEATSAVINGS_STEP3') = YES;                                                                                                                                               
+AGKN('AT_IDVU-SPACEHEAT','AT_HEATSAVINGS_STEP3') = YES;                                                                                                                                               
+AGKN('CZ_IDVU-SPACEHEAT','CZ_HEATSAVINGS_STEP3') = YES;                                                                                                                                               
+AGKN('ES_IDVU-SPACEHEAT','ES_HEATSAVINGS_STEP3') = YES;                                                                                                                                               
+AGKN('PT_IDVU-SPACEHEAT','PT_HEATSAVINGS_STEP3') = YES;                                                                                                                                               
+AGKN('SK_IDVU-SPACEHEAT','SK_HEATSAVINGS_STEP3') = YES;                                                                                                                                               
+AGKN('HU_IDVU-SPACEHEAT','HU_HEATSAVINGS_STEP3') = YES;                                                                                                                                               
+AGKN('SI_IDVU-SPACEHEAT','SI_HEATSAVINGS_STEP3') = YES;                                                                                                                                               
+AGKN('HR_IDVU-SPACEHEAT','HR_HEATSAVINGS_STEP3') = YES;                                                                                                                                               
+AGKN('RO_IDVU-SPACEHEAT','RO_HEATSAVINGS_STEP3') = YES;                                                                                                                                               
+AGKN('BG_IDVU-SPACEHEAT','BG_HEATSAVINGS_STEP3') = YES;                                                                                                                                               
+AGKN('GR_IDVU-SPACEHEAT','GR_HEATSAVINGS_STEP3') = YES;                                                                                                                                               
+AGKN('IE_IDVU-SPACEHEAT','IE_HEATSAVINGS_STEP3') = YES;                                                                                                                                               
+AGKN('LU_IDVU-SPACEHEAT','LU_HEATSAVINGS_STEP3') = YES;                                                                                                                                               
+AGKN('AL_IDVU-SPACEHEAT','AL_HEATSAVINGS_STEP3') = YES;                                                                                                                                               
+AGKN('ME_IDVU-SPACEHEAT','ME_HEATSAVINGS_STEP3') = YES;                                                                                                                                               
+AGKN('MK_IDVU-SPACEHEAT','MK_HEATSAVINGS_STEP3') = YES;                                                                                                                                               
+AGKN('BA_IDVU-SPACEHEAT','BA_HEATSAVINGS_STEP3') = YES;                                                                                                                                               
+AGKN('RS_IDVU-SPACEHEAT','RS_HEATSAVINGS_STEP3') = YES;                                                                                                                                               
+AGKN('TR_IDVU-SPACEHEAT','TR_HEATSAVINGS_STEP3') = YES;                                                                                                                                               
+AGKN('CY_IDVU-SPACEHEAT','CY_HEATSAVINGS_STEP3') = YES;                                                                                                                                               
+                                                                                                                                                                                                      
+AGKN('DK1_IDVU-SPACEHEAT','DK_HEATSAVINGS_STEP4') = YES;                                                                                                                                              
+AGKN('DK2_IDVU-SPACEHEAT','DK_HEATSAVINGS_STEP4') = YES;                                                                                                                                              
+AGKN('BE_IDVU-SPACEHEAT','BE_HEATSAVINGS_STEP4') = YES;                                                                                                                                               
+AGKN('DE4-E_IDVU-SPACEHEAT','DE_HEATSAVINGS_STEP4') = YES;                                                                                                                                            
+AGKN('DE4-N_IDVU-SPACEHEAT','DE_HEATSAVINGS_STEP4') = YES;                                                                                                                                            
+AGKN('DE4-S_IDVU-SPACEHEAT','DE_HEATSAVINGS_STEP4') = YES;                                                                                                                                            
+AGKN('DE4-W_IDVU-SPACEHEAT','DE_HEATSAVINGS_STEP4') = YES;                                                                                                                                            
+AGKN('EE_IDVU-SPACEHEAT','EE_HEATSAVINGS_STEP4') = YES;                                                                                                                                               
+AGKN('FIN_IDVU-SPACEHEAT','FI_HEATSAVINGS_STEP4') = YES;                                                                                                                                              
+AGKN('FR_IDVU-SPACEHEAT','FR_HEATSAVINGS_STEP4') = YES;                                                                                                                                               
+AGKN('LT_IDVU-SPACEHEAT','LT_HEATSAVINGS_STEP4') = YES;                                                                                                                                               
+AGKN('LV_IDVU-SPACEHEAT','LV_HEATSAVINGS_STEP4') = YES;                                                                                                                                               
+AGKN('NL_IDVU-SPACEHEAT','NL_HEATSAVINGS_STEP4') = YES;                                                                                                                                               
+AGKN('NO1_IDVU-SPACEHEAT','NO_HEATSAVINGS_STEP4') = YES;                                                                                                                                              
+AGKN('NO2_IDVU-SPACEHEAT','NO_HEATSAVINGS_STEP4') = YES;                                                                                                                                              
+AGKN('NO3_IDVU-SPACEHEAT','NO_HEATSAVINGS_STEP4') = YES;                                                                                                                                              
+AGKN('NO4_IDVU-SPACEHEAT','NO_HEATSAVINGS_STEP4') = YES;                                                                                                                                              
+AGKN('NO5_IDVU-SPACEHEAT','NO_HEATSAVINGS_STEP4') = YES;                                                                                                                                              
+AGKN('PL_IDVU-SPACEHEAT','PL_HEATSAVINGS_STEP4') = YES;                                                                                                                                               
+AGKN('SE1_IDVU-SPACEHEAT','SE_HEATSAVINGS_STEP4') = YES;                                                                                                                                              
+AGKN('SE2_IDVU-SPACEHEAT','SE_HEATSAVINGS_STEP4') = YES;                                                                                                                                              
+AGKN('SE3_IDVU-SPACEHEAT','SE_HEATSAVINGS_STEP4') = YES;                                                                                                                                              
+AGKN('SE4_IDVU-SPACEHEAT','SE_HEATSAVINGS_STEP4') = YES;                                                                                                                                              
+AGKN('UK_IDVU-SPACEHEAT','UK_HEATSAVINGS_STEP4') = YES;                                                                                                                                               
+AGKN('IT_IDVU-SPACEHEAT','IT_HEATSAVINGS_STEP4') = YES;                                                                                                                                               
+AGKN('CH_IDVU-SPACEHEAT','CH_HEATSAVINGS_STEP4') = YES;                                                                                                                                               
+AGKN('AT_IDVU-SPACEHEAT','AT_HEATSAVINGS_STEP4') = YES;                                                                                                                                               
+AGKN('CZ_IDVU-SPACEHEAT','CZ_HEATSAVINGS_STEP4') = YES;                                                                                                                                               
+AGKN('ES_IDVU-SPACEHEAT','ES_HEATSAVINGS_STEP4') = YES;                                                                                                                                               
+AGKN('PT_IDVU-SPACEHEAT','PT_HEATSAVINGS_STEP4') = YES;                                                                                                                                               
+AGKN('SK_IDVU-SPACEHEAT','SK_HEATSAVINGS_STEP4') = YES;                                                                                                                                               
+AGKN('HU_IDVU-SPACEHEAT','HU_HEATSAVINGS_STEP4') = YES;                                                                                                                                               
+AGKN('SI_IDVU-SPACEHEAT','SI_HEATSAVINGS_STEP4') = YES;                                                                                                                                               
+AGKN('HR_IDVU-SPACEHEAT','HR_HEATSAVINGS_STEP4') = YES;                                                                                                                                               
+AGKN('RO_IDVU-SPACEHEAT','RO_HEATSAVINGS_STEP4') = YES;                                                                                                                                               
+AGKN('BG_IDVU-SPACEHEAT','BG_HEATSAVINGS_STEP4') = YES;                                                                                                                                               
+AGKN('GR_IDVU-SPACEHEAT','GR_HEATSAVINGS_STEP4') = YES;                                                                                                                                               
+AGKN('IE_IDVU-SPACEHEAT','IE_HEATSAVINGS_STEP4') = YES;                                                                                                                                               
+AGKN('LU_IDVU-SPACEHEAT','LU_HEATSAVINGS_STEP4') = YES;                                                                                                                                               
+AGKN('AL_IDVU-SPACEHEAT','AL_HEATSAVINGS_STEP4') = YES;                                                                                                                                               
+AGKN('ME_IDVU-SPACEHEAT','ME_HEATSAVINGS_STEP4') = YES;                                                                                                                                               
+AGKN('MK_IDVU-SPACEHEAT','MK_HEATSAVINGS_STEP4') = YES;                                                                                                                                               
+AGKN('BA_IDVU-SPACEHEAT','BA_HEATSAVINGS_STEP4') = YES;                                                                                                                                               
+AGKN('RS_IDVU-SPACEHEAT','RS_HEATSAVINGS_STEP4') = YES;                                                                                                                                               
+AGKN('TR_IDVU-SPACEHEAT','TR_HEATSAVINGS_STEP4') = YES;                                                                                                                                               
+AGKN('CY_IDVU-SPACEHEAT','CY_HEATSAVINGS_STEP4') = YES;                                                                                                                                               
+                                                                                                                                                                                                      
+AGKN('DK1_IDVU-SPACEHEAT','DK_HEATSAVINGS_STEP5') = YES;                                                                                                                                              
+AGKN('DK2_IDVU-SPACEHEAT','DK_HEATSAVINGS_STEP5') = YES;                                                                                                                                              
+AGKN('BE_IDVU-SPACEHEAT','BE_HEATSAVINGS_STEP5') = YES;                                                                                                                                               
+AGKN('DE4-E_IDVU-SPACEHEAT','DE_HEATSAVINGS_STEP5') = YES;                                                                                                                                            
+AGKN('DE4-N_IDVU-SPACEHEAT','DE_HEATSAVINGS_STEP5') = YES;                                                                                                                                            
+AGKN('DE4-S_IDVU-SPACEHEAT','DE_HEATSAVINGS_STEP5') = YES;                                                                                                                                            
+AGKN('DE4-W_IDVU-SPACEHEAT','DE_HEATSAVINGS_STEP5') = YES;                                                                                                                                            
+AGKN('EE_IDVU-SPACEHEAT','EE_HEATSAVINGS_STEP5') = YES;                                                                                                                                               
+AGKN('FIN_IDVU-SPACEHEAT','FI_HEATSAVINGS_STEP5') = YES;                                                                                                                                              
+AGKN('FR_IDVU-SPACEHEAT','FR_HEATSAVINGS_STEP5') = YES;                                                                                                                                               
+AGKN('LT_IDVU-SPACEHEAT','LT_HEATSAVINGS_STEP5') = YES;                                                                                                                                               
+AGKN('LV_IDVU-SPACEHEAT','LV_HEATSAVINGS_STEP5') = YES;                                                                                                                                               
+AGKN('NL_IDVU-SPACEHEAT','NL_HEATSAVINGS_STEP5') = YES;                                                                                                                                               
+AGKN('NO1_IDVU-SPACEHEAT','NO_HEATSAVINGS_STEP5') = YES;                                                                                                                                              
+AGKN('NO2_IDVU-SPACEHEAT','NO_HEATSAVINGS_STEP5') = YES;                                                                                                                                              
+AGKN('NO3_IDVU-SPACEHEAT','NO_HEATSAVINGS_STEP5') = YES;                                                                                                                                              
+AGKN('NO4_IDVU-SPACEHEAT','NO_HEATSAVINGS_STEP5') = YES;                                                                                                                                              
+AGKN('NO5_IDVU-SPACEHEAT','NO_HEATSAVINGS_STEP5') = YES;                                                                                                                                              
+AGKN('PL_IDVU-SPACEHEAT','PL_HEATSAVINGS_STEP5') = YES;                                                                                                                                               
+AGKN('SE1_IDVU-SPACEHEAT','SE_HEATSAVINGS_STEP5') = YES;                                                                                                                                              
+AGKN('SE2_IDVU-SPACEHEAT','SE_HEATSAVINGS_STEP5') = YES;                                                                                                                                              
+AGKN('SE3_IDVU-SPACEHEAT','SE_HEATSAVINGS_STEP5') = YES;                                                                                                                                              
+AGKN('SE4_IDVU-SPACEHEAT','SE_HEATSAVINGS_STEP5') = YES;                                                                                                                                              
+AGKN('UK_IDVU-SPACEHEAT','UK_HEATSAVINGS_STEP5') = YES;                                                                                                                                               
+AGKN('IT_IDVU-SPACEHEAT','IT_HEATSAVINGS_STEP5') = YES;                                                                                                                                               
+AGKN('CH_IDVU-SPACEHEAT','CH_HEATSAVINGS_STEP5') = YES;                                                                                                                                               
+AGKN('AT_IDVU-SPACEHEAT','AT_HEATSAVINGS_STEP5') = YES;                                                                                                                                               
+AGKN('CZ_IDVU-SPACEHEAT','CZ_HEATSAVINGS_STEP5') = YES;                                                                                                                                               
+AGKN('ES_IDVU-SPACEHEAT','ES_HEATSAVINGS_STEP5') = YES;                                                                                                                                               
+AGKN('PT_IDVU-SPACEHEAT','PT_HEATSAVINGS_STEP5') = YES;                                                                                                                                               
+AGKN('SK_IDVU-SPACEHEAT','SK_HEATSAVINGS_STEP5') = YES;                                                                                                                                               
+AGKN('HU_IDVU-SPACEHEAT','HU_HEATSAVINGS_STEP5') = YES;                                                                                                                                               
+AGKN('SI_IDVU-SPACEHEAT','SI_HEATSAVINGS_STEP5') = YES;                                                                                                                                               
+AGKN('HR_IDVU-SPACEHEAT','HR_HEATSAVINGS_STEP5') = YES;                                                                                                                                               
+AGKN('RO_IDVU-SPACEHEAT','RO_HEATSAVINGS_STEP5') = YES;                                                                                                                                               
+AGKN('BG_IDVU-SPACEHEAT','BG_HEATSAVINGS_STEP5') = YES;                                                                                                                                               
+AGKN('GR_IDVU-SPACEHEAT','GR_HEATSAVINGS_STEP5') = YES;                                                                                                                                               
+AGKN('IE_IDVU-SPACEHEAT','IE_HEATSAVINGS_STEP5') = YES;                                                                                                                                               
+AGKN('LU_IDVU-SPACEHEAT','LU_HEATSAVINGS_STEP5') = YES;                                                                                                                                               
+AGKN('AL_IDVU-SPACEHEAT','AL_HEATSAVINGS_STEP5') = YES;                                                                                                                                               
+AGKN('ME_IDVU-SPACEHEAT','ME_HEATSAVINGS_STEP5') = YES;                                                                                                                                               
+AGKN('MK_IDVU-SPACEHEAT','MK_HEATSAVINGS_STEP5') = YES;                                                                                                                                               
+AGKN('BA_IDVU-SPACEHEAT','BA_HEATSAVINGS_STEP5') = YES;                                                                                                                                               
+AGKN('RS_IDVU-SPACEHEAT','RS_HEATSAVINGS_STEP5') = YES;                                                                                                                                               
+AGKN('TR_IDVU-SPACEHEAT','TR_HEATSAVINGS_STEP5') = YES;                                                                                                                                               
+AGKN('CY_IDVU-SPACEHEAT','CY_HEATSAVINGS_STEP5') = YES;                                                                                                                                               
+                                                                                                                                                                                                      
+AGKN('DK1_IDVU-SPACEHEAT','DK_HEATSAVINGS_STEP6') = YES;                                                                                                                                              
+AGKN('DK2_IDVU-SPACEHEAT','DK_HEATSAVINGS_STEP6') = YES;                                                                                                                                              
+AGKN('BE_IDVU-SPACEHEAT','BE_HEATSAVINGS_STEP6') = YES;                                                                                                                                               
+AGKN('DE4-E_IDVU-SPACEHEAT','DE_HEATSAVINGS_STEP6') = YES;                                                                                                                                            
+AGKN('DE4-N_IDVU-SPACEHEAT','DE_HEATSAVINGS_STEP6') = YES;                                                                                                                                            
+AGKN('DE4-S_IDVU-SPACEHEAT','DE_HEATSAVINGS_STEP6') = YES;                                                                                                                                            
+AGKN('DE4-W_IDVU-SPACEHEAT','DE_HEATSAVINGS_STEP6') = YES;                                                                                                                                            
+AGKN('EE_IDVU-SPACEHEAT','EE_HEATSAVINGS_STEP6') = YES;                                                                                                                                               
+AGKN('FIN_IDVU-SPACEHEAT','FI_HEATSAVINGS_STEP6') = YES;                                                                                                                                              
+AGKN('FR_IDVU-SPACEHEAT','FR_HEATSAVINGS_STEP6') = YES;                                                                                                                                               
+AGKN('LT_IDVU-SPACEHEAT','LT_HEATSAVINGS_STEP6') = YES;                                                                                                                                               
+AGKN('LV_IDVU-SPACEHEAT','LV_HEATSAVINGS_STEP6') = YES;                                                                                                                                               
+AGKN('NL_IDVU-SPACEHEAT','NL_HEATSAVINGS_STEP6') = YES;                                                                                                                                               
+AGKN('NO1_IDVU-SPACEHEAT','NO_HEATSAVINGS_STEP6') = YES;                                                                                                                                              
+AGKN('NO2_IDVU-SPACEHEAT','NO_HEATSAVINGS_STEP6') = YES;                                                                                                                                              
+AGKN('NO3_IDVU-SPACEHEAT','NO_HEATSAVINGS_STEP6') = YES;                                                                                                                                              
+AGKN('NO4_IDVU-SPACEHEAT','NO_HEATSAVINGS_STEP6') = YES;                                                                                                                                              
+AGKN('NO5_IDVU-SPACEHEAT','NO_HEATSAVINGS_STEP6') = YES;                                                                                                                                              
+AGKN('PL_IDVU-SPACEHEAT','PL_HEATSAVINGS_STEP6') = YES;                                                                                                                                               
+AGKN('SE1_IDVU-SPACEHEAT','SE_HEATSAVINGS_STEP6') = YES;                                                                                                                                              
+AGKN('SE2_IDVU-SPACEHEAT','SE_HEATSAVINGS_STEP6') = YES;                                                                                                                                              
+AGKN('SE3_IDVU-SPACEHEAT','SE_HEATSAVINGS_STEP6') = YES;                                                                                                                                              
+AGKN('SE4_IDVU-SPACEHEAT','SE_HEATSAVINGS_STEP6') = YES;                                                                                                                                              
+AGKN('UK_IDVU-SPACEHEAT','UK_HEATSAVINGS_STEP6') = YES;                                                                                                                                               
+AGKN('IT_IDVU-SPACEHEAT','IT_HEATSAVINGS_STEP6') = YES;                                                                                                                                               
+AGKN('CH_IDVU-SPACEHEAT','CH_HEATSAVINGS_STEP6') = YES;                                                                                                                                               
+AGKN('AT_IDVU-SPACEHEAT','AT_HEATSAVINGS_STEP6') = YES;                                                                                                                                               
+AGKN('CZ_IDVU-SPACEHEAT','CZ_HEATSAVINGS_STEP6') = YES;                                                                                                                                               
+AGKN('ES_IDVU-SPACEHEAT','ES_HEATSAVINGS_STEP6') = YES;                                                                                                                                               
+AGKN('PT_IDVU-SPACEHEAT','PT_HEATSAVINGS_STEP6') = YES;                                                                                                                                               
+AGKN('SK_IDVU-SPACEHEAT','SK_HEATSAVINGS_STEP6') = YES;                                                                                                                                               
+AGKN('HU_IDVU-SPACEHEAT','HU_HEATSAVINGS_STEP6') = YES;                                                                                                                                               
+AGKN('SI_IDVU-SPACEHEAT','SI_HEATSAVINGS_STEP6') = YES;                                                                                                                                               
+AGKN('HR_IDVU-SPACEHEAT','HR_HEATSAVINGS_STEP6') = YES;                                                                                                                                               
+AGKN('RO_IDVU-SPACEHEAT','RO_HEATSAVINGS_STEP6') = YES;                                                                                                                                               
+AGKN('BG_IDVU-SPACEHEAT','BG_HEATSAVINGS_STEP6') = YES;                                                                                                                                               
+AGKN('GR_IDVU-SPACEHEAT','GR_HEATSAVINGS_STEP6') = YES;                                                                                                                                               
+AGKN('IE_IDVU-SPACEHEAT','IE_HEATSAVINGS_STEP6') = YES;                                                                                                                                               
+AGKN('LU_IDVU-SPACEHEAT','LU_HEATSAVINGS_STEP6') = YES;                                                                                                                                               
+AGKN('AL_IDVU-SPACEHEAT','AL_HEATSAVINGS_STEP6') = YES;                                                                                                                                               
+AGKN('ME_IDVU-SPACEHEAT','ME_HEATSAVINGS_STEP6') = YES;                                                                                                                                               
+AGKN('MK_IDVU-SPACEHEAT','MK_HEATSAVINGS_STEP6') = YES;                                                                                                                                               
+AGKN('BA_IDVU-SPACEHEAT','BA_HEATSAVINGS_STEP6') = YES;                                                                                                                                               
+AGKN('RS_IDVU-SPACEHEAT','RS_HEATSAVINGS_STEP6') = YES;                                                                                                                                               
+AGKN('TR_IDVU-SPACEHEAT','TR_HEATSAVINGS_STEP6') = YES;                                                                                                                                               
+AGKN('CY_IDVU-SPACEHEAT','CY_HEATSAVINGS_STEP6') = YES;                                                                                                                                               
+                                                                                                                                                                                                      
+AGKN('DK1_IDVU-SPACEHEAT','DK_HEATSAVINGS_STEP7') = YES;                                                                                                                                              
+AGKN('DK2_IDVU-SPACEHEAT','DK_HEATSAVINGS_STEP7') = YES;                                                                                                                                              
+AGKN('BE_IDVU-SPACEHEAT','BE_HEATSAVINGS_STEP7') = YES;                                                                                                                                               
+AGKN('DE4-E_IDVU-SPACEHEAT','DE_HEATSAVINGS_STEP7') = YES;                                                                                                                                            
+AGKN('DE4-N_IDVU-SPACEHEAT','DE_HEATSAVINGS_STEP7') = YES;                                                                                                                                            
+AGKN('DE4-S_IDVU-SPACEHEAT','DE_HEATSAVINGS_STEP7') = YES;                                                                                                                                            
+AGKN('DE4-W_IDVU-SPACEHEAT','DE_HEATSAVINGS_STEP7') = YES;                                                                                                                                            
+AGKN('EE_IDVU-SPACEHEAT','EE_HEATSAVINGS_STEP7') = YES;                                                                                                                                               
+AGKN('FIN_IDVU-SPACEHEAT','FI_HEATSAVINGS_STEP7') = YES;                                                                                                                                              
+AGKN('FR_IDVU-SPACEHEAT','FR_HEATSAVINGS_STEP7') = YES;                                                                                                                                               
+AGKN('LT_IDVU-SPACEHEAT','LT_HEATSAVINGS_STEP7') = YES;                                                                                                                                               
+AGKN('LV_IDVU-SPACEHEAT','LV_HEATSAVINGS_STEP7') = YES;                                                                                                                                               
+AGKN('NL_IDVU-SPACEHEAT','NL_HEATSAVINGS_STEP7') = YES;                                                                                                                                               
+AGKN('NO1_IDVU-SPACEHEAT','NO_HEATSAVINGS_STEP7') = YES;                                                                                                                                              
+AGKN('NO2_IDVU-SPACEHEAT','NO_HEATSAVINGS_STEP7') = YES;                                                                                                                                              
+AGKN('NO3_IDVU-SPACEHEAT','NO_HEATSAVINGS_STEP7') = YES;                                                                                                                                              
+AGKN('NO4_IDVU-SPACEHEAT','NO_HEATSAVINGS_STEP7') = YES;                                                                                                                                              
+AGKN('NO5_IDVU-SPACEHEAT','NO_HEATSAVINGS_STEP7') = YES;                                                                                                                                              
+AGKN('PL_IDVU-SPACEHEAT','PL_HEATSAVINGS_STEP7') = YES;                                                                                                                                               
+AGKN('SE1_IDVU-SPACEHEAT','SE_HEATSAVINGS_STEP7') = YES;                                                                                                                                              
+AGKN('SE2_IDVU-SPACEHEAT','SE_HEATSAVINGS_STEP7') = YES;                                                                                                                                              
+AGKN('SE3_IDVU-SPACEHEAT','SE_HEATSAVINGS_STEP7') = YES;                                                                                                                                              
+AGKN('SE4_IDVU-SPACEHEAT','SE_HEATSAVINGS_STEP7') = YES;                                                                                                                                              
+AGKN('UK_IDVU-SPACEHEAT','UK_HEATSAVINGS_STEP7') = YES;                                                                                                                                               
+AGKN('IT_IDVU-SPACEHEAT','IT_HEATSAVINGS_STEP7') = YES;                                                                                                                                               
+AGKN('CH_IDVU-SPACEHEAT','CH_HEATSAVINGS_STEP7') = YES;                                                                                                                                               
+AGKN('AT_IDVU-SPACEHEAT','AT_HEATSAVINGS_STEP7') = YES;                                                                                                                                               
+AGKN('CZ_IDVU-SPACEHEAT','CZ_HEATSAVINGS_STEP7') = YES;                                                                                                                                               
+AGKN('ES_IDVU-SPACEHEAT','ES_HEATSAVINGS_STEP7') = YES;                                                                                                                                               
+AGKN('PT_IDVU-SPACEHEAT','PT_HEATSAVINGS_STEP7') = YES;                                                                                                                                               
+AGKN('SK_IDVU-SPACEHEAT','SK_HEATSAVINGS_STEP7') = YES;                                                                                                                                               
+AGKN('HU_IDVU-SPACEHEAT','HU_HEATSAVINGS_STEP7') = YES;                                                                                                                                               
+AGKN('SI_IDVU-SPACEHEAT','SI_HEATSAVINGS_STEP7') = YES;                                                                                                                                               
+AGKN('HR_IDVU-SPACEHEAT','HR_HEATSAVINGS_STEP7') = YES;                                                                                                                                               
+AGKN('RO_IDVU-SPACEHEAT','RO_HEATSAVINGS_STEP7') = YES;                                                                                                                                               
+AGKN('BG_IDVU-SPACEHEAT','BG_HEATSAVINGS_STEP7') = YES;                                                                                                                                               
+AGKN('GR_IDVU-SPACEHEAT','GR_HEATSAVINGS_STEP7') = YES;                                                                                                                                               
+AGKN('IE_IDVU-SPACEHEAT','IE_HEATSAVINGS_STEP7') = YES;                                                                                                                                               
+AGKN('LU_IDVU-SPACEHEAT','LU_HEATSAVINGS_STEP7') = YES;                                                                                                                                               
+AGKN('AL_IDVU-SPACEHEAT','AL_HEATSAVINGS_STEP7') = YES;                                                                                                                                               
+AGKN('ME_IDVU-SPACEHEAT','ME_HEATSAVINGS_STEP7') = YES;                                                                                                                                               
+AGKN('MK_IDVU-SPACEHEAT','MK_HEATSAVINGS_STEP7') = YES;                                                                                                                                               
+AGKN('BA_IDVU-SPACEHEAT','BA_HEATSAVINGS_STEP7') = YES;                                                                                                                                               
+AGKN('RS_IDVU-SPACEHEAT','RS_HEATSAVINGS_STEP7') = YES;                                                                                                                                               
+AGKN('TR_IDVU-SPACEHEAT','TR_HEATSAVINGS_STEP7') = YES;                                                                                                                                               
+AGKN('CY_IDVU-SPACEHEAT','CY_HEATSAVINGS_STEP7') = YES;                                                                                                                                               
+$label NO_HEAT_SAVING                                                                                                                                                                                 
