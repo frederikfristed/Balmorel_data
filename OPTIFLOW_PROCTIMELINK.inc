@@ -1,8 +1,8 @@
-SET PROCTIMELINK(PROC) "TIME LINK STORAGE processes"
-                                                    
-/                                                   
-                                                    
-Linkstorage_Res                                     
-                                                    
-                                                    
-/;                                                  
+SET PROCTIMELINK(PROC) "TIME LINK STORAGE processes" 
+                                                     
+/                                                    
+*Linkstorage_Res                                     
+                                                     
+                                                     
+                                                     
+/;                                                   
