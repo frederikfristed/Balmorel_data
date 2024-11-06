@@ -30,7 +30,9 @@ Excess_Heat_OptiFlow
 EMethanolBuffer                               
 EMethanol_Upgrade                             
 E_FT                                          
-AmmoniaBuffer                                 
+AmmoniaBuffer    
+CO2_FOSSIL
+CO2_BIOGEN                             
 CO2_PH                                        
 CO2_IND                                       
 CO2_DAC                                       

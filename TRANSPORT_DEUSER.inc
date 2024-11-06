@@ -2,4 +2,5 @@ SET DEUSER  "Electricity demand user groups. Set must include element RESE for h
 /                                                                                                                                  
 TRANS_TRAINS                                                                                                                       
 TRANS_BUS                                                                                                                          
+TRANS_EV                                                                                                                           
 /;                                                                                                                                 
