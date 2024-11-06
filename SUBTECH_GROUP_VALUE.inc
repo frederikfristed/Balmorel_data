@@ -20,6 +20,12 @@ RG2_OFF5                           RG2_OFF5
 RG3_OFF5                           RG3_OFF5                                             
 HUB_OFF                            HUB_OFF                                              
 AIR                           AIR                                                       
-EXCESSHEAT                           EXCESSHEAT                                         
 GROUND                           GROUND                                                 
-/;                                                                                      
+RG1_HS                              RG1_HS                                              
+RG2_HS                              RG2_HS                                              
+RG3_HS                              RG3_HS                                              
+RG4_HS                              RG4_HS                                              
+RG5_HS                              RG5_HS                                              
+RG6_HS                              RG6_HS                                              
+RG7_HS                              RG7_HS                                              
+/                                                                                       

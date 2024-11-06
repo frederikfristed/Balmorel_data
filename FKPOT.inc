@@ -30,33 +30,6 @@ LATVIA
 LITHUANIA                                                                                                                                   
 POLAND                                                                                                                                      
                                                                                                                                             
-+                                                                                           WIND            SUN                             
-DK1_NoDH                                                                                                                                    
-DK2_NoDH                                                                                                                                    
-SE1A                                                                                                                                        
-SE2A                                                                                                                                        
-SE3A                                                                                                                                        
-SE4A                                                                                                                                        
-NO1_A1                                                                                                                                      
-NO2_A1                                                                                                                                      
-NO3_A1                                                                                                                                      
-NO4_A1                                                                                                                                      
-NO5_A1                                                                                                                                      
-DE4-W_A                                                                                                                                     
-DE4-N_A                                                                                                                                     
-DE4-E_A                                                                                                                                     
-DE4-S_A                                                                                                                                     
-FinA                                                                                                                                        
-UK_A                                                                                                                                        
-NL_A                                                                                                                                        
-EE_A                                                                                                                                        
-LV_A                                                                                                                                        
-LT_A                                                                                                                                        
-PL_A                                                                                                                                        
-                                                                                                                                            
-*                                                                                                                                           
-DK1_Offshore                                                                                                                                
-DK2_Offshore                                                                                                                                
                                                                                                                                             
                                                                                                                                             
                                                                                                                                             

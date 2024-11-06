@@ -1,2 +1,11 @@
-PARAMETER GROWTHCAP(C,GGG)  'Maximum model generated capacity increase (MW) from one year to the next';
-GROWTHCAP(C,GGG) =0;                                                                                   
+PARAMETER GROWTHCAP(CCC,GGG)  'Maximum model generated capacity increase (MW) from one year to the next';
+GROWTHCAP(CCC,GGG) =0;                                                                                   
+*GROWTHCAP(C,'PV_2020') =5000;                                                                           
+*GROWTHCAP(C,'PV_2025') =5000;                                                                           
+*GROWTHCAP(C,'PV_2030') =5000;                                                                           
+*GROWTHCAP(C,'Wind_Onshore_2020') =3000;                                                                 
+*GROWTHCAP(C,'Wind_Onshore_2025') =3000;                                                                 
+*GROWTHCAP(C,'Wind_Onshore_2030') =3000;                                                                 
+*GROWTHCAP(C,'Wind_Offshore_2020') =1000;                                                                
+*GROWTHCAP(C,'Wind_Offshore_2025') =1000;                                                                
+*GROWTHCAP(C,'Wind_Offshore_2030') =1000;                                                                
