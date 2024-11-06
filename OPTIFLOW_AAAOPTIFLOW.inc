@@ -14,10 +14,10 @@ DK2_A
 *EE_A                                                                      
 *FIN_A                                                                     
 *FR_A                                                                      
-*DE4-E_A                                                                   
-*DE4-N_A                                                                   
-*DE4-S_A                                                                   
-*DE4-W_A                                                                   
+DE4-E_A                                                                    
+DE4-N_A                                                                    
+DE4-S_A                                                                    
+DE4-W_A                                                                    
 *GR_A                                                                      
 *HU_A                                                                      
 *IE_A                                                                      
