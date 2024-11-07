@@ -147,7 +147,7 @@ Hydrogen_Use
 HydrogenBuffer_MWh                                            
 HydrogenSource_MWh                                            
 KeroseneSource                                                
-*Linkstorage_Res                                              
+Linkstorage_Res                                               
 MDOSource                                                     
 Methanol_Eff                                                  
 Methanol_Sum                                                  
