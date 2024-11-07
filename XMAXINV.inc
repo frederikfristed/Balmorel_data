@@ -3,4 +3,6 @@ PARAMETER XMAXINV(IRRRE,IRRRI)   'Max investment in transmission capacity betwee
 /                                                                                                                                                               
                                                                                                                                                        
 /;                                                                                                                                                              
-                                                                                                                                                                
+                 
+*OBS FF                                                                                                                                               
+XMAXINV(IRRRE,IRRRI) = 12000;
