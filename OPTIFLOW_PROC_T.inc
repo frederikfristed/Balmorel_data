@@ -181,7 +181,7 @@ TG_50
 GHG_Buffer                                                    
 GHGbio_Buffer                                                 
 Biomass_for_use                                               
-*Wood_Gen                                                      
-*Straw_Gen                                                     
-*Wood_Pellets_Gen                                              
+Wood_Gen                                                      
+Straw_Gen                                                     
+Wood_Pellets_Gen                                              
 /;                                                            
