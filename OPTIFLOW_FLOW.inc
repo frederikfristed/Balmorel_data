@@ -7,6 +7,8 @@ AMMONIA_FLOW
 AMMONIA_FLOW_EXP                                                                                                   
 BIO_ME_FLOW                                                                                                        
 BIO_TG_FLOW                                                                                                        
+BIOGAS_FLOW                                                                                                        
+BIOGAS_FLOW_STO                                                                                                    
 BIOGASOLINEFLOW                                                                                                    
 BIOGASOLINEFLOW_BJ_H2                                                                                              
 BIOGASOLINEFLOW_BJ_TG                                                                                              
@@ -18,6 +20,7 @@ BIOJETFLOW_TG
 BIOMASS_BJ                                                                                                         
 BIOMASS_BJ_H2                                                                                                      
 BIOMASS_FLOW_SOLID                                                                                                 
+BIOMASS_FLOW_WET                                                                                                   
 BIOMASS_TG                                                                                                         
 CO2_FLOW                                                                                                           
 CO2_FLOW_BIOGEN                                                                                                    
@@ -65,11 +68,13 @@ HYDROGEN_FLOW_FT
 HYDROGEN_FLOW_ME                                                                                                   
 HYDROGEN_FLOW_NoST                                                                                                 
 HYDROGEN_FLOW_OUT                                                                                                  
+HYDROGEN_FLOW_SNG                                                                                                  
 HYDROGEN_FLOW_ST_Large                                                                                             
 HYDROGEN_FLOW_ST_Small                                                                                             
 HYDROGEN_FLOW_USE                                                                                                  
 HYDROGENFLOW_MWh                                                                                                   
 KEROSENEFLOW                                                                                                       
+MANURE_GEN_FLOW                                                                                                    
 MDOFLOW                                                                                                            
 METHANOLFLOW                                                                                                       
 METHANOLFLOW_EXP                                                                                                   
@@ -77,6 +82,8 @@ NITROGEN_FLOW
 OPERATIONCOST                                                                                                      
 ROADFLOW                                                                                                           
 SEAFLOW                                                                                                            
+SNG_FLOW                                                                                                           
+SNG_FLOW_FOR_USE                                                                                                   
 STRAW_GEN_FLOW                                                                                                     
 TARFLOW                                                                                                            
 WOOD_GEN_FLOW                                                                                                      

@@ -30,6 +30,25 @@ $ifi not %baloptCCS%==yes $goto NO_CCS
 2050                                                                                                               .    DK1_A .    CO2_Seq_50              
 $label NO_CCS                                                                                                                                              
                                                                                                                                                            
+*OBS FF                                                                                                                                                    
+$ifi not %baloptgasbridge%==yes $goto NO_BIOGAS                                                                                                            
+2020                                                                                                               .    DK1_A .    Digestion_Tank_20       
+2025                                                                                                               .    DK1_A .    Digestion_Tank_25       
+2030                                                                                                               .    DK1_A .    Digestion_Tank_30       
+2035                                                                                                               .    DK1_A .    Digestion_Tank_35       
+2040                                                                                                               .    DK1_A .    Digestion_Tank_40       
+2045                                                                                                               .    DK1_A .    Digestion_Tank_45       
+2050                                                                                                               .    DK1_A .    Digestion_Tank_50       
+                                                                                                                                                           
+2020                                                                                                               .    DK1_A .    Methanation_20          
+2025                                                                                                               .    DK1_A .    Methanation_25          
+2030                                                                                                               .    DK1_A .    Methanation_30          
+2035                                                                                                               .    DK1_A .    Methanation_35          
+2040                                                                                                               .    DK1_A .    Methanation_40          
+2045                                                                                                               .    DK1_A .    Methanation_45          
+2050                                                                                                               .    DK1_A .    Methanation_50          
+$label NO_BIOGAS                                                                                                                                           
+                                                                                                                                                           
 ***TG                                                                                                                                                      
 2020                                                                                                               .    DK1_A .    TG_20                   
 2025                                                                                                               .    DK1_A .    TG_25                   
@@ -55,13 +74,13 @@ $label NO_CCS
 2045                                                                                                               .    DK1_A .    EMethanol_synthesis_45  
 2050                                                                                                               .    DK1_A .    EMethanol_synthesis_50  
 *                                                                                                                                                          
-*2020                                                                                                              .    DK1_A .    EMethanol_Upgrade_20    
-*2025                                                                                                              .    DK1_A .    EMethanol_Upgrade_25    
-*2030                                                                                                              .    DK1_A .    EMethanol_Upgrade_30    
-*2035                                                                                                              .    DK1_A .    EMethanol_Upgrade_35    
-*2040                                                                                                              .    DK1_A .    EMethanol_Upgrade_40    
-*2045                                                                                                              .    DK1_A .    EMethanol_Upgrade_45    
-*2050                                                                                                              .    DK1_A .    EMethanol_Upgrade_50    
+2020                                                                                                               .    DK1_A .    EMethanol_Upgrade_20    
+2025                                                                                                               .    DK1_A .    EMethanol_Upgrade_25    
+2030                                                                                                               .    DK1_A .    EMethanol_Upgrade_30    
+2035                                                                                                               .    DK1_A .    EMethanol_Upgrade_35    
+2040                                                                                                               .    DK1_A .    EMethanol_Upgrade_40    
+2045                                                                                                               .    DK1_A .    EMethanol_Upgrade_45    
+2050                                                                                                               .    DK1_A .    EMethanol_Upgrade_50    
 ***Ammonia                                                                                                                                                 
 2020                                                                                                               .    DK1_A .    Ammonia_Synthesis_20    
 2025                                                                                                               .    DK1_A .    Ammonia_Synthesis_25    
@@ -71,29 +90,29 @@ $label NO_CCS
 2045                                                                                                               .    DK1_A .    Ammonia_Synthesis_45    
 2050                                                                                                               .    DK1_A .    Ammonia_Synthesis_50    
 ***Jet and oil products                                                                                                                                    
-*2020                                                                                                              .    DK1_A .    BioJet_20               
-*2025                                                                                                              .    DK1_A .    BioJet_25               
-*2030                                                                                                              .    DK1_A .    BioJet_30               
-*2035                                                                                                              .    DK1_A .    BioJet_35               
-*2040                                                                                                              .    DK1_A .    BioJet_40               
-*2045                                                                                                              .    DK1_A .    BioJet_45               
-*2050                                                                                                              .    DK1_A .    BioJet_50               
+2020                                                                                                               .    DK1_A .    BioJet_20               
+2025                                                                                                               .    DK1_A .    BioJet_25               
+2030                                                                                                               .    DK1_A .    BioJet_30               
+2035                                                                                                               .    DK1_A .    BioJet_35               
+2040                                                                                                               .    DK1_A .    BioJet_40               
+2045                                                                                                               .    DK1_A .    BioJet_45               
+2050                                                                                                               .    DK1_A .    BioJet_50               
 *                                                                                                                                                          
-*2020                                                                                                              .    DK1_A .    BioJet_H2_20            
-*2025                                                                                                              .    DK1_A .    BioJet_H2_25            
-*2030                                                                                                              .    DK1_A .    BioJet_H2_30            
-*2035                                                                                                              .    DK1_A .    BioJet_H2_35            
-*2040                                                                                                              .    DK1_A .    BioJet_H2_40            
-*2045                                                                                                              .    DK1_A .    BioJet_H2_45            
-*2050                                                                                                              .    DK1_A .    BioJet_H2_50            
+2020                                                                                                               .    DK1_A .    BioJet_H2_20            
+2025                                                                                                               .    DK1_A .    BioJet_H2_25            
+2030                                                                                                               .    DK1_A .    BioJet_H2_30            
+2035                                                                                                               .    DK1_A .    BioJet_H2_35            
+2040                                                                                                               .    DK1_A .    BioJet_H2_40            
+2045                                                                                                               .    DK1_A .    BioJet_H2_45            
+2050                                                                                                               .    DK1_A .    BioJet_H2_50            
 *                                                                                                                                                          
-*2020                                                                                                              .    DK1_A .    E_FT_20                 
-*2025                                                                                                              .    DK1_A .    E_FT_25                 
-*2030                                                                                                              .    DK1_A .    E_FT_30                 
-*2035                                                                                                              .    DK1_A .    E_FT_35                 
-*2040                                                                                                              .    DK1_A .    E_FT_40                 
-*2045                                                                                                              .    DK1_A .    E_FT_45                 
-*2050                                                                                                              .    DK1_A .    E_FT_50                 
+2020                                                                                                               .    DK1_A .    E_FT_20                 
+2025                                                                                                               .    DK1_A .    E_FT_25                 
+2030                                                                                                               .    DK1_A .    E_FT_30                 
+2035                                                                                                               .    DK1_A .    E_FT_35                 
+2040                                                                                                               .    DK1_A .    E_FT_40                 
+2045                                                                                                               .    DK1_A .    E_FT_45                 
+2050                                                                                                               .    DK1_A .    E_FT_50                 
 /                                                                                                                                                          
 ;                                                                                                                                                          
 APROCKAPNEW(Y,AAA,PROC)$AAAOPTIFLOW(AAA)=APROCKAPNEW(Y,'DK1_A',PROC);                                                                                      

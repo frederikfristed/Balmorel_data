@@ -16,6 +16,10 @@ AmmoniaBuffer
 AmmoniaBuffer_Exp                                                                                                  
 Bio_TG_Grid_IN                                                                                                     
 Bio_TG_Grid_OUT                                                                                                    
+Biogas_Grid_After_Sto                                                                                              
+Biogas_Grid_In                                                                                                     
+Biogas_Grid_Out                                                                                                    
+Biogas_Grid_Sto                                                                                                    
 BioGasoline_Eff                                                                                                    
 BioGasoline_SUM                                                                                                    
 BioGasolineBuffer                                                                                                  
@@ -38,6 +42,7 @@ BioJet_H2_50
 BioJet_SUM                                                                                                         
 BioJetBuffer                                                                                                       
 BioJetBuffer_Exp                                                                                                   
+Biomass_For_Biogas                                                                                                 
 Biomass_for_use                                                                                                    
 CO2                                                                                                                
 CO2_After_Sto                                                                                                      
@@ -70,6 +75,13 @@ CO2_Source_Fossil
 CO2_Sto                                                                                                            
 CO2_Use                                                                                                            
 DieselSource                                                                                                       
+Digestion_Tank_20                                                                                                  
+Digestion_Tank_25                                                                                                  
+Digestion_Tank_30                                                                                                  
+Digestion_Tank_35                                                                                                  
+Digestion_Tank_40                                                                                                  
+Digestion_Tank_45                                                                                                  
+Digestion_Tank_50                                                                                                  
 E_FT_20                                                                                                            
 E_FT_25                                                                                                            
 E_FT_30                                                                                                            
@@ -119,6 +131,7 @@ EMethanol_Upgrade_50
 EMethanolBuffer                                                                                                    
 EMethanolBuffer_Exp                                                                                                
 EMethanolTotal                                                                                                     
+Gas_Buffer                                                                                                         
 Heat_Bal_to_Opti_Conv                                                                                              
 Heat_grid_tariff                                                                                                   
 Heat_Opti_to_Bal_Conv                                                                                              
@@ -152,7 +165,15 @@ HydrogenBuffer_MWh
 HydrogenSource_MWh                                                                                                 
 KeroseneSource                                                                                                     
 Linkstorage_Res                                                                                                    
+Manure_Gen                                                                                                         
 MDOSource                                                                                                          
+Methanation_20                                                                                                     
+Methanation_25                                                                                                     
+Methanation_30                                                                                                     
+Methanation_35                                                                                                     
+Methanation_40                                                                                                     
+Methanation_45                                                                                                     
+Methanation_50                                                                                                     
 Methanol_Eff                                                                                                       
 Methanol_Sum                                                                                                       
 Methanol_synthesis_TG_20                                                                                           
@@ -174,6 +195,7 @@ Road_fuels_sum
 RoadBuffer                                                                                                         
 Sea_fuels_sum                                                                                                      
 SeaBuffer                                                                                                          
+SNG_Total                                                                                                          
 Solid_Biomass                                                                                                      
 Straw_Gen                                                                                                          
 Tar                                                                                                                
@@ -184,6 +206,7 @@ TG_35
 TG_40                                                                                                              
 TG_45                                                                                                              
 TG_50                                                                                                              
+Wet_Biomass                                                                                                        
 Wood_Gen                                                                                                           
 Wood_Pellets_Gen                                                                                                   
 GHG_Buffer                                                                                                         
