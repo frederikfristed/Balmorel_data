@@ -23,6 +23,7 @@ BIOMASS_FLOW_SOLID
 BIOMASS_FLOW_WET                                                                                                   
 BIOMASS_TG                                                                                                         
 CO2_FLOW                                                                                                           
+CO2_FLOW_BIOGAS                                                                                                    
 CO2_FLOW_BIOGEN                                                                                                    
 CO2_FLOW_DAC                                                                                                       
 CO2_FLOW_EME                                                                                                       

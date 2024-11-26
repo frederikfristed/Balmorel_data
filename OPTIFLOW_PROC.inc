@@ -20,6 +20,13 @@ Biogas_Grid_After_Sto
 Biogas_Grid_In                                                                                                     
 Biogas_Grid_Out                                                                                                    
 Biogas_Grid_Sto                                                                                                    
+Biogas_Upgrading_20                                                                                                
+Biogas_Upgrading_25                                                                                                
+Biogas_Upgrading_30                                                                                                
+Biogas_Upgrading_35                                                                                                
+Biogas_Upgrading_40                                                                                                
+Biogas_Upgrading_45                                                                                                
+Biogas_Upgrading_50                                                                                                
 BioGasoline_Eff                                                                                                    
 BioGasoline_SUM                                                                                                    
 BioGasolineBuffer                                                                                                  
@@ -47,6 +54,7 @@ Biomass_for_use
 CO2                                                                                                                
 CO2_After_Sto                                                                                                      
 CO2_Before_Use                                                                                                     
+CO2_Biogas                                                                                                         
 CO2_BIOGEN                                                                                                         
 CO2_DAC                                                                                                            
 CO2_DAC_20                                                                                                         

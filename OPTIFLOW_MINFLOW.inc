@@ -54,8 +54,8 @@ PARAMETER MINFLOW(YYY,CCCRRRAAA,PROC,FLOW) "Constraint about fuel use limitation
 2050                                                                                         .    IRELAND        .    AirBuffer  .    AIRFLOW  49259536.9693802   
                                                                                                                                                                   
 2050                                                                                         .    ITALY          .    SeaBuffer  .    SEAFLOW  149102615.198544   
-*2050                                                                                        .    ITALY          .    RoadBuffer .    ROADFLOW 73234437.4232386   
-*2050                                                                                        .    ITALY          .    AirBuffer  .    AIRFLOW  228982378.716077   
+2050                                                                                         .    ITALY          .    RoadBuffer .    ROADFLOW 73234437.4232386   
+2050                                                                                         .    ITALY          .    AirBuffer  .    AIRFLOW  228982378.716077   
                                                                                                                                                                   
 2050                                                                                         .    LATVIA         .    SeaBuffer  .    SEAFLOW  15241304.0904992   
 2050                                                                                         .    LATVIA         .    RoadBuffer .    ROADFLOW 1690220.63165466   

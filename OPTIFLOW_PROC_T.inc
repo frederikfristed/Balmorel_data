@@ -207,4 +207,12 @@ Methanation_40
 Methanation_45                                                
 Methanation_50                                                
 SNG_Total                                                     
+Biogas_Upgrading_20                                           
+Biogas_Upgrading_25                                           
+Biogas_Upgrading_30                                           
+Biogas_Upgrading_35                                           
+Biogas_Upgrading_40                                           
+Biogas_Upgrading_45                                           
+Biogas_Upgrading_50                                           
+CO2_Biogas                                                    
 /;                                                            
