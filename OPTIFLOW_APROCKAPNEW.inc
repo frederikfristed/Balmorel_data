@@ -32,13 +32,21 @@ $label NO_CCS
                                                                                                                                                            
 *OBS FF                                                                                                                                                    
 $ifi not %baloptgasbridge%==yes $goto NO_BIOGAS                                                                                                            
-2020                                                                                                               .    DK1_A .    Digestion_Tank_20       
-2025                                                                                                               .    DK1_A .    Digestion_Tank_25       
-2030                                                                                                               .    DK1_A .    Digestion_Tank_30       
-2035                                                                                                               .    DK1_A .    Digestion_Tank_35       
-2040                                                                                                               .    DK1_A .    Digestion_Tank_40       
-2045                                                                                                               .    DK1_A .    Digestion_Tank_45       
-2050                                                                                                               .    DK1_A .    Digestion_Tank_50       
+2020                                                                                                               .    DK1_A .    Manure_Tank_20          
+2025                                                                                                               .    DK1_A .    Manure_Tank_25          
+2030                                                                                                               .    DK1_A .    Manure_Tank_30          
+2035                                                                                                               .    DK1_A .    Manure_Tank_35          
+2040                                                                                                               .    DK1_A .    Manure_Tank_40          
+2045                                                                                                               .    DK1_A .    Manure_Tank_45          
+2050                                                                                                               .    DK1_A .    Manure_Tank_50          
+                                                                                                                                                           
+2020                                                                                                               .    DK1_A .    Straw_Tank_20           
+2025                                                                                                               .    DK1_A .    Straw_Tank_25           
+2030                                                                                                               .    DK1_A .    Straw_Tank_30           
+2035                                                                                                               .    DK1_A .    Straw_Tank_35           
+2040                                                                                                               .    DK1_A .    Straw_Tank_40           
+2045                                                                                                               .    DK1_A .    Straw_Tank_45           
+2050                                                                                                               .    DK1_A .    Straw_Tank_50           
                                                                                                                                                            
 2020                                                                                                               .    DK1_A .    Methanation_20          
 2025                                                                                                               .    DK1_A .    Methanation_25          
@@ -55,7 +63,6 @@ $ifi not %baloptgasbridge%==yes $goto NO_BIOGAS
 2040                                                                                                               .    DK1_A .    Biogas_Upgrading_40     
 2045                                                                                                               .    DK1_A .    Biogas_Upgrading_45     
 2050                                                                                                               .    DK1_A .    Biogas_Upgrading_50     
-                                                                                                                                                           
 $label NO_BIOGAS                                                                                                                                           
                                                                                                                                                            
 ***TG                                                                                                                                                      

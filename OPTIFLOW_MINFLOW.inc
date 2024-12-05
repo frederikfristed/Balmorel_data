@@ -1,6 +1,5 @@
 PARAMETER MINFLOW(YYY,CCCRRRAAA,PROC,FLOW) "Constraint about fuel use limitations (U/year)"                                                                       
 /                                                                                                                                                                 
-                                                                                                                                                                  
 2050                                                                                         .    AUSTRIA        .    SeaBuffer  .    SEAFLOW  1161965.64626224   
 2050                                                                                         .    AUSTRIA        .    RoadBuffer .    ROADFLOW 16200520.0256962   
 2050                                                                                         .    AUSTRIA        .    AirBuffer  .    AIRFLOW  38194033.6593325   

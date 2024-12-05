@@ -8,7 +8,9 @@ AMMONIA_FLOW_EXP
 BIO_ME_FLOW                                                                                                        
 BIO_TG_FLOW                                                                                                        
 BIOGAS_FLOW                                                                                                        
+BIOGAS_FLOW_DRY                                                                                                    
 BIOGAS_FLOW_STO                                                                                                    
+BIOGAS_FLOW_WET                                                                                                    
 BIOGASOLINEFLOW                                                                                                    
 BIOGASOLINEFLOW_BJ_H2                                                                                              
 BIOGASOLINEFLOW_BJ_TG                                                                                              
@@ -19,6 +21,7 @@ BIOJETFLOW_H2
 BIOJETFLOW_TG                                                                                                      
 BIOMASS_BJ                                                                                                         
 BIOMASS_BJ_H2                                                                                                      
+BIOMASS_FLOW_DRY                                                                                                   
 BIOMASS_FLOW_SOLID                                                                                                 
 BIOMASS_FLOW_WET                                                                                                   
 BIOMASS_TG                                                                                                         
@@ -85,6 +88,7 @@ ROADFLOW
 SEAFLOW                                                                                                            
 SNG_FLOW                                                                                                           
 SNG_FLOW_FOR_USE                                                                                                   
+STRAW_FLOW_BIOGAS                                                                                                  
 STRAW_GEN_FLOW                                                                                                     
 TARFLOW                                                                                                            
 WOOD_GEN_FLOW                                                                                                      

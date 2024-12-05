@@ -21,13 +21,21 @@ SET  PROCKAPDATA(YYY,PROC,FLOW,IFLOWINOUT)    "Process data: capacity relative t
 2020                                                                                                            .    CO2_Seq_50               .    CO2_FLOW_SEQ           .    IFLOWINOUT_OUT
                                                                                                                                                                                              
 ***Biogas supply                                                                                                                                                                             
-2020                                                                                                            .    Digestion_Tank_20        .    BIOMASS_FLOW_WET       .    IFLOWINOUT_IN 
-2020                                                                                                            .    Digestion_Tank_25        .    BIOMASS_FLOW_WET       .    IFLOWINOUT_IN 
-2020                                                                                                            .    Digestion_Tank_30        .    BIOMASS_FLOW_WET       .    IFLOWINOUT_IN 
-2020                                                                                                            .    Digestion_Tank_35        .    BIOMASS_FLOW_WET       .    IFLOWINOUT_IN 
-2020                                                                                                            .    Digestion_Tank_40        .    BIOMASS_FLOW_WET       .    IFLOWINOUT_IN 
-2020                                                                                                            .    Digestion_Tank_45        .    BIOMASS_FLOW_WET       .    IFLOWINOUT_IN 
-2020                                                                                                            .    Digestion_Tank_50        .    BIOMASS_FLOW_WET       .    IFLOWINOUT_IN 
+2020                                                                                                            .    Manure_Tank_20           .    BIOMASS_FLOW_WET       .    IFLOWINOUT_IN 
+2020                                                                                                            .    Manure_Tank_25           .    BIOMASS_FLOW_WET       .    IFLOWINOUT_IN 
+2020                                                                                                            .    Manure_Tank_30           .    BIOMASS_FLOW_WET       .    IFLOWINOUT_IN 
+2020                                                                                                            .    Manure_Tank_35           .    BIOMASS_FLOW_WET       .    IFLOWINOUT_IN 
+2020                                                                                                            .    Manure_Tank_40           .    BIOMASS_FLOW_WET       .    IFLOWINOUT_IN 
+2020                                                                                                            .    Manure_Tank_45           .    BIOMASS_FLOW_WET       .    IFLOWINOUT_IN 
+2020                                                                                                            .    Manure_Tank_50           .    BIOMASS_FLOW_WET       .    IFLOWINOUT_IN 
+                                                                                                                                                                                             
+2020                                                                                                            .    Straw_Tank_20            .    BIOMASS_FLOW_DRY       .    IFLOWINOUT_IN 
+2020                                                                                                            .    Straw_Tank_25            .    BIOMASS_FLOW_DRY       .    IFLOWINOUT_IN 
+2020                                                                                                            .    Straw_Tank_30            .    BIOMASS_FLOW_DRY       .    IFLOWINOUT_IN 
+2020                                                                                                            .    Straw_Tank_35            .    BIOMASS_FLOW_DRY       .    IFLOWINOUT_IN 
+2020                                                                                                            .    Straw_Tank_40            .    BIOMASS_FLOW_DRY       .    IFLOWINOUT_IN 
+2020                                                                                                            .    Straw_Tank_45            .    BIOMASS_FLOW_DRY       .    IFLOWINOUT_IN 
+2020                                                                                                            .    Straw_Tank_50            .    BIOMASS_FLOW_DRY       .    IFLOWINOUT_IN 
                                                                                                                                                                                              
 ***Biogas technologies                                                                                                                                                                       
 2020                                                                                                            .    Methanation_20           .    SNG_FLOW               .    IFLOWINOUT_OUT

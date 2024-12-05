@@ -3,6 +3,7 @@ SET PROC "All 'transformations' that we use"
 * NB: for debugging, print and ailing memory nice to have FLOW elements in UPPERCASE og Proc elements in CamelCase.
                                                                                                                    
 Air_fuels_sum                                                                                                      
+Air_Separation                                                                                                     
 AirBuffer                                                                                                          
 Ammonia_Eff                                                                                                        
 Ammonia_Synthesis_20                                                                                               
@@ -20,6 +21,7 @@ Biogas_Grid_After_Sto
 Biogas_Grid_In                                                                                                     
 Biogas_Grid_Out                                                                                                    
 Biogas_Grid_Sto                                                                                                    
+Biogas_Prod_Mix                                                                                                    
 Biogas_Upgrading_20                                                                                                
 Biogas_Upgrading_25                                                                                                
 Biogas_Upgrading_30                                                                                                
@@ -49,7 +51,6 @@ BioJet_H2_50
 BioJet_SUM                                                                                                         
 BioJetBuffer                                                                                                       
 BioJetBuffer_Exp                                                                                                   
-Biomass_For_Biogas                                                                                                 
 Biomass_for_use                                                                                                    
 CO2                                                                                                                
 CO2_After_Sto                                                                                                      
@@ -83,13 +84,8 @@ CO2_Source_Fossil
 CO2_Sto                                                                                                            
 CO2_Use                                                                                                            
 DieselSource                                                                                                       
-Digestion_Tank_20                                                                                                  
-Digestion_Tank_25                                                                                                  
-Digestion_Tank_30                                                                                                  
-Digestion_Tank_35                                                                                                  
-Digestion_Tank_40                                                                                                  
-Digestion_Tank_45                                                                                                  
-Digestion_Tank_50                                                                                                  
+Dry_Biomass                                                                                                        
+Dry_For_Biogas                                                                                                     
 E_FT_20                                                                                                            
 E_FT_25                                                                                                            
 E_FT_30                                                                                                            
@@ -174,6 +170,13 @@ HydrogenSource_MWh
 KeroseneSource                                                                                                     
 Linkstorage_Res                                                                                                    
 Manure_Gen                                                                                                         
+Manure_Tank_20                                                                                                     
+Manure_Tank_25                                                                                                     
+Manure_Tank_30                                                                                                     
+Manure_Tank_35                                                                                                     
+Manure_Tank_40                                                                                                     
+Manure_Tank_45                                                                                                     
+Manure_Tank_50                                                                                                     
 MDOSource                                                                                                          
 Methanation_20                                                                                                     
 Methanation_25                                                                                                     
@@ -196,7 +199,6 @@ MethanolBuffer_Exp
 MethanolTotal                                                                                                      
 MethanolTotal_sum                                                                                                  
 Money_buffer_T                                                                                                     
-Nitrogen_Production                                                                                                
 ProcEximShip                                                                                                       
 ProcEximTruck                                                                                                      
 Road_fuels_sum                                                                                                     
@@ -206,6 +208,13 @@ SeaBuffer
 SNG_Total                                                                                                          
 Solid_Biomass                                                                                                      
 Straw_Gen                                                                                                          
+Straw_Tank_20                                                                                                      
+Straw_Tank_25                                                                                                      
+Straw_Tank_30                                                                                                      
+Straw_Tank_35                                                                                                      
+Straw_Tank_40                                                                                                      
+Straw_Tank_45                                                                                                      
+Straw_Tank_50                                                                                                      
 Tar                                                                                                                
 TG_20                                                                                                              
 TG_25                                                                                                              
@@ -215,6 +224,7 @@ TG_40
 TG_45                                                                                                              
 TG_50                                                                                                              
 Wet_Biomass                                                                                                        
+Wet_For_Biogas                                                                                                     
 Wood_Gen                                                                                                           
 Wood_Pellets_Gen                                                                                                   
 GHG_Buffer                                                                                                         
