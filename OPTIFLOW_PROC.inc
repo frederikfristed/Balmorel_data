@@ -52,9 +52,13 @@ BioJet_SUM
 BioJetBuffer                                                                                                       
 BioJetBuffer_Exp                                                                                                   
 Biomass_for_use                                                                                                    
+Biooil_Buffer                                                                                                      
+Biooil_Eff                                                                                                         
 CO2                                                                                                                
 CO2_After_Sto                                                                                                      
 CO2_Before_Use                                                                                                     
+CO2_Biochar_Buffer                                                                                                 
+CO2_Biochar_Sum                                                                                                    
 CO2_Biogas                                                                                                         
 CO2_BIOGEN                                                                                                         
 CO2_DAC                                                                                                            
@@ -86,6 +90,7 @@ CO2_Use
 DieselSource                                                                                                       
 Dry_Biomass                                                                                                        
 Dry_For_Biogas                                                                                                     
+Dry_For_Pyrolysis                                                                                                  
 E_FT_20                                                                                                            
 E_FT_25                                                                                                            
 E_FT_30                                                                                                            
@@ -201,6 +206,12 @@ MethanolTotal_sum
 Money_buffer_T                                                                                                     
 ProcEximShip                                                                                                       
 ProcEximTruck                                                                                                      
+Pyrolysis_Straw_25                                                                                                 
+Pyrolysis_Straw_30                                                                                                 
+Pyrolysis_Straw_35                                                                                                 
+Pyrolysis_Straw_40                                                                                                 
+Pyrolysis_Straw_45                                                                                                 
+Pyrolysis_Straw_50                                                                                                 
 Road_fuels_sum                                                                                                     
 RoadBuffer                                                                                                         
 Sea_fuels_sum                                                                                                      

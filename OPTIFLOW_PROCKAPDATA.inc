@@ -54,6 +54,14 @@ SET  PROCKAPDATA(YYY,PROC,FLOW,IFLOWINOUT)    "Process data: capacity relative t
 2020                                                                                                            .    Biogas_Upgrading_45      .    SNG_FLOW               .    IFLOWINOUT_OUT
 2020                                                                                                            .    Biogas_Upgrading_50      .    SNG_FLOW               .    IFLOWINOUT_OUT
                                                                                                                                                                                              
+***Pyrolysis Straw                                                                                                                                                                           
+2020                                                                                                            .    Pyrolysis_Straw_25       .    BIOMASS_FLOW_DRY       .    IFLOWINOUT_IN 
+2020                                                                                                            .    Pyrolysis_Straw_30       .    BIOMASS_FLOW_DRY       .    IFLOWINOUT_IN 
+2020                                                                                                            .    Pyrolysis_Straw_35       .    BIOMASS_FLOW_DRY       .    IFLOWINOUT_IN 
+2020                                                                                                            .    Pyrolysis_Straw_40       .    BIOMASS_FLOW_DRY       .    IFLOWINOUT_IN 
+2020                                                                                                            .    Pyrolysis_Straw_45       .    BIOMASS_FLOW_DRY       .    IFLOWINOUT_IN 
+2020                                                                                                            .    Pyrolysis_Straw_50       .    BIOMASS_FLOW_DRY       .    IFLOWINOUT_IN 
+                                                                                                                                                                                             
 ***Hydrogen                                                                                                                                                                                  
 2020                                                                                                            .    Hydrogen_STO_Large_20    .    HYDROGEN_FLOW_ST_Large .    IFLOWINOUT_IN 
 2020                                                                                                            .    Hydrogen_STO_Large_25    .    HYDROGEN_FLOW_ST_Large .    IFLOWINOUT_IN 

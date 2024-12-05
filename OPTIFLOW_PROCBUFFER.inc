@@ -32,4 +32,6 @@ SeaBuffer
 GHG_Buffer                                                             
 GHGbio_Buffer                                                          
 Gas_Buffer                                                             
+Biooil_Buffer                                                          
+CO2_Biochar_Buffer                                                     
 /;                                                                     

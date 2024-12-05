@@ -225,4 +225,15 @@ Biogas_Upgrading_40
 Biogas_Upgrading_45                                           
 Biogas_Upgrading_50                                           
 CO2_Biogas                                                    
+Dry_For_Pyrolysis                                             
+Pyrolysis_Straw_25                                            
+Pyrolysis_Straw_30                                            
+Pyrolysis_Straw_35                                            
+Pyrolysis_Straw_40                                            
+Pyrolysis_Straw_45                                            
+Pyrolysis_Straw_50                                            
+Biooil_Buffer                                                 
+CO2_Biochar_Sum                                               
+CO2_Biochar_Buffer                                            
+Biooil_Eff                                                    
 /;                                                            

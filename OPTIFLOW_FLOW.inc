@@ -25,7 +25,9 @@ BIOMASS_FLOW_DRY
 BIOMASS_FLOW_SOLID                                                                                                 
 BIOMASS_FLOW_WET                                                                                                   
 BIOMASS_TG                                                                                                         
+BIOOIL_FLOW                                                                                                        
 CO2_FLOW                                                                                                           
+CO2_FLOW_BIOCHAR                                                                                                   
 CO2_FLOW_BIOGAS                                                                                                    
 CO2_FLOW_BIOGEN                                                                                                    
 CO2_FLOW_DAC                                                                                                       
@@ -72,6 +74,7 @@ HYDROGEN_FLOW_FT
 HYDROGEN_FLOW_ME                                                                                                   
 HYDROGEN_FLOW_NoST                                                                                                 
 HYDROGEN_FLOW_OUT                                                                                                  
+HYDROGEN_FLOW_PY                                                                                                   
 HYDROGEN_FLOW_SNG                                                                                                  
 HYDROGEN_FLOW_ST_Large                                                                                             
 HYDROGEN_FLOW_ST_Small                                                                                             
