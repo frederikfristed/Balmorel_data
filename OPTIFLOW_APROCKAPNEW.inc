@@ -11,14 +11,13 @@ SET APROCKAPNEW(YYY,AAA,PROC)     'Areas for possible location of new Proc or ca
 2045                                                                                                               .    DK1_A .    CO2_DAC_45              
 2050                                                                                                               .    DK1_A .    CO2_DAC_50              
 *                                                                                                                                                          
-2020                                                                                                               .    DK1_A .    CO2_STO                 
-2025                                                                                                               .    DK1_A .    CO2_STO                 
-2030                                                                                                               .    DK1_A .    CO2_STO                 
-2035                                                                                                               .    DK1_A .    CO2_STO                 
-2040                                                                                                               .    DK1_A .    CO2_STO                 
-2045                                                                                                               .    DK1_A .    CO2_STO                 
-2050                                                                                                               .    DK1_A .    CO2_STO                 
-                                                                                                                                                           
+2020                                                                                                               .    DK1_A .    CO2_Sto                 
+2025                                                                                                               .    DK1_A .    CO2_Sto                 
+2030                                                                                                               .    DK1_A .    CO2_Sto                 
+2035                                                                                                               .    DK1_A .    CO2_Sto                 
+2040                                                                                                               .    DK1_A .    CO2_Sto                 
+2045                                                                                                               .    DK1_A .    CO2_Sto                 
+2050                                                                                                               .    DK1_A .    CO2_Sto                 
 * OBS FF                                                                                                                                                   
 $ifi not %baloptCCS%==yes $goto NO_CCS                                                                                                                     
 2020                                                                                                               .    DK1_A .    CO2_Seq_20              
@@ -32,6 +31,14 @@ $label NO_CCS
                                                                                                                                                            
 *OBS FF                                                                                                                                                    
 $ifi not %baloptgasbridge%==yes $goto NO_BIOGAS                                                                                                            
+2020                                                                                                               .    DK1_A .    Biogas_Grid_Sto         
+2025                                                                                                               .    DK1_A .    Biogas_Grid_Sto         
+2030                                                                                                               .    DK1_A .    Biogas_Grid_Sto         
+2035                                                                                                               .    DK1_A .    Biogas_Grid_Sto         
+2040                                                                                                               .    DK1_A .    Biogas_Grid_Sto         
+2045                                                                                                               .    DK1_A .    Biogas_Grid_Sto         
+2050                                                                                                               .    DK1_A .    Biogas_Grid_Sto         
+                                                                                                                                                           
 2020                                                                                                               .    DK1_A .    Manure_Tank_20          
 2025                                                                                                               .    DK1_A .    Manure_Tank_25          
 2030                                                                                                               .    DK1_A .    Manure_Tank_30          

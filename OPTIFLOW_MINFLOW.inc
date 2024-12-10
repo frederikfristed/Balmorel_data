@@ -100,6 +100,8 @@ PARAMETER MINFLOW(YYY,CCCRRRAAA,PROC,FLOW) "Constraint about fuel use limitation
 2050                                                                                         .    SWEDEN         .    RoadBuffer         .    ROADFLOW         30113244.3227207   
 2050                                                                                         .    SWEDEN         .    AirBuffer          .    AIRFLOW          44843835.0187902   
                                                                                                                                                                                   
+*2050                                                                                        .    DENMARK        .    CO2_Biochar_Buffer .    CO2_FLOW_BIOCHAR 1000000            
+*2050                                                                                        .    DENMARK        .    CO2_Seq_buffer     .    CO2_FLOW_SEQ_SUM 1000000            
 /;                                                                                                                                                                                
                                                                                                                                                                                   
 MINFLOW('2030',C,PROC,FLOW)$(MINFLOW('2050',C,PROC,FLOW)) = 0.1*MINFLOW('2050',C,PROC,FLOW);                                                                                      

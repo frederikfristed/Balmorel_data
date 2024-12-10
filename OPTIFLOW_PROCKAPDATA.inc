@@ -37,6 +37,9 @@ SET  PROCKAPDATA(YYY,PROC,FLOW,IFLOWINOUT)    "Process data: capacity relative t
 2020                                                                                                            .    Straw_Tank_45            .    BIOMASS_FLOW_DRY       .    IFLOWINOUT_IN 
 2020                                                                                                            .    Straw_Tank_50            .    BIOMASS_FLOW_DRY       .    IFLOWINOUT_IN 
                                                                                                                                                                                              
+***Biogas storage                                                                                                                                                                            
+2020                                                                                                            .    Biogas_Grid_Sto          .    BIOGAS_FLOW_STO        .    IFLOWINOUT_IN 
+                                                                                                                                                                                             
 ***Biogas technologies                                                                                                                                                                       
 2020                                                                                                            .    Methanation_20           .    SNG_FLOW               .    IFLOWINOUT_OUT
 2020                                                                                                            .    Methanation_25           .    SNG_FLOW               .    IFLOWINOUT_OUT
