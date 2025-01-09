@@ -2,6 +2,10 @@ TABLE PROCDATA(PROC,PROCDATASET)    "Process data"
                                                                                                                                                                      
 *                                                          MEuro/GJ/h                                                    Euro/GJ/h                                   
                                                            PROCINVCOST         PROCKAPVARIABLE PROCFROMYEAR PROCLIFETIME PROCFIXCOST      /*   PROCVARCOST */        
+                                                                                                                                                                     
+***OBS FF                                                                                                                                                            
+*Exim_CO2_Pipeline                                         0.001               1               2020         30           0.001                                       
+                                                                                                                                                                     
 ***CO2 DAC                                                                                                                                                           
 CO2_DAC_20                                                 5.8                 1               2020         30           210000                                      
 CO2_DAC_25                                                 4.3                 1               2025         30           160000                                      

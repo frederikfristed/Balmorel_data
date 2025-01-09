@@ -1,5 +1,8 @@
 SET  PROCKAPDATA(YYY,PROC,FLOW,IFLOWINOUT)    "Process data: capacity relative to FLOW and in/out direction ()"                                                                              
 /                                                                                                                                                                                            
+***OBS FF                                                                                                                                                                                    
+*2020                                                                                                           .    Exim_CO2_Pipeline        .    CO2_FLOW               .    PIPELINE      
+*2020                                                                                                           .    Exim_CO2_Pipeline        .    CO2_FLOW_SEQ_SUM       .    PIPELINE      
                                                                                                                                                                                              
 ***CO2                                                                                                                                                                                       
 2020                                                                                                            .    CO2_DAC_20               .    CO2_FLOW_DAC           .    IFLOWINOUT_OUT
