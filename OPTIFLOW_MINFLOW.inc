@@ -100,6 +100,10 @@ PARAMETER MINFLOW(YYY,CCCRRRAAA,PROC,FLOW) "Constraint about fuel use limitation
 2050                                                                                         .    SWEDEN         .    RoadBuffer         .    ROADFLOW         30113244.3227207   
 2050                                                                                         .    SWEDEN         .    AirBuffer          .    AIRFLOW          44843835.0187902   
                                                                                                                                                                                   
+2050                                                                                         .    NORWAY         .    SeaBuffer          .    SEAFLOW          65705288.5909496   
+2050                                                                                         .    NORWAY         .    RoadBuffer         .    ROADFLOW         8901818.18181818   
+2050                                                                                         .    NORWAY         .    AirBuffer          .    AIRFLOW          22094635.1778734   
+                                                                                                                                                                                  
 *2050                                                                                        .    DENMARK        .    CO2_Biochar_Buffer .    CO2_FLOW_BIOCHAR 1000000            
 *2050                                                                                        .    DENMARK        .    CO2_Seq_buffer     .    CO2_FLOW_SEQ_SUM 1000000            
 /;                                                                                                                                                                                
