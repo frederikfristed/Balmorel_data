@@ -5,8 +5,7 @@ DENMARK
 FINLAND                                      
 GERMANY                                      
 NETHERLANDS                                  
-SWEDEN                                       
-UNITED_KINGDOM                               
+SWEDEN                   
 ESTONIA                                      
 LATVIA                                       
 LITHUANIA                                    
@@ -19,3 +18,4 @@ AUSTRIA
 CZECH_REPUBLIC                               
 SPAIN                                                                                                            
 /;                                           
+
