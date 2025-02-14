@@ -161,7 +161,6 @@ Methanol_synthesis_TG_50
 MethanolBuffer                                                
 MethanolBuffer_Exp                                            
 MethanolTotal                                                 
-MethanolTotal_sum                                             
 Money_buffer_T                                                
 Air_Separation                                                
 ProcEximShip                                                  
@@ -236,5 +235,5 @@ Biooil_Buffer
 CO2_Biochar_Sum                                               
 CO2_Biochar_Buffer                                            
 Biooil_Eff                                                    
-*Exim_CO2_Pipeline                                            
+Exim_CO2_Pipeline                                             
 /;                                                            

@@ -203,7 +203,6 @@ Methanol_synthesis_TG_50
 MethanolBuffer                                                                                                     
 MethanolBuffer_Exp                                                                                                 
 MethanolTotal                                                                                                      
-MethanolTotal_sum                                                                                                  
 Money_buffer_T                                                                                                     
 ProcEximShip                                                                                                       
 ProcEximTruck                                                                                                      

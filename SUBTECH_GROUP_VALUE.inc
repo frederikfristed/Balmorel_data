@@ -1,8 +1,8 @@
 PARAMETER SUBTECH_GROUP_VALUE(SUBTECH_GROUP)              'SubTechnology Groups value'  
 /                                                                                       
-RG1                           RG1                                                       
-RG2                            RG2                                                      
-RG3                           RG3                                                       
+RG1                                RG1                                                       
+RG2                                RG2                                                      
+RG3                                RG3                                                       
 RG1_OFF1                           RG1_OFF1                                             
 RG2_OFF1                           RG2_OFF1                                             
 RG3_OFF1                           RG3_OFF1                                             
@@ -19,13 +19,13 @@ RG1_OFF5                           RG1_OFF5
 RG2_OFF5                           RG2_OFF5                                             
 RG3_OFF5                           RG3_OFF5                                             
 HUB_OFF                            HUB_OFF                                              
-AIR                           AIR                                                       
-GROUND                           GROUND                                                 
-RG1_HS                              RG1_HS                                              
-RG2_HS                              RG2_HS                                              
-RG3_HS                              RG3_HS                                              
-RG4_HS                              RG4_HS                                              
-RG5_HS                              RG5_HS                                              
-RG6_HS                              RG6_HS                                              
-RG7_HS                              RG7_HS                                              
+AIR                                AIR                                                       
+GROUND                             GROUND                                                 
+RG1_HS                             RG1_HS                                              
+RG2_HS                             RG2_HS                                              
+RG3_HS                             RG3_HS                                              
+RG4_HS                             RG4_HS                                              
+RG5_HS                             RG5_HS                                              
+RG6_HS                             RG6_HS                                              
+RG7_HS                             RG7_HS                                              
 /                                                                                       
