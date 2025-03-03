@@ -4,7 +4,7 @@ TABLE PROCDATA(PROC,PROCDATASET)    "Process data"
                                                            PROCINVCOST         PROCKAPVARIABLE PROCFROMYEAR PROCLIFETIME PROCFIXCOST        
                                                                                                                                             
 * OBS FF                                                                                                                                    
-Exim_CO2_Pipeline                                          0.0023              1               2020         30           20                 
+CO2_Pipeline                                               0.0023              1               2020         30           20                 
                                                                                                                                             
 ***CO2 DAC                                                                                                                                  
 CO2_DAC_20                                                 5.8                 1               2020         30           210000             
@@ -26,7 +26,7 @@ CO2_Seq_45                                                 0.604149406272505   1
 CO2_Seq_50                                                 0.574540074018145   1               2050         25           1655873.6          
                                                                                                                                             
 ***CO2 Storage                                                                                                                              
-CO2_Sto                                                    1.52                1               2020         30           30435              
+CO2_Accumulator                                            1.52                1               2020         30           30435              
                                                                                                                                             
 ***Biogas supply                                                                                                                            
 Manure_Tank_20                                             1.569198587517E-005 1               2020         20           0.001              

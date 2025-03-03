@@ -1,79 +1,125 @@
-SET PROCTECHTYPE(PROC,TECH_GROUP)                          
-                                                           
-/                                                          
-                                                           
-***BALMOREL_EXCHANGE                                       
-Heat_Opti_to_Bal_Conv             .    Excess_Heat_OptiFlow
-                                                           
-***CO2                                                     
-CO2_Source_FOSSIL                 .    CO2_FOSSIL          
-CO2_Source_BIOGEN                 .    CO2_BIOGEN          
-CO2_Source_DAC                    .    CO2_DAC             
-                                                           
-***TG                                                      
-TG_20                             .    Gasifier            
-TG_25                             .    Gasifier            
-TG_30                             .    Gasifier            
-TG_35                             .    Gasifier            
-TG_40                             .    Gasifier            
-TG_45                             .    Gasifier            
-TG_50                             .    Gasifier            
-BIO_TG_GRID_IN                    .    Gasifier            
-                                                           
-***Methanol                                                
-Methanol_synthesis_TG_20          .    Methanol_synthesis  
-Methanol_synthesis_TG_25          .    Methanol_synthesis  
-Methanol_synthesis_TG_30          .    Methanol_synthesis  
-Methanol_synthesis_TG_35          .    Methanol_synthesis  
-Methanol_synthesis_TG_40          .    Methanol_synthesis  
-Methanol_synthesis_TG_45          .    Methanol_synthesis  
-Methanol_synthesis_TG_50          .    Methanol_synthesis  
-                                                           
-EMethanol_Upgrade_20              .    EMethanol_Upgrade   
-EMethanol_Upgrade_25              .    EMethanol_Upgrade   
-EMethanol_Upgrade_30              .    EMethanol_Upgrade   
-EMethanol_Upgrade_35              .    EMethanol_Upgrade   
-EMethanol_Upgrade_40              .    EMethanol_Upgrade   
-EMethanol_Upgrade_45              .    EMethanol_Upgrade   
-EMethanol_Upgrade_50              .    EMethanol_Upgrade   
-                                                           
-***Jet and oil products                                    
-BioJet_20                         .    BioJet              
-BioJet_25                         .    BioJet              
-BioJet_30                         .    BioJet              
-BioJet_35                         .    BioJet              
-BioJet_40                         .    BioJet              
-BioJet_45                         .    BioJet              
-BioJet_50                         .    BioJet              
-                                                           
-BioJet_H2_20                      .    BioJet              
-BioJet_H2_25                      .    BioJet              
-BioJet_H2_30                      .    BioJet              
-BioJet_H2_35                      .    BioJet              
-BioJet_H2_40                      .    BioJet              
-BioJet_H2_45                      .    BioJet              
-BioJet_H2_50                      .    BioJet              
-                                                           
-E_FT_20                           .    E_FT                
-E_FT_25                           .    E_FT                
-E_FT_30                           .    E_FT                
-E_FT_35                           .    E_FT                
-E_FT_40                           .    E_FT                
-E_FT_45                           .    E_FT                
-E_FT_50                           .    E_FT                
-                                                           
-BioJet_SUM                        .    BioJet              
-BioGasoline_SUM                   .    Biogasoline         
-                                                           
-***Buffers                                                 
-MethanolBuffer                    .    MethanolBuffer      
-EMethanolBuffer                   .    EMethanolBuffer     
-AmmoniaBuffer                     .    AmmoniaBuffer       
-EME_GasolineBuffer                .    EME_GasolineBuffer  
-EME_JetBuffer                     .    EME_JetBuffer       
-EME_LPGBuffer                     .    EME_LPGBuffer       
-BioJetBuffer                      .    BioJetBuffer        
-BioGasolineBuffer                 .    BioGasolineBuffer   
-E_FT_JetBuffer                    .     E_FT_JetBuffer     
-                                                           
-/;                                                         
+SET PROCTECHTYPE(PROC,TECH_GROUP)                           
+                                                            
+/                                                           
+CO2_DAC_20                        .    CO2_DAC              
+CO2_DAC_25                        .    CO2_DAC              
+CO2_DAC_30                        .    CO2_DAC              
+CO2_DAC_35                        .    CO2_DAC              
+CO2_DAC_40                        .    CO2_DAC              
+CO2_DAC_45                        .    CO2_DAC              
+CO2_DAC_50                        .    CO2_DAC              
+CO2_Accumulator                   .    CO2_Accumulator      
+CO2_Pipeline                      .    CO2_Pipeline         
+CO2_Seq_20                        .    CO2_Seq              
+CO2_Seq_25                        .    CO2_Seq              
+CO2_Seq_30                        .    CO2_Seq              
+CO2_Seq_35                        .    CO2_Seq              
+CO2_Seq_40                        .    CO2_Seq              
+CO2_Seq_45                        .    CO2_Seq              
+CO2_Seq_50                        .    CO2_Seq              
+Manure_Tank_20                    .    Manure_Tank          
+Manure_Tank_25                    .    Manure_Tank          
+Manure_Tank_30                    .    Manure_Tank          
+Manure_Tank_35                    .    Manure_Tank          
+Manure_Tank_40                    .    Manure_Tank          
+Manure_Tank_45                    .    Manure_Tank          
+Manure_Tank_50                    .    Manure_Tank          
+Straw_Tank_20                     .    Straw_Tank           
+Straw_Tank_25                     .    Straw_Tank           
+Straw_Tank_30                     .    Straw_Tank           
+Straw_Tank_35                     .    Straw_Tank           
+Straw_Tank_40                     .    Straw_Tank           
+Straw_Tank_45                     .    Straw_Tank           
+Straw_Tank_50                     .    Straw_Tank           
+Biogas_Grid_Sto                   .    Biogas_Grid_Sto      
+Methanation_20                    .    Methanation          
+Methanation_25                    .    Methanation          
+Methanation_30                    .    Methanation          
+Methanation_35                    .    Methanation          
+Methanation_40                    .    Methanation          
+Methanation_45                    .    Methanation          
+Methanation_50                    .    Methanation          
+Biogas_Upgrading_20               .    Biogas_Upgrading     
+Biogas_Upgrading_25               .    Biogas_Upgrading     
+Biogas_Upgrading_30               .    Biogas_Upgrading     
+Biogas_Upgrading_35               .    Biogas_Upgrading     
+Biogas_Upgrading_40               .    Biogas_Upgrading     
+Biogas_Upgrading_45               .    Biogas_Upgrading     
+Biogas_Upgrading_50               .    Biogas_Upgrading     
+Pyrolysis_Straw_25                .    Pyrolysis_Straw      
+Pyrolysis_Straw_30                .    Pyrolysis_Straw      
+Pyrolysis_Straw_35                .    Pyrolysis_Straw      
+Pyrolysis_Straw_40                .    Pyrolysis_Straw      
+Pyrolysis_Straw_45                .    Pyrolysis_Straw      
+Pyrolysis_Straw_50                .    Pyrolysis_Straw      
+Hydrogen_STO_Large_20             .    Hydrogen_STO_Large   
+Hydrogen_STO_Large_25             .    Hydrogen_STO_Large   
+Hydrogen_STO_Large_30             .    Hydrogen_STO_Large   
+Hydrogen_STO_Large_35             .    Hydrogen_STO_Large   
+Hydrogen_STO_Large_40             .    Hydrogen_STO_Large   
+Hydrogen_STO_Large_45             .    Hydrogen_STO_Large   
+Hydrogen_STO_Large_50             .    Hydrogen_STO_Large   
+Hydrogen_STO_Small_20             .    Hydrogen_STO_Small   
+Hydrogen_STO_Small_25             .    Hydrogen_STO_Small   
+Hydrogen_STO_Small_30             .    Hydrogen_STO_Small   
+Hydrogen_STO_Small_35             .    Hydrogen_STO_Small   
+Hydrogen_STO_Small_40             .    Hydrogen_STO_Small   
+Hydrogen_STO_Small_45             .    Hydrogen_STO_Small   
+Hydrogen_STO_Small_50             .    Hydrogen_STO_Small   
+TG_20                             .    TG                   
+TG_25                             .    TG                   
+TG_30                             .    TG                   
+TG_35                             .    TG                   
+TG_40                             .    TG                   
+TG_45                             .    TG                   
+TG_50                             .    TG                   
+Methanol_synthesis_TG_20          .    Methanol_synthesis_TG
+Methanol_synthesis_TG_25          .    Methanol_synthesis_TG
+Methanol_synthesis_TG_30          .    Methanol_synthesis_TG
+Methanol_synthesis_TG_35          .    Methanol_synthesis_TG
+Methanol_synthesis_TG_40          .    Methanol_synthesis_TG
+Methanol_synthesis_TG_45          .    Methanol_synthesis_TG
+Methanol_synthesis_TG_50          .    Methanol_synthesis_TG
+EMethanol_synthesis_20            .    EMethanol_synthesis  
+EMethanol_synthesis_25            .    EMethanol_synthesis  
+EMethanol_synthesis_30            .    EMethanol_synthesis  
+EMethanol_synthesis_35            .    EMethanol_synthesis  
+EMethanol_synthesis_40            .    EMethanol_synthesis  
+EMethanol_synthesis_45            .    EMethanol_synthesis  
+EMethanol_synthesis_50            .    EMethanol_synthesis  
+EMethanol_Upgrade_20              .    EMethanol_Upgrade    
+EMethanol_Upgrade_25              .    EMethanol_Upgrade    
+EMethanol_Upgrade_30              .    EMethanol_Upgrade    
+EMethanol_Upgrade_35              .    EMethanol_Upgrade    
+EMethanol_Upgrade_40              .    EMethanol_Upgrade    
+EMethanol_Upgrade_45              .    EMethanol_Upgrade    
+EMethanol_Upgrade_50              .    EMethanol_Upgrade    
+Ammonia_Synthesis_20              .    Ammonia_Synthesis    
+Ammonia_Synthesis_25              .    Ammonia_Synthesis    
+Ammonia_Synthesis_30              .    Ammonia_Synthesis    
+Ammonia_Synthesis_35              .    Ammonia_Synthesis    
+Ammonia_Synthesis_40              .    Ammonia_Synthesis    
+Ammonia_Synthesis_45              .    Ammonia_Synthesis    
+Ammonia_Synthesis_50              .    Ammonia_Synthesis    
+BioJet_20                         .    BioJet               
+BioJet_25                         .    BioJet               
+BioJet_30                         .    BioJet               
+BioJet_35                         .    BioJet               
+BioJet_40                         .    BioJet               
+BioJet_45                         .    BioJet               
+BioJet_50                         .    BioJet               
+BioJet_H2_20                      .    BioJet_H2            
+BioJet_H2_25                      .    BioJet_H2            
+BioJet_H2_30                      .    BioJet_H2            
+BioJet_H2_35                      .    BioJet_H2            
+BioJet_H2_40                      .    BioJet_H2            
+BioJet_H2_45                      .    BioJet_H2            
+BioJet_H2_50                      .    BioJet_H2            
+E_FT_20                           .    E_FT                 
+E_FT_25                           .    E_FT                 
+E_FT_30                           .    E_FT                 
+E_FT_35                           .    E_FT                 
+E_FT_40                           .    E_FT                 
+E_FT_45                           .    E_FT                 
+E_FT_50                           .    E_FT                 
+/;                                                          

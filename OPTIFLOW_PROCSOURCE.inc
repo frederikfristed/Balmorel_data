@@ -1,8 +1,8 @@
 SET PROCSOURCE(PROC) "Start PROC (no trace entering)"
 /                                                    
-CO2_Source_BIOGEN                                    
+CO2_Source_Biogen                                    
 CO2_Source_DAC                                       
-CO2_Source_FOSSIL                                    
+CO2_Source_Fossil                                    
 DieselSource                                         
 HydrogenSource_MWh                                   
 KeroseneSource                                       

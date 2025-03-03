@@ -11,13 +11,13 @@ SET APROCKAPNEW(YYY,AAA,PROC)     'Areas for possible location of new Proc or ca
 2045                                                                                                               .    DK1_A .    CO2_DAC_45              
 2050                                                                                                               .    DK1_A .    CO2_DAC_50              
 *                                                                                                                                                          
-2020                                                                                                               .    DK1_A .    CO2_Sto                 
-2025                                                                                                               .    DK1_A .    CO2_Sto                 
-2030                                                                                                               .    DK1_A .    CO2_Sto                 
-2035                                                                                                               .    DK1_A .    CO2_Sto                 
-2040                                                                                                               .    DK1_A .    CO2_Sto                 
-2045                                                                                                               .    DK1_A .    CO2_Sto                 
-2050                                                                                                               .    DK1_A .    CO2_Sto                 
+2020                                                                                                               .    DK1_A .    CO2_Accumulator         
+2025                                                                                                               .    DK1_A .    CO2_Accumulator         
+2030                                                                                                               .    DK1_A .    CO2_Accumulator         
+2035                                                                                                               .    DK1_A .    CO2_Accumulator         
+2040                                                                                                               .    DK1_A .    CO2_Accumulator         
+2045                                                                                                               .    DK1_A .    CO2_Accumulator         
+2050                                                                                                               .    DK1_A .    CO2_Accumulator         
 * OBS FF                                                                                                                                                   
 $ifi not %baloptCCS%==yes $goto NO_CCS                                                                                                                     
 2020                                                                                                               .    DK1_A .    CO2_Seq_20              
