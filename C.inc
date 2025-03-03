@@ -1,11 +1,11 @@
 SET C(CCC)  'Countries in the simulation'    
 /                                            
-NORWAY                                       
+*NORWAY                                       
 DENMARK                                      
 *FINLAND                                      
-*GERMANY                                      
+GERMANY                                      
 *NETHERLANDS                                  
-*SWEDEN                                       
+SWEDEN                                       
 *UNITED_KINGDOM                               
 *ESTONIA                                      
 *LATVIA                                       
