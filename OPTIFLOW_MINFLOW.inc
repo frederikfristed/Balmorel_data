@@ -98,7 +98,12 @@ PARAMETER MINFLOW(YYY,CCCRRRAAA,PROC,FLOW) "Constraint about fuel use limitation
                                                                                                                                                                    
 2050                                                                                          .    SWEDEN         .    SeaBuffer  .    SEAFLOW  150114836.293094   
 2050                                                                                          .    SWEDEN         .    RoadBuffer .    ROADFLOW 30113244.3227207   
-2050                                                                                          .    SWEDEN         .    AirBuffer  .    AIRFLOW  44843835.0187902   
+2050                                                                                          .    SWEDEN         .    AirBuffer  .    AIRFLOW  44843835.0187902
+
+2050                                                                                          .    DENMARK        .    CO2_Seq_Buffer .    CO2_FLOW_SEQ_SUM 1000000
+2050                                                                                          .    GERMANY        .    CO2_Seq_Buffer .    CO2_FLOW_SEQ_SUM 1000000
+2050                                                                                          .    NORWAY        .    CO2_Seq_Buffer .    CO2_FLOW_SEQ_SUM 1000000
+2050                                                                                          .    SWEDEN        .    CO2_Seq_Buffer .    CO2_FLOW_SEQ_SUM 1000000
                                                                                                                                                                    
 /;                                                                                                                                                                 
                                                                                                                                                                    

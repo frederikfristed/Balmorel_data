@@ -38,7 +38,9 @@ CO2_FLOW_NOSTO
 CO2_FLOW_OUT                                                                                                       
 CO2_FLOW_SEQ                                                                                                       
 CO2_FLOW_SEQ_BIOGEN                                                                                                
+CO2_FLOW_SEQ_DAC                                                                                                   
 CO2_FLOW_SEQ_FOSSIL                                                                                                
+CO2_FLOW_SEQ_GRID                                                                                                  
 CO2_FLOW_SEQ_SUM                                                                                                   
 CO2_FLOW_STO                                                                                                       
 CO2_FLOW_USE                                                                                                       

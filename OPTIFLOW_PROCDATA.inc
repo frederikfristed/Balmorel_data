@@ -5,6 +5,7 @@ TABLE PROCDATA(PROC,PROCDATASET)    "Process data"
                                                                                                                                             
 * OBS FF                                                                                                                                    
 Exim_CO2_Pipeline                                          0.0023              1               2020         30           20                 
+*Exim_CO2_Pipeline                                         1E-005              1               2020         30           2                  
                                                                                                                                             
 ***CO2 DAC                                                                                                                                  
 CO2_DAC_20                                                 5.8                 1               2020         30           210000             
