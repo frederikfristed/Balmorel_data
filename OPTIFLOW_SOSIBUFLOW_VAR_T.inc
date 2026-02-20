@@ -3,17 +3,20 @@ PARAMETER SOSIBUFLOW_VAR_T(AAA,PROC,FLOW,SSS,TTT) "Variation in some Source, Sin
                                                                                                                 
 /;                                                                                                              
                                                                                                                 
-SOSIBUFLOW_VAR_T(IA,'WOOD_GEN','WOOD_GEN_FLOW',S,T)$(AAAOPTIFLOW(IA)AND(not AAATRANSIT(IA)))=1;                 
-SOSIBUFLOW_VAR_T(IA,'STRAW_GEN','STRAW_GEN_FLOW',S,T)$(AAAOPTIFLOW(IA)AND(not AAATRANSIT(IA)))=1;               
-SOSIBUFLOW_VAR_T(IA,'WOOD_PELLETS_GEN','WOOD_PELLETS_GEN_FLOW',S,T)$(AAAOPTIFLOW(IA)AND(not AAATRANSIT(IA)))=1; 
-SOSIBUFLOW_VAR_T(IA,'MUNI_WASTE_GEN','MUNI_WASTE_GEN_FLOW',S,T)$(AAAOPTIFLOW(IA)AND(not AAATRANSIT(IA)))=1;     
-SOSIBUFLOW_VAR_T(IA,'MANURE_GEN','MANURE_GEN_FLOW',S,T)$(AAAOPTIFLOW(IA)AND(not AAATRANSIT(IA)))=1;             
+SOSIBUFLOW_VAR_T(IA,'Wood_Gen','WOOD_GEN_FLOW',S,T)$(AAAOPTIFLOW(IA)AND(not AAATRANSIT(IA)))=1;                 
+SOSIBUFLOW_VAR_T(IA,'Straw_Gen','STRAW_GEN_FLOW',S,T)$(AAAOPTIFLOW(IA)AND(not AAATRANSIT(IA)))=1;               
+SOSIBUFLOW_VAR_T(IA,'Straw_Gen','STRAW_GEN_FLOW_PY',S,T)$(AAAOPTIFLOW(IA)AND(not AAATRANSIT(IA)))=1;            
+SOSIBUFLOW_VAR_T(IA,'Manure_Gen','MANURE_GEN_FLOW',S,T)$(AAAOPTIFLOW(IA)AND(not AAATRANSIT(IA)))=1;             
                                                                                                                 
-SOSIBUFLOW_VAR_T(IA,'DEEP_LITTER_GEN','DEEP_LITTER_GEN_FLOW',S,T)$(AAAOPTIFLOW(IA)AND(not AAATRANSIT(IA)))=1;   
-SOSIBUFLOW_VAR_T(IA,'FOOD_WASTE_GEN','FOOD_WASTE_GEN_FLOW',S,T)$(AAAOPTIFLOW(IA)AND(not AAATRANSIT(IA)))=1;     
-SOSIBUFLOW_VAR_T(IA,'NATURE_AREA_GEN','NATURE_AREA_GEN_FLOW',S,T)$(AAAOPTIFLOW(IA)AND(not AAATRANSIT(IA)))=1;   
+SOSIBUFLOW_VAR_T(IA,'AirBuffer','AIRFLOW',S,T)$(AAAOPTIFLOW(IA)AND(not AAATRANSIT(IA)))=1;                      
+SOSIBUFLOW_VAR_T(IA,'RoadBuffer','ROADFLOW',S,T)$(AAAOPTIFLOW(IA)AND(not AAATRANSIT(IA)))=1;                    
+SOSIBUFLOW_VAR_T(IA,'SeaBuffer','SEAFLOW',S,T)$(AAAOPTIFLOW(IA)AND(not AAATRANSIT(IA)))=1;                      
                                                                                                                 
+SOSIBUFLOW_VAR_T(IA,'KeroseneSource','KEROSENEFLOW',S,T)$(AAAOPTIFLOW(IA)AND(not AAATRANSIT(IA)))=1;            
+SOSIBUFLOW_VAR_T(IA,'DieselSource','DIESELFLOW',S,T)$(AAAOPTIFLOW(IA)AND(not AAATRANSIT(IA)))=1;                
+SOSIBUFLOW_VAR_T(IA,'MDOSource','MDOFLOW',S,T)$(AAAOPTIFLOW(IA)AND(not AAATRANSIT(IA)))=1;                      
+SOSIBUFLOW_VAR_T(IA,'LNGSource','LNGFLOW',S,T)$(AAAOPTIFLOW(IA)AND(not AAATRANSIT(IA)))=1;                      
                                                                                                                 
-SOSIBUFLOW_VAR_T(IA,'Other_gas_Gen','OTHER_GAS_FLOW',S,T)$(AAAOPTIFLOW(IA)AND(not AAATRANSIT(IA)))=1;           
-                                                                                                                
-SOSIBUFLOW_VAR_T(IA,'NorthSeaGas','NATGAS_FLOW',S,T)$(AAAOPTIFLOW(IA) AND (not AAATRANSIT(IA))) = 1;            
+SOSIBUFLOW_VAR_T(IA,'CO2_Seq_Buffer','CO2_FLOW_SEQ_SUM',S,T)$(AAAOPTIFLOW(IA)AND(not AAATRANSIT(IA)))=1;        
+SOSIBUFLOW_VAR_T(IA,'Gas_Buffer','SNG_FLOW',S,T)$(AAAOPTIFLOW(IA)AND(not AAATRANSIT(IA)))=1;                    
+SOSIBUFLOW_VAR_T(IA,'CO2_Source_DAC','CO2_SOURCE_FLOW_DAC',S,T)$(AAAOPTIFLOW(IA)AND(not AAATRANSIT(IA)))=1;     
