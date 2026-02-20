@@ -102,7 +102,47 @@ BA                                                                  .    BA_A
 RS                                                                  .    RS_A                               
 TR                                                                  .    TR_A                               
 MT                                                                  .    MT_A                              
-CY                                                                  .    CY_A             
+CY                                                                  .    CY_A       
+
+*Optiflow offshore areas
+
+AL                                                                  .    AL_Offshore
+BE                                                                  .    BE_Offshore
+BG                                                                  .    BG_Offshore
+HR                                                                  .    HR_Offshore
+CY                                                                  .    CY_Offshore
+DK1                                                                 .    DK1_Offshore
+DK2                                                                 .    DK2_Offshore
+EE                                                                  .    EE_Offshore
+FIN                                                                 .    FIN_Offshore
+FR                                                                  .    FR_Offshore
+DE4-E                                                               .    DE4-E_Offshore
+DE4-N                                                               .    DE4-N_Offshore
+DE4-W                                                               .    DE4-W_Offshore
+GR                                                                  .    GR_Offshore
+IE                                                                  .    IE_Offshore
+IT                                                                  .    IT_Offshore
+LV                                                                  .    LV_Offshore
+LT                                                                  .    LT_Offshore
+MT                                                                  .    MT_Offshore
+ME                                                                  .    ME_Offshore
+NL                                                                  .    NL_Offshore
+NO1                                                                 .    NO1_Offshore
+NO2                                                                 .    NO2_Offshore
+NO3                                                                 .    NO3_Offshore
+NO4                                                                 .    NO4_Offshore
+NO5                                                                 .    NO5_Offshore
+PL                                                                  .    PL_Offshore
+PT                                                                  .    PT_Offshore
+RO                                                                  .    RO_Offshore
+SI                                                                  .    SI_Offshore
+ES                                                                  .    ES_Offshore
+SE1                                                                 .    SE1_Offshore
+SE2                                                                 .    SE2_Offshore
+SE3                                                                 .    SE3_Offshore
+SE4                                                                 .    SE4_Offshore
+TR                                                                  .    TR_Offshore
+UK                                                                  .    UK_Offshore      
 
 * Solar and wind onshore and offshore areas
 IE                                                                  .    IE_ONS_Existing_RG1
