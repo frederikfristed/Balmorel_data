@@ -1,11 +1,10 @@
 SET PROCSINK(PROC) "End PROC (no trace leaving it)"
 /                                                  
-                                                   
 Tar                                                
-Digestate                                          
-                                                   
-CO2_Sink                                           
-                                                   
-*Bottom_ash                                        
-                                                   
+AirBuffer                                          
+CO2_Seq_Buffer                                     
+CO2_Biochar_Buffer                                 
+Money_buffer_T                                     
+RoadBuffer                                         
+SeaBuffer                                          
 /;                                                 
