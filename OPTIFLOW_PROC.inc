@@ -180,6 +180,10 @@ Hydrogen_STO_Small_45
 Hydrogen_STO_Small_50                                                                                              
 Hydrogen_Use                                                                                                       
 HydrogenSource_MWh                                                                                                 
+Import_Ammonia_Nordics                                                                                             
+Import_FT_Nordics                                                                                                  
+Import_Hydrogen_Nordics                                                                                            
+Import_Methanol_Nordics                                                                                            
 KeroseneSource                                                                                                     
 LNGSource                                                                                                          
 Manure_Gen                                                                                                         

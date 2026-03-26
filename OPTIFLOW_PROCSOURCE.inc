@@ -11,4 +11,9 @@ LNGSource
 Straw_Gen                                            
 Wood_Gen                                             
 Manure_Gen                                           
+                                                     
+Import_Hydrogen_Nordics                              
+Import_Methanol_Nordics                              
+Import_Ammonia_Nordics                               
+Import_FT_Nordics                                    
 /;                                                   

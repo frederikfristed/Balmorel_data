@@ -270,4 +270,8 @@ Methanol_synthesis_biogas_35
 Methanol_synthesis_biogas_40                                  
 Methanol_synthesis_biogas_45                                  
 Methanol_synthesis_biogas_50                                  
+Import_Hydrogen_Nordics                                       
+Import_Methanol_Nordics                                       
+Import_Ammonia_Nordics                                        
+Import_FT_Nordics                                             
 /;                                                            

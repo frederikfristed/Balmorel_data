@@ -5,6 +5,7 @@ SET FLOW "Flows of the network"
 AIRFLOW                                                                                                            
 AMMONIA_FLOW                                                                                                       
 AMMONIA_FLOW_EXP                                                                                                   
+AMMONIA_IMPORT                                                                                                     
 BIO_ME_FLOW                                                                                                        
 BIO_TG_FLOW                                                                                                        
 BIOGAS_FLOW                                                                                                        
@@ -89,6 +90,7 @@ EME_LPG_FLOW_EXP
 EMETHANOLFLOW                                                                                                      
 EMETHANOLFLOW_EXP                                                                                                  
 EMETHANOLFLOW_UPGRADE                                                                                              
+FT_IMPORT                                                                                                          
 HEATFLOW                                                                                                           
 HEATFLOW_GJ                                                                                                        
 HYDROGEN_FLOW                                                                                                      
@@ -104,11 +106,13 @@ HYDROGEN_FLOW_SNG
 HYDROGEN_FLOW_ST_Large                                                                                             
 HYDROGEN_FLOW_ST_Small                                                                                             
 HYDROGEN_FLOW_USE                                                                                                  
+HYDROGEN_IMPORT                                                                                                    
 HYDROGENFLOW_MWh                                                                                                   
 KEROSENEFLOW                                                                                                       
 LNGFLOW                                                                                                            
 MANURE_GEN_FLOW                                                                                                    
 MDOFLOW                                                                                                            
+METHANOL_IMPORT                                                                                                    
 METHANOLFLOW                                                                                                       
 METHANOLFLOW_EXP                                                                                                   
 NITROGEN_FLOW                                                                                                      
