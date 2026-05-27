@@ -1,6 +1,3 @@
-PARAMETER XMAXINV(IRRRE,IRRRI)   'Max investment in transmission capacity between two regions for each simulated year(each 5th year)'                           
-                                                                                                                                                                
-/                                                                                                                                                               
-                                                                                                                                                       
-/;                                                                                                                                                              
-                                                                                                                                                                
+TABLE XMAXINV(YYY,IRRRE,IRRRI)   'Maximum new transmission capacity that can be built in each model period'
+
+;
