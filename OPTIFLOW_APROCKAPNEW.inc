@@ -10,15 +10,7 @@ SET APROCKAPNEW(YYY,AAA,PROC)     'Areas for possible location of new Proc or ca
 2040                                                                                                               .    DK1_Large .    CO2_DAC_40                  
 2045                                                                                                               .    DK1_Large .    CO2_DAC_45                  
 2050                                                                                                               .    DK1_Large .    CO2_DAC_50                  
-*                                                                                                                                                                  
-2020                                                                                                               .    DK1_Large .    CO2_Accumulator             
-2025                                                                                                               .    DK1_Large .    CO2_Accumulator             
-2030                                                                                                               .    DK1_Large .    CO2_Accumulator             
-2035                                                                                                               .    DK1_Large .    CO2_Accumulator             
-2040                                                                                                               .    DK1_Large .    CO2_Accumulator             
-2045                                                                                                               .    DK1_Large .    CO2_Accumulator             
-2050                                                                                                               .    DK1_Large .    CO2_Accumulator             
-* OBS FF                                                                                                                                                           
+                                                                                                                                                                   
 $ifi not %baloptCCS%==yes $goto NO_CCS                                                                                                                             
 2020                                                                                                               .    DK1_Large .    CO2_Seq_On_20               
 2025                                                                                                               .    DK1_Large .    CO2_Seq_On_25               
@@ -50,29 +42,21 @@ $label NO_OCC_MDO
                                                                                                                                                                    
 *OBS FF                                                                                                                                                            
 $ifi not %baloptgasbridge%==yes $goto NO_BIOGAS                                                                                                                    
-2020                                                                                                               .    DK1_Large .    Biogas_Grid_Sto             
-2025                                                                                                               .    DK1_Large .    Biogas_Grid_Sto             
-2030                                                                                                               .    DK1_Large .    Biogas_Grid_Sto             
-2035                                                                                                               .    DK1_Large .    Biogas_Grid_Sto             
-2040                                                                                                               .    DK1_Large .    Biogas_Grid_Sto             
-2045                                                                                                               .    DK1_Large .    Biogas_Grid_Sto             
-2050                                                                                                               .    DK1_Large .    Biogas_Grid_Sto             
+2020                                                                                                               .    DK1_Large .    Digestion_Tank_Manure_20    
+2025                                                                                                               .    DK1_Large .    Digestion_Tank_Manure_25    
+2030                                                                                                               .    DK1_Large .    Digestion_Tank_Manure_30    
+2035                                                                                                               .    DK1_Large .    Digestion_Tank_Manure_35    
+2040                                                                                                               .    DK1_Large .    Digestion_Tank_Manure_40    
+2045                                                                                                               .    DK1_Large .    Digestion_Tank_Manure_45    
+2050                                                                                                               .    DK1_Large .    Digestion_Tank_Manure_50    
                                                                                                                                                                    
-2020                                                                                                               .    DK1_Large .    Manure_Tank_20              
-2025                                                                                                               .    DK1_Large .    Manure_Tank_25              
-2030                                                                                                               .    DK1_Large .    Manure_Tank_30              
-2035                                                                                                               .    DK1_Large .    Manure_Tank_35              
-2040                                                                                                               .    DK1_Large .    Manure_Tank_40              
-2045                                                                                                               .    DK1_Large .    Manure_Tank_45              
-2050                                                                                                               .    DK1_Large .    Manure_Tank_50              
-                                                                                                                                                                   
-2020                                                                                                               .    DK1_Large .    Straw_Tank_20               
-2025                                                                                                               .    DK1_Large .    Straw_Tank_25               
-2030                                                                                                               .    DK1_Large .    Straw_Tank_30               
-2035                                                                                                               .    DK1_Large .    Straw_Tank_35               
-2040                                                                                                               .    DK1_Large .    Straw_Tank_40               
-2045                                                                                                               .    DK1_Large .    Straw_Tank_45               
-2050                                                                                                               .    DK1_Large .    Straw_Tank_50               
+2020                                                                                                               .    DK1_Large .    Digestion_Tank_Straw_20     
+2025                                                                                                               .    DK1_Large .    Digestion_Tank_Straw_25     
+2030                                                                                                               .    DK1_Large .    Digestion_Tank_Straw_30     
+2035                                                                                                               .    DK1_Large .    Digestion_Tank_Straw_35     
+2040                                                                                                               .    DK1_Large .    Digestion_Tank_Straw_40     
+2045                                                                                                               .    DK1_Large .    Digestion_Tank_Straw_45     
+2050                                                                                                               .    DK1_Large .    Digestion_Tank_Straw_50     
                                                                                                                                                                    
 2020                                                                                                               .    DK1_Large .    Methanation_20              
 2025                                                                                                               .    DK1_Large .    Methanation_25              
@@ -132,13 +116,13 @@ $label NO_BIOGAS
 2045                                                                                                               .    DK1_Large .    EMethanol_synthesis_45      
 2050                                                                                                               .    DK1_Large .    EMethanol_synthesis_50      
 *                                                                                                                                                                  
-*2020                                                                                                              .    DK1_Large .    EMethanol_Upgrade_20        
-*2025                                                                                                              .    DK1_Large .    EMethanol_Upgrade_25        
-*2030                                                                                                              .    DK1_Large .    EMethanol_Upgrade_30        
-*2035                                                                                                              .    DK1_Large .    EMethanol_Upgrade_35        
-*2040                                                                                                              .    DK1_Large .    EMethanol_Upgrade_40        
-*2045                                                                                                              .    DK1_Large .    EMethanol_Upgrade_45        
-*2050                                                                                                              .    DK1_Large .    EMethanol_Upgrade_50        
+*2020                                                                                                              .    DK1_Large .    Methanol_Upgrade_20         
+*2025                                                                                                              .    DK1_Large .    Methanol_Upgrade_25         
+*2030                                                                                                              .    DK1_Large .    Methanol_Upgrade_30         
+*2035                                                                                                              .    DK1_Large .    Methanol_Upgrade_35         
+*2040                                                                                                              .    DK1_Large .    Methanol_Upgrade_40         
+*2045                                                                                                              .    DK1_Large .    Methanol_Upgrade_45         
+*2050                                                                                                              .    DK1_Large .    Methanol_Upgrade_50         
 ***Ammonia                                                                                                                                                         
 2020                                                                                                               .    DK1_Large .    Ammonia_Synthesis_20        
 2025                                                                                                               .    DK1_Large .    Ammonia_Synthesis_25        
@@ -148,29 +132,29 @@ $label NO_BIOGAS
 2045                                                                                                               .    DK1_Large .    Ammonia_Synthesis_45        
 2050                                                                                                               .    DK1_Large .    Ammonia_Synthesis_50        
 ***Jet and oil products                                                                                                                                            
-2020                                                                                                               .    DK1_Large .    BioJet_20                   
-2025                                                                                                               .    DK1_Large .    BioJet_25                   
-2030                                                                                                               .    DK1_Large .    BioJet_30                   
-2035                                                                                                               .    DK1_Large .    BioJet_35                   
-2040                                                                                                               .    DK1_Large .    BioJet_40                   
-2045                                                                                                               .    DK1_Large .    BioJet_45                   
-2050                                                                                                               .    DK1_Large .    BioJet_50                   
+2020                                                                                                               .    DK1_Large .    BioFT_20                    
+2025                                                                                                               .    DK1_Large .    BioFT_25                    
+2030                                                                                                               .    DK1_Large .    BioFT_30                    
+2035                                                                                                               .    DK1_Large .    BioFT_35                    
+2040                                                                                                               .    DK1_Large .    BioFT_40                    
+2045                                                                                                               .    DK1_Large .    BioFT_45                    
+2050                                                                                                               .    DK1_Large .    BioFT_50                    
 *                                                                                                                                                                  
-2020                                                                                                               .    DK1_Large .    BioJet_H2_20                
-2025                                                                                                               .    DK1_Large .    BioJet_H2_25                
-2030                                                                                                               .    DK1_Large .    BioJet_H2_30                
-2035                                                                                                               .    DK1_Large .    BioJet_H2_35                
-2040                                                                                                               .    DK1_Large .    BioJet_H2_40                
-2045                                                                                                               .    DK1_Large .    BioJet_H2_45                
-2050                                                                                                               .    DK1_Large .    BioJet_H2_50                
+2020                                                                                                               .    DK1_Large .    BioFT_H2_20                 
+2025                                                                                                               .    DK1_Large .    BioFT_H2_25                 
+2030                                                                                                               .    DK1_Large .    BioFT_H2_30                 
+2035                                                                                                               .    DK1_Large .    BioFT_H2_35                 
+2040                                                                                                               .    DK1_Large .    BioFT_H2_40                 
+2045                                                                                                               .    DK1_Large .    BioFT_H2_45                 
+2050                                                                                                               .    DK1_Large .    BioFT_H2_50                 
 *                                                                                                                                                                  
-2020                                                                                                               .    DK1_Large .    E_FT_20                     
-2025                                                                                                               .    DK1_Large .    E_FT_25                     
-2030                                                                                                               .    DK1_Large .    E_FT_30                     
-2035                                                                                                               .    DK1_Large .    E_FT_35                     
-2040                                                                                                               .    DK1_Large .    E_FT_40                     
-2045                                                                                                               .    DK1_Large .    E_FT_45                     
-2050                                                                                                               .    DK1_Large .    E_FT_50                     
+2020                                                                                                               .    DK1_Large .    EFT_20                      
+2025                                                                                                               .    DK1_Large .    EFT_25                      
+2030                                                                                                               .    DK1_Large .    EFT_30                      
+2035                                                                                                               .    DK1_Large .    EFT_35                      
+2040                                                                                                               .    DK1_Large .    EFT_40                      
+2045                                                                                                               .    DK1_Large .    EFT_45                      
+2050                                                                                                               .    DK1_Large .    EFT_50                      
                                                                                                                                                                    
 /                                                                                                                                                                  
 ;                                                                                                                                                                  

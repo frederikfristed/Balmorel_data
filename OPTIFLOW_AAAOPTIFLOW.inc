@@ -86,8 +86,8 @@ PT_Offshore
 *SI_Offshore                                                                                 
 *TR_Offshore                                                                                 
 UK_Offshore                                                                                  
-                                                                                             
 /;                                                                                           
+AAAOPTIFLOW(AAA)$(NOT SUM(C, ICA(C,AAA))) = 0;                                               
                                                                                              
 SET AAAOPTIFLOW_Offshore(AAA)     'Offshore Areas that are used in the OptiFLow calculations'
 /                                                                                            

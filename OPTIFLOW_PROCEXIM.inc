@@ -1,23 +1,23 @@
 SET PROCEXIM(PROC) "PROC for exchange possibility between areas AAA"
 /                                                                   
 *Liquid hydrocarbons (LHC)                                          
-ProcExim_Truck_LHC                                                  
-ProcExim_Ship_LHC                                                   
+Transport_Truck_LHC                                                 
+Transport_Ship_LHC                                                  
                                                                     
 *Ammonia                                                            
-ProcExim_Truck_Ammonia                                              
-ProcExim_Ship_Ammonia                                               
+Transport_Truck_Ammonia                                             
+Transport_Ship_Ammonia                                              
                                                                     
 *Methanol                                                           
-ProcExim_Truck_Methanol                                             
-ProcExim_Ship_Methanol                                              
+Transport_Truck_Methanol                                            
+Transport_Ship_Methanol                                             
                                                                     
 *CO2                                                                
-CO2_Pipeline                                                        
-ProcExim_Truck_CO2                                                  
-ProcExim_Ship_CO2                                                   
+Transport_Pipeline_CO2                                              
+Transport_Truck_CO2                                                 
+Transport_Ship_CO2                                                  
                                                                     
 *Biomass                                                            
-ProcExim_Truck_Wood                                                 
-ProcExim_Truck_Straw                                                
+Transport_Truck_Wood                                                
+Transport_Truck_Straw                                               
 /;                                                                  
