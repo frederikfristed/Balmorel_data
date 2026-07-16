@@ -12,6 +12,7 @@ BIOMASS_FLOW_MANURE
 BIOMASS_FLOW_STRAW             
 BIOMASS_FLOW_WOOD              
 BIOOIL_FLOW                    
+BIOOIL_OCC_FLOW                
 BIOSYNGAS_FLOW                 
 CO2_FLOW                       
 CO2_FLOW_BIO                   
@@ -22,6 +23,7 @@ CO2PROC_FLOW
 DIESEL_FLOW                    
 DROPIN_FLOW                    
 EDIESEL_FLOW                   
+EDIESEL_OCC_FLOW               
 EJET_FLOW                      
 ELECFLOW                       
 ELECFLOW_GJ                    
@@ -31,6 +33,7 @@ HYDROGEN_FLOW
 HYDROGENFLOW_MWh               
 JET_FLOW                       
 LBG_FLOW                       
+LBG_OCC_FLOW                   
 LNG_FLOW                       
 LNG_OCC_FLOW                   
 MDO_FLOW                       
