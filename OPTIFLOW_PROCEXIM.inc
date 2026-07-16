@@ -1,28 +1,23 @@
 SET PROCEXIM(PROC) "PROC for exchange possibility between areas AAA"
 /                                                                   
-                                                                    
-*Liquid hydrocarbons                                                
-ProcExim_Truck_Oil                                                  
-ProcExim_Ship_Oil                                                   
-                                                                    
-*Methanol                                                           
-ProcExim_Truck_Methanol                                             
-ProcExim_Ship_Methanol                                              
+*Liquid hydrocarbons (LHC)                                          
+Transport_Truck_LHC                                                 
+Transport_Ship_LHC                                                  
                                                                     
 *Ammonia                                                            
-ProcExim_Truck_Ammonia                                              
-ProcExim_Ship_Ammonia                                               
+Transport_Truck_Ammonia                                             
+Transport_Ship_Ammonia                                              
                                                                     
-*Hydrogen                                                           
-ProcExim_Truck_Hydrogen                                             
-ProcExim_Ship_Hydrogen                                              
+*Methanol                                                           
+Transport_Truck_Methanol                                            
+Transport_Ship_Methanol                                             
                                                                     
 *CO2                                                                
-ProcExim_Truck_CO2                                                  
-ProcExim_Ship_CO2                                                   
-ProcExim_Pipeline_CO2                                               
+Transport_Pipeline_CO2                                              
+Transport_Truck_CO2                                                 
+Transport_Ship_CO2                                                  
                                                                     
 *Biomass                                                            
-ProcExim_Truck_Wood                                                 
-ProcExim_Truck_Straw                                                
+Transport_Truck_Wood                                                
+Transport_Truck_Straw                                               
 /;                                                                  
