@@ -6,7 +6,7 @@ CO2_Source_Fossil
 Road_Diesel_Source                                   
 HydrogenSource_MWh                                   
 Jet_Source                                           
-Marine_Diesel_Source                                 
+MDO_Source                                           
 LNG_Source                                           
 Straw_Source                                         
 Wood_Source                                          

@@ -3,7 +3,6 @@ SET TECH_GROUP "Technology Groups"
 /                                 
 DAC_Y                             
 Transport_Pipeline_CO2            
-OCC_Y                             
 Seq_On_Y                          
 Seq_Off_Y                         
 Digestion_Tank_Manure_Y           

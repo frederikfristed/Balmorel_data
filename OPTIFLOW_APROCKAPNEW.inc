@@ -29,17 +29,6 @@ $ifi not %baloptCCS%==yes $goto NO_CCS
 2050                                                                                                                                .    DK011_A .    CO2_Seq_Off_50              
 $label NO_CCS                                                                                                                                                                     
                                                                                                                                                                                   
-* OBS FF                                                                                                                                                                          
-$ifi not %optiOCC%==yes $goto NO_OCC_MDO                                                                                                                                          
-2030                                                                                                                                .    DK011_A .    OCC_30                      
-2035                                                                                                                                .    DK011_A .    OCC_35                      
-2040                                                                                                                                .    DK011_A .    OCC_40                      
-2045                                                                                                                                .    DK011_A .    OCC_45                      
-2050                                                                                                                                .    DK011_A .    OCC_50                      
-$label NO_OCC_MDO                                                                                                                                                                 
-                                                                                                                                                                                  
-                                                                                                                                                                                  
-                                                                                                                                                                                  
 *OBS FF                                                                                                                                                                           
 $ifi not %baloptgasbridge%==yes $goto NO_BIOGAS                                                                                                                                   
 2020                                                                                                                                .    DK011_A .    Digestion_Tank_Manure_20    
@@ -123,7 +112,7 @@ $label NO_BIOGAS
 2040                                                                                                                                .    DK011_A .    EMethanol_synthesis_40      
 2045                                                                                                                                .    DK011_A .    EMethanol_synthesis_45      
 2050                                                                                                                                .    DK011_A .    EMethanol_synthesis_50      
-*                                                                                                                                                                                 
+                                                                                                                                                                                  
 *2020                                                                                                                               .    DK011_A .    Methanol_Upgrade_20         
 *2025                                                                                                                               .    DK011_A .    Methanol_Upgrade_25         
 *2030                                                                                                                               .    DK011_A .    Methanol_Upgrade_30         

@@ -12,7 +12,7 @@ SOSIBUFLOW_VAR_T(IA,'Manure_Source','BIOMASS_FLOW_MANURE',S,T)$(AAAOPTIFLOW(IA)A
                                                                                                                                                                                                            
 *SOSIBUFLOW_VAR_T(IA,'Jet_Source','JET_FLOW',S,T)$(AAAOPTIFLOW(IA)AND(not AAATRANSIT(IA)))=1;                                                                                                              
 *SOSIBUFLOW_VAR_T(IA,'Road_Diesel_Source','DIESEL_FLOW',S,T)$(AAAOPTIFLOW(IA)AND(not AAATRANSIT(IA)))=1;                                                                                                   
-*SOSIBUFLOW_VAR_T(IA,'Marine_Diesel_Source','DIESEL_FLOW',S,T)$(AAAOPTIFLOW(IA)AND(not AAATRANSIT(IA)))=1;                                                                                                 
+*SOSIBUFLOW_VAR_T(IA,'MDO_Source','MDO_FLOW',S,T)$(AAAOPTIFLOW(IA)AND(not AAATRANSIT(IA)))=1;                                                                                                              
 *SOSIBUFLOW_VAR_T(IA,'LNG_Source','LNG_FLOW',S,T)$(AAAOPTIFLOW(IA)AND(not AAATRANSIT(IA)))=1;                                                                                                              
                                                                                                                                                                                                            
 *Sequestration                                                                                                                                                                                             

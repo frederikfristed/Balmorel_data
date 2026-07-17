@@ -18,6 +18,6 @@ Transport_Truck_CO2
 Transport_Ship_CO2                                                  
                                                                     
 *Biomass                                                            
-Transport_Truck_Wood                                                
-Transport_Truck_Straw                                               
+*Transport_Truck_Wood                                               
+*Transport_Truck_Straw                                              
 /;                                                                  

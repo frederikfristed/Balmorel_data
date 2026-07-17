@@ -6,7 +6,6 @@ CO2_Biochar_Buffer
 Money_buffer_T                                     
 CO2_Sink                                           
 CO2_Neg_Sink                                       
-                                                   
 Shipping_Buffer_Long                               
 Shipping_Buffer_Medium                             
 Shipping_Buffer_Legacy                             

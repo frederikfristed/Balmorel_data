@@ -9,11 +9,6 @@ CO2_DAC_40                        .    DAC_Y
 CO2_DAC_45                        .    DAC_Y                       
 CO2_DAC_50                        .    DAC_Y                       
 Transport_Pipeline_CO2            .    Transport_Pipeline_CO2      
-OCC_30                            .    OCC_Y                       
-OCC_35                            .    OCC_Y                       
-OCC_40                            .    OCC_Y                       
-OCC_45                            .    OCC_Y                       
-OCC_50                            .    OCC_Y                       
 CO2_Seq_On_20                     .    Seq_On_Y                    
 CO2_Seq_On_25                     .    Seq_On_Y                    
 CO2_Seq_On_30                     .    Seq_On_Y                    
