@@ -31,7 +31,13 @@ SOSIBUFLOW_VAR_T(IA,'Import_Ammonia','AMMONIA_FLOW',S,T)$(AAAOPTIFLOW(IA)AND(not
 SOSIBUFLOW_VAR_T(IA,'Import_FT','EDIESEL_FLOW',S,T)$(AAAOPTIFLOW(IA)AND(not AAATRANSIT(IA)))=1;                                                                                                            
                                                                                                                                                                                                            
 *Diagnostics                                                                                                                                                                                               
-SOSIBUFLOW_VAR_T(IA,'Fuel_Price_Buffer',FLOW,S,T)$(SUM((Y,iLOUPFXSET),SOSIBUBOUND(Y,IA,'Fuel_Price_Buffer',FLOW,iLOUPFXSET))>0 AND AAAOPTIFLOW(IA) AND NOT AAATRANSIT(IA)) = 1;                            
+SOSIBUFLOW_VAR_T(IA,'Fuel_Price_Raw',FLOW,S,T)$(SUM((Y,iLOUPFXSET),SOSIBUBOUND(Y,IA,'Fuel_Price_Raw',FLOW,iLOUPFXSET))>0 AND AAAOPTIFLOW(IA) AND NOT AAATRANSIT(IA)) = 1;                                  
+SOSIBUFLOW_VAR_T(IA,'Fuel_Price_Long',FLOW,S,T)$(SUM((Y,iLOUPFXSET),SOSIBUBOUND(Y,IA,'Fuel_Price_Long',FLOW,iLOUPFXSET))>0 AND AAAOPTIFLOW(IA) AND NOT AAATRANSIT(IA)) = 1;                                
+SOSIBUFLOW_VAR_T(IA,'Fuel_Price_Medium',FLOW,S,T)$(SUM((Y,iLOUPFXSET),SOSIBUBOUND(Y,IA,'Fuel_Price_Medium',FLOW,iLOUPFXSET))>0 AND AAAOPTIFLOW(IA) AND NOT AAATRANSIT(IA)) = 1;                            
+SOSIBUFLOW_VAR_T(IA,'Fuel_Price_Short',FLOW,S,T)$(SUM((Y,iLOUPFXSET),SOSIBUBOUND(Y,IA,'Fuel_Price_Short',FLOW,iLOUPFXSET))>0 AND AAAOPTIFLOW(IA) AND NOT AAATRANSIT(IA)) = 1;                              
+SOSIBUFLOW_VAR_T(IA,'Fuel_Price_Legacy',FLOW,S,T)$(SUM((Y,iLOUPFXSET),SOSIBUBOUND(Y,IA,'Fuel_Price_Legacy',FLOW,iLOUPFXSET))>0 AND AAAOPTIFLOW(IA) AND NOT AAATRANSIT(IA)) = 1;                            
+SOSIBUFLOW_VAR_T(IA,'Fuel_Price_Tanker',FLOW,S,T)$(SUM((Y,iLOUPFXSET),SOSIBUBOUND(Y,IA,'Fuel_Price_Tanker',FLOW,iLOUPFXSET))>0 AND AAAOPTIFLOW(IA) AND NOT AAATRANSIT(IA)) = 1;                            
+                                                                                                                                                                                                           
 SOSIBUFLOW_VAR_T(IA,'Retrofit_Buffer','VIRTUAL_FLOW',SSS,T)$(SUM((Y,iLOUPFXSET),SOSIBUBOUND(Y,IA,'Retrofit_Buffer','VIRTUAL_FLOW',iLOUPFXSET))>0 AND AAAOPTIFLOW(IA) AND NOT AAATRANSIT(IA)) = 1;          
 SOSIBUFLOW_VAR_T(IA,'OCC_Buffer','VIRTUAL_FLOW',SSS,T)$(SUM((Y,iLOUPFXSET),SOSIBUBOUND(Y,IA,'OCC_Buffer','VIRTUAL_FLOW',iLOUPFXSET))>0 AND AAAOPTIFLOW(IA) AND NOT AAATRANSIT(IA)) = 1;                    
 SOSIBUFLOW_VAR_T(IA,'Fuel_Ramping_Buffer','VIRTUAL_FLOW',SSS,T)$(SUM((Y,iLOUPFXSET),SOSIBUBOUND(Y,IA,'Fuel_Ramping_Buffer','VIRTUAL_FLOW',iLOUPFXSET))>0 AND AAAOPTIFLOW(IA) AND NOT AAATRANSIT(IA)) = 1;  

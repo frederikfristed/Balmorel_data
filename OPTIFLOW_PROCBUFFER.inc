@@ -6,5 +6,4 @@ HeatBuffer
 GHG_Buffer                                                             
 GHGbio_Buffer                                                          
 Gas_Buffer                                                             
-                                                                       
 /;                                                                     

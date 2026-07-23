@@ -178,7 +178,12 @@ EMethanol_synthesis_40
 EMethanol_synthesis_45                                        
 EMethanol_synthesis_50                                        
 EMethanol_Y                                                   
-Fuel_Price_Buffer                                             
+Fuel_Price_Legacy                                             
+Fuel_Price_Long                                               
+Fuel_Price_Medium                                             
+Fuel_Price_Raw                                                
+Fuel_Price_Short                                              
+Fuel_Price_Tanker                                             
 Fuel_Ramping_Buffer                                           
 Gas_Buffer                                                    
 Heat_Bal_to_Opti_Conv                                         
