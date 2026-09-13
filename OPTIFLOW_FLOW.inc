@@ -4,10 +4,10 @@ SET FLOW "Flows of the network"
                                                                                                                    
 AMMONIA_FLOW                                                                                                       
 AVIATION_FLOW                                                                                                      
+BIODIESEL_FLOW                                                                                                     
 BIOGAS_FLOW                                                                                                        
 BIOGAS_FLOW_DRY                                                                                                    
 BIOGAS_FLOW_WET                                                                                                    
-BIOGASOLINE_FLOW                                                                                                   
 BIOJET_FLOW                                                                                                        
 BIOMASS_FLOW                                                                                                       
 BIOMASS_FLOW_MANURE                                                                                                
@@ -31,6 +31,8 @@ HYDROGENFLOW_MWh
 JET_FLOW                                                                                                           
 LNG_FLOW                                                                                                           
 METHANOL_FLOW                                                                                                      
+METHANOL_FLOW_BIOGAS                                                                                               
+METHANOL_FLOW_TG                                                                                                   
 METHANOL_GASOLINE_FLOW                                                                                             
 METHANOL_JET_FLOW                                                                                                  
 METHANOL_LPG_FLOW                                                                                                  

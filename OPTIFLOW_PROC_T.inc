@@ -12,6 +12,7 @@ Ammonia_Synthesis_50
 Ammonia_Y                                                     
 Aviation_Buffer                                               
 Aviation_Fuel                                                 
+BioDiesel_Sum                                                 
 BioFT_20                                                      
 BioFT_25                                                      
 BioFT_30                                                      
@@ -30,6 +31,7 @@ BioFT_H2_Y
 BioFT_Y                                                       
 Biogas                                                        
 Biogas_Dry                                                    
+Biogas_Total                                                  
 Biogas_Upgrading_20                                           
 Biogas_Upgrading_25                                           
 Biogas_Upgrading_30                                           
@@ -39,14 +41,14 @@ Biogas_Upgrading_45
 Biogas_Upgrading_50                                           
 Biogas_Upgrading_Y                                            
 Biogas_Wet                                                    
-BioGasoline_Buffer                                            
-BioGasoline_Sum                                               
 BioJet_Buffer                                                 
 BioJet_Sum                                                    
 Biomass_Solid                                                 
+Biomass_Solid_Total                                           
 Biomass_Wet                                                   
 BioMethanol                                                   
 BioMethanol_Buffer                                            
+BioMethanol_Total                                             
 Biooil_Buffer                                                 
 CO2_Biochar_Buffer                                            
 CO2_Biochar_Sum                                               
