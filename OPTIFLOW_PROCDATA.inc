@@ -91,6 +91,15 @@ TG_40                                                      0.1929375           1
 TG_45                                                      0.18375             1               2045         30           7360.5             
 TG_50                                                      0.175               1               2050         30           7010               
                                                                                                                                             
+***Hydrogen liquefaction                                                                                                                    
+                                                                                                                                            
+Hydrogen_Liquefaction_20                                   0.3108              1               2020         20           7771               
+Hydrogen_Liquefaction_25                                   0.3108              1               2025         20           7771               
+Hydrogen_Liquefaction_30                                   0.3108              1               2030         20           7771               
+Hydrogen_Liquefaction_35                                   0.2797              1               2035         20           6993               
+Hydrogen_Liquefaction_40                                   0.2487              1               2040         20           6216               
+Hydrogen_Liquefaction_45                                   0.2176              1               2045         20           5439               
+Hydrogen_Liquefaction_50                                   0.1865              1               2050         20           4662               
                                                                                                                                             
 ***Methanol                                                                                                                                 
 Methanol_synthesis_TG_20                                   1.55316455696203    1               2020         30           17257.3839662447   
@@ -174,19 +183,19 @@ Diesel_ICE_Tanker                                          0.163059575483671   1
 Diesel_ICE_Long                                            0.169119942150338   1               2020         30           4200               
 Diesel_ICE_Medium                                          0.164               1               2020         30           4100               
 Diesel_ICE_Short                                           0.18                1               2020         30           4500               
-Diesel_OCC_Legacy                                          0.233145571613108   1               2020         30           6600               
-Diesel_OCC_Tanker                                          0.230546216353396   1               2020         30           6500               
-Diesel_OCC_Long                                            0.236606583020063   1               2020         30           6600               
-Diesel_OCC_Medium                                          0.231486640869725   1               2020         30           6500               
-Diesel_OCC_Short                                           0.247486640869725   1               2020         30           6900               
+Diesel_OCC_Legacy                                          0.233145571613108   1               2020         30           8500               
+Diesel_OCC_Tanker                                          0.230546216353396   1               2020         30           8400               
+Diesel_OCC_Long                                            0.236606583020063   1               2020         30           8500               
+Diesel_OCC_Medium                                          0.231486640869725   1               2020         30           8400               
+Diesel_OCC_Short                                           0.247486640869725   1               2020         30           8800               
 LNG_ICE_Tanker                                             0.272732599327274   1               2020         30           12200              
 LNG_ICE_Long                                               0.335067799327274   1               2020         30           15000              
 LNG_ICE_Medium                                             0.254017264866837   1               2020         30           11300              
 LNG_ICE_Short                                              0.275680252858753   1               2020         30           12400              
-LNG_OCC_Tanker                                             0.333280553998363   1               2020         30           14600              
-LNG_OCC_Long                                               0.395615753998363   1               2020         30           17400              
-LNG_OCC_Medium                                             0.314565219537926   1               2020         30           13700              
-LNG_OCC_Short                                              0.336228207529842   1               2020         30           14800              
+LNG_OCC_Tanker                                             0.333280553998363   1               2020         30           16300              
+LNG_OCC_Long                                               0.395615753998363   1               2020         30           19100              
+LNG_OCC_Medium                                             0.314565219537926   1               2020         30           15400              
+LNG_OCC_Short                                              0.336228207529842   1               2020         30           16500              
 Methanol_ICE_Long                                          0.191134692621484   1               2020         30           4800               
 Methanol_ICE_Medium                                        0.18                1               2020         30           4500               
 Methanol_ICE_Short                                         0.198               1               2020         30           4900               

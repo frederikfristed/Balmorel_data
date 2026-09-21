@@ -90,6 +90,15 @@ SET  PROCKAPDATA(YYY,PROC,FLOW,IFLOWINOUT)    "Process data: capacity relative t
 2020                                                                                                            .    TG_45                        .    BIOMASS_FLOW         .    IFLOWINOUT_IN     
 2020                                                                                                            .    TG_50                        .    BIOMASS_FLOW         .    IFLOWINOUT_IN     
                                                                                                                                                                                                    
+*Hydrogen liquefaction                                                                                                                                                                             
+2020                                                                                                            .    Hydrogen_Liquefaction_20     .    HYDROGEN_FLOW        .    IFLOWINOUT_OUT    
+2020                                                                                                            .    Hydrogen_Liquefaction_25     .    HYDROGEN_FLOW        .    IFLOWINOUT_OUT    
+2020                                                                                                            .    Hydrogen_Liquefaction_30     .    HYDROGEN_FLOW        .    IFLOWINOUT_OUT    
+2020                                                                                                            .    Hydrogen_Liquefaction_35     .    HYDROGEN_FLOW        .    IFLOWINOUT_OUT    
+2020                                                                                                            .    Hydrogen_Liquefaction_40     .    HYDROGEN_FLOW        .    IFLOWINOUT_OUT    
+2020                                                                                                            .    Hydrogen_Liquefaction_45     .    HYDROGEN_FLOW        .    IFLOWINOUT_OUT    
+2020                                                                                                            .    Hydrogen_Liquefaction_50     .    HYDROGEN_FLOW        .    IFLOWINOUT_OUT    
+                                                                                                                                                                                                   
 ***Methanol                                                                                                                                                                                        
 2020                                                                                                            .    Methanol_synthesis_TG_20     .    BIOSYNGAS_FLOW       .    IFLOWINOUT_IN     
 2020                                                                                                            .    Methanol_synthesis_TG_25     .    BIOSYNGAS_FLOW       .    IFLOWINOUT_IN     

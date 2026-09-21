@@ -199,6 +199,14 @@ Hydrogen_FC_Short
 Hydrogen_FC_Split                                             
 Hydrogen_ICE_Medium                                           
 Hydrogen_ICE_Short                                            
+Hydrogen_Liquefaction_20                                      
+Hydrogen_Liquefaction_25                                      
+Hydrogen_Liquefaction_30                                      
+Hydrogen_Liquefaction_35                                      
+Hydrogen_Liquefaction_40                                      
+Hydrogen_Liquefaction_45                                      
+Hydrogen_Liquefaction_50                                      
+Hydrogen_Liquefaction_Y                                       
 Hydrogen_Split                                                
 HydrogenSource_MWh                                            
 Import_Ammonia                                                
@@ -211,6 +219,7 @@ LBG_Eff
 LBG_Eff_OCC                                                   
 LBG_OCC_Split                                                 
 LBG_Split                                                     
+Liquid_Hydrogen                                               
 LNG_Eff                                                       
 LNG_Eff_OCC                                                   
 LNG_ICE_Long                                                  

@@ -87,6 +87,15 @@ $label NO_BIOGAS
 2040                                                                                                                                .    DK011_A .    TG_40                       
 2045                                                                                                                                .    DK011_A .    TG_45                       
 2050                                                                                                                                .    DK011_A .    TG_50                       
+                                                                                                                                                                                  
+***Hydrogen liquefaction                                                                                                                                                          
+2020                                                                                                                                .    DK011_A .    Hydrogen_Liquefaction_20    
+2025                                                                                                                                .    DK011_A .    Hydrogen_Liquefaction_25    
+2030                                                                                                                                .    DK011_A .    Hydrogen_Liquefaction_30    
+2035                                                                                                                                .    DK011_A .    Hydrogen_Liquefaction_35    
+2040                                                                                                                                .    DK011_A .    Hydrogen_Liquefaction_40    
+2045                                                                                                                                .    DK011_A .    Hydrogen_Liquefaction_45    
+2050                                                                                                                                .    DK011_A .    Hydrogen_Liquefaction_50    
 ***Methanol                                                                                                                                                                       
 2020                                                                                                                                .    DK011_A .    Methanol_synthesis_TG_20    
 2025                                                                                                                                .    DK011_A .    Methanol_synthesis_TG_25    

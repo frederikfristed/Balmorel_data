@@ -71,6 +71,13 @@ TG_35                             .    TG_Y
 TG_40                             .    TG_Y                        
 TG_45                             .    TG_Y                        
 TG_50                             .    TG_Y                        
+Hydrogen_Liquefaction_20          .    Hydrogen_Liquefaction_Y     
+Hydrogen_Liquefaction_25          .    Hydrogen_Liquefaction_Y     
+Hydrogen_Liquefaction_30          .    Hydrogen_Liquefaction_Y     
+Hydrogen_Liquefaction_35          .    Hydrogen_Liquefaction_Y     
+Hydrogen_Liquefaction_40          .    Hydrogen_Liquefaction_Y     
+Hydrogen_Liquefaction_45          .    Hydrogen_Liquefaction_Y     
+Hydrogen_Liquefaction_50          .    Hydrogen_Liquefaction_Y     
 Methanol_synthesis_TG_20          .    Methanol_TG_Y               
 Methanol_synthesis_TG_25          .    Methanol_TG_Y               
 Methanol_synthesis_TG_30          .    Methanol_TG_Y               
