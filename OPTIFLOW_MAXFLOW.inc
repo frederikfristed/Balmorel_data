@@ -115,8 +115,8 @@ MAXFLOW('2045',AAA,'Manure_Source','BIOMASS_FLOW_MANURE') = MAXFLOW('2030',AAA,'
 MAXFLOW('2050',AAA,'Manure_Source','BIOMASS_FLOW_MANURE') = MAXFLOW('2030',AAA,'Manure_Source','BIOMASS_FLOW_MANURE');                                                                   
                                                                                                                                                                                          
 *Limit on fossil CO2 in fuel production after 2030                                                                                                                                       
-*MAXFLOW('2040',AAAOPTIFLOW,'CO2_CU','CO2_FLOW_FOSSIL')=EPS;                                                                                                                             
-*MAXFLOW('2050',AAAOPTIFLOW,'CO2_CU','CO2_FLOW_FOSSIL')=EPS;                                                                                                                             
+MAXFLOW('2040',AAAOPTIFLOW,'CO2_CU','CO2_FLOW_FOSSIL')=EPS;                                                                                                                              
+MAXFLOW('2050',AAAOPTIFLOW,'CO2_CU','CO2_FLOW_FOSSIL')=EPS;                                                                                                                              
                                                                                                                                                                                          
 *Limit renewable fuel OCC in 2030                                                                                                                                                        
 MAXFLOW('2030',AAAOPTIFLOW,'Biooil_Eff_OCC','BIOOIL_OCC_FLOW')=EPS;                                                                                                                      
