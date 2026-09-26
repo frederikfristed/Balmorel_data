@@ -4,6 +4,10 @@ SET  PROCKAPDATA(YYY,PROC,FLOW,IFLOWINOUT)    "Process data: capacity relative t
                                                                                                                                                                                                    
                                                                                                                                                                                                    
 ***CO2                                                                                                                                                                                             
+2020                                                                                                            .    CO2_Comp_Bio                 .    CO2_FLOW_BIO         .    IFLOWINOUT_OUT    
+2020                                                                                                            .    CO2_Comp_Fos                 .    CO2_FLOW_FOSSIL      .    IFLOWINOUT_OUT    
+2020                                                                                                            .    CO2_Comp_Gen                 .    CO2_FLOW             .    IFLOWINOUT_OUT    
+                                                                                                                                                                                                   
 2020                                                                                                            .    CO2_DAC_20                   .    CO2_FLOW             .    IFLOWINOUT_OUT    
 2020                                                                                                            .    CO2_DAC_25                   .    CO2_FLOW             .    IFLOWINOUT_OUT    
 2020                                                                                                            .    CO2_DAC_30                   .    CO2_FLOW             .    IFLOWINOUT_OUT    

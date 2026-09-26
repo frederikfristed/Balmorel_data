@@ -1,6 +1,9 @@
 SET PROCTECHTYPE(PROC,TECH_GROUP)                                  
                                                                    
 /                                                                  
+CO2_Comp_Bio                      .    CO2_Comp                    
+CO2_Comp_Fos                      .    CO2_Comp                    
+CO2_Comp_Gen                      .    CO2_Comp                    
 CO2_DAC_20                        .    DAC_Y                       
 CO2_DAC_25                        .    DAC_Y                       
 CO2_DAC_30                        .    DAC_Y                       

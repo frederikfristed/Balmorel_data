@@ -3,6 +3,16 @@ SET APROCKAPNEW(YYY,AAA,PROC)     'Areas for possible location of new Proc or ca
                                                                                                                                                                                   
 /                                                                                                                                                                                 
 ***CO2                                                                                                                                                                            
+2030                                                                                                                                .    DK011_A .    CO2_Comp_Bio                
+2030                                                                                                                                .    DK011_A .    CO2_Comp_Fos                
+2030                                                                                                                                .    DK011_A .    CO2_Comp_Gen                
+2040                                                                                                                                .    DK011_A .    CO2_Comp_Bio                
+2040                                                                                                                                .    DK011_A .    CO2_Comp_Fos                
+2040                                                                                                                                .    DK011_A .    CO2_Comp_Gen                
+2050                                                                                                                                .    DK011_A .    CO2_Comp_Bio                
+2050                                                                                                                                .    DK011_A .    CO2_Comp_Fos                
+2050                                                                                                                                .    DK011_A .    CO2_Comp_Gen                
+                                                                                                                                                                                  
 2020                                                                                                                                .    DK011_A .    CO2_DAC_20                  
 2025                                                                                                                                .    DK011_A .    CO2_DAC_25                  
 2030                                                                                                                                .    DK011_A .    CO2_DAC_30                  

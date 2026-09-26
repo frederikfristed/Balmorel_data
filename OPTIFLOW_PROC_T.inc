@@ -85,6 +85,9 @@ Cargo_Short
 Cargo_Tanker                                                  
 CO2_Biochar_Buffer                                            
 CO2_Biochar_Sum                                               
+CO2_Comp_Bio                                                  
+CO2_Comp_Fos                                                  
+CO2_Comp_Gen                                                  
 CO2_CU                                                        
 CO2_DAC_20                                                    
 CO2_DAC_25                                                    

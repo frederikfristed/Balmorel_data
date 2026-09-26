@@ -4,7 +4,12 @@ TABLE PROCDATA(PROC,PROCDATASET)    "Process data"
                                                            PROCINVCOST        PROCKAPVARIABLE PROCFROMYEAR PROCLIFETIME PROCFIXCOST        
                                                                                                                                            
 * OBS FF                                                                                                                                   
-Transport_Pipeline_CO2                                     0.013              1               2020         50           20                 
+Transport_Pipeline_CO2                                     0.002              1               2020         50           24                 
+                                                                                                                                           
+***CO2 compression                                                                                                                         
+CO2_Comp_Bio                                               0.03               1               2020         25           1500               
+CO2_Comp_Fos                                               0.03               1               2020         25           1500               
+CO2_Comp_Gen                                               0.03               1               2020         25           1500               
                                                                                                                                            
 ***CO2 DAC                                                                                                                                 
 CO2_DAC_20                                                 5.84               1               2020         30           233600             
@@ -16,13 +21,13 @@ CO2_DAC_45                                                 2.5975             1 
 CO2_DAC_50                                                 2.498              1               2050         30           99920              
                                                                                                                                            
 ***CO2 Sequestration Onshore                                                                                                               
-CO2_Seq_On_20                                              1.24524727272727   1               2020         30           12800              
-CO2_Seq_On_25                                              1.18421776602875   1               2025         30           12200              
-CO2_Seq_On_30                                              1.12617931240815   1               2030         30           11600              
-CO2_Seq_On_35                                              1.07233784789791   1               2035         30           11050              
-CO2_Seq_On_40                                              1.01849638338767   1               2040         30           10500              
-CO2_Seq_On_45                                              1.01849638338767   1               2045         30           10500              
-CO2_Seq_On_50                                              1.01849638338767   1               2050         30           10500              
+CO2_Seq_On_20                                              0.733953230769231  1               2020         30           7600               
+CO2_Seq_On_25                                              0.697982219553497  1               2025         30           7200               
+CO2_Seq_On_30                                              0.663774145802493  1               2030         30           6900               
+CO2_Seq_On_35                                              0.632039792560274  1               2035         30           6550               
+CO2_Seq_On_40                                              0.600305439318055  1               2040         30           6200               
+CO2_Seq_On_45                                              0.600305439318055  1               2045         30           6200               
+CO2_Seq_On_50                                              0.600305439318055  1               2050         30           6200               
                                                                                                                                            
 ***CO2 Sequestration Offshore                                                                                                              
 CO2_Seq_Off_20                                             1.24524727272727   1               2020         30           12800              

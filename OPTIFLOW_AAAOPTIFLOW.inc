@@ -108,15 +108,23 @@ TR_A
 UK_GB_A                                                                                      
 UK_NI_A                                                                                      
                                                                                              
-HR_OFF_A                                                                                     
+DK011_OFF_A                                                                                  
+DK013_OFF_A                                                                                  
+DK022_OFF_A                                                                                  
+DK031_OFF_A                                                                                  
+DK032_OFF_A                                                                                  
+DK041_OFF_A                                                                                  
+DK042_OFF_A                                                                                  
+DK050_OFF_A                                                                                  
 GR_OFF_A                                                                                     
+HR_OFF_A                                                                                     
 IE_OFF_A                                                                                     
 ITF_OFF_A                                                                                    
 ITH_OFF_A                                                                                    
-LT_OFF_A                                                                                     
-NO0A2_OFF_A                                                                                  
+LV_OFF_A                                                                                     
 NO092_OFF_A                                                                                  
 NO0A1_OFF_A                                                                                  
+NO0A2_OFF_A                                                                                  
 PT_OFF_A                                                                                     
 UK_GB_OFF_A                                                                                  
                                                                                              
@@ -127,15 +135,23 @@ AAAOPTIFLOW(AAA)$(NOT SUM(C, ICA(C,AAA))) = 0;
 SET AAAOPTIFLOW_Offshore(AAA)     'Offshore Areas that are used in the OptiFLow calculations'
 /                                                                                            
                                                                                              
-HR_OFF_A                                                                                     
+DK011_OFF_A                                                                                  
+DK013_OFF_A                                                                                  
+DK022_OFF_A                                                                                  
+DK031_OFF_A                                                                                  
+DK032_OFF_A                                                                                  
+DK041_OFF_A                                                                                  
+DK042_OFF_A                                                                                  
+DK050_OFF_A                                                                                  
 GR_OFF_A                                                                                     
+HR_OFF_A                                                                                     
 IE_OFF_A                                                                                     
 ITF_OFF_A                                                                                    
 ITH_OFF_A                                                                                    
-LT_OFF_A                                                                                     
-NO0A2_OFF_A                                                                                  
+LV_OFF_A                                                                                     
 NO092_OFF_A                                                                                  
 NO0A1_OFF_A                                                                                  
+NO0A2_OFF_A                                                                                  
 PT_OFF_A                                                                                     
 UK_GB_OFF_A                                                                                  
                                                                                              
