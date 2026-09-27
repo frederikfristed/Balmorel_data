@@ -1,5 +1,4 @@
-PARAMETER CCS_DECO2COMP_G(GGG)  "Power consumption to compress CO2 and get ir ready for delivery (MWh/(tCO2/h))"                                                                       
-*Source: MSc Thesis Simon Andersen How can the Nordic countries become CO2 -negative by 2040 An energy system analysis with a focus on the Carbon Capture and Storage technology       
+PARAMETER CCS_DECO2COMP_G(GGG)  " *Capture electricity and heat (MWh/(tCO2/h))"                                                                       
 /                                                                                                                                                                                      
 GNR_BO_NGASCCS_E-105_MS-5-MW_Y-2020                                                                                                                                               0.371
 GNR_BO_NGASCCS_E-106_MS-5-MW_Y-2030                                                                                                                                               0.371
@@ -80,4 +79,4 @@ GNR_ST_WOODPELCCS_CND_E-33_LS-800-MW-FEED_Y-2040                                
 GNR_ST_WOODPELCCS_CND_E-33_LS-800-MW-FEED_Y-2050                                                                                                                                  0.371
 /;                                                                                                                                                                                     
                                                                                                                                                                                        
-CCS_DECO2COMP_G(G)$(CCS_G(G)) = 0.371;                                                                                                                                                 
+CCS_DECO2COMP_G(G)$(CCS_G(G)) = 0.35;                                                                                                                                                
