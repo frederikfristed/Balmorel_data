@@ -43,20 +43,20 @@ CO2_Seq_Off_45                                             1.01849638338767    1
 CO2_Seq_Off_50                                             1.01849638338767    1               2050         30           10500              
                                                                                                                                             
 ***Biogas supply                                                                                                                            
-Digestion_Tank_Manure_20                                   1.569198587517E-005 1               2020         20           0.001              
-Digestion_Tank_Manure_25                                   1.490738658141E-005 1               2025         20           0.001              
-Digestion_Tank_Manure_30                                   1.412278728765E-005 1               2030         20           0.001              
-Digestion_Tank_Manure_35                                   1.376971760546E-005 1               2035         20           0.001              
-Digestion_Tank_Manure_40                                   1.341664792327E-005 1               2040         20           0.001              
-Digestion_Tank_Manure_45                                   1.306357824108E-005 1               2045         20           0.001              
-Digestion_Tank_Manure_50                                   1.271050855888E-005 1               2050         20           0.001              
-Digestion_Tank_Straw_20                                    5.19042609717E-005  1               2020         20           0.001              
-Digestion_Tank_Straw_25                                    4.930904792312E-005 1               2025         20           0.001              
-Digestion_Tank_Straw_30                                    4.671383487453E-005 1               2030         20           0.001              
-Digestion_Tank_Straw_35                                    4.554598900267E-005 1               2035         20           0.001              
-Digestion_Tank_Straw_40                                    4.437814313081E-005 1               2040         20           0.001              
-Digestion_Tank_Straw_45                                    4.321029725894E-005 1               2045         20           0.001              
-Digestion_Tank_Straw_50                                    4.204245138708E-005 1               2050         20           0.001              
+Digestion_Tank_Manure_20                                   0.32252             1               2020         20           25791              
+Digestion_Tank_Manure_25                                   0.3064              1               2025         20           25146              
+Digestion_Tank_Manure_30                                   0.29027             1               2030         20           24501              
+Digestion_Tank_Manure_35                                   0.28301             1               2035         20           24195              
+Digestion_Tank_Manure_40                                   0.27576             1               2040         20           23889              
+Digestion_Tank_Manure_45                                   0.2685              1               2045         20           23583              
+Digestion_Tank_Manure_50                                   0.26124             1               2050         20           23276              
+Digestion_Tank_Straw_20                                    0.06135             1               2020         20           8520               
+Digestion_Tank_Straw_25                                    0.05828             1               2025         20           8307               
+Digestion_Tank_Straw_30                                    0.05521             1               2030         20           8094               
+Digestion_Tank_Straw_35                                    0.05383             1               2035         20           7993               
+Digestion_Tank_Straw_40                                    0.05245             1               2040         20           7892               
+Digestion_Tank_Straw_45                                    0.05107             1               2045         20           7791               
+Digestion_Tank_Straw_50                                    0.04969             1               2050         20           7689               
                                                                                                                                             
 ***Biogas technologies                                                                                                                      
 Methanation_20                                             0.423               1               2020         20           16920              

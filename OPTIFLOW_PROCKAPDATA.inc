@@ -100,13 +100,13 @@ $label NO_OCC_MDO
 2020                                                                                                            .    Methanol_synthesis_TG_45     .    BIOSYNGAS_FLOW      .    IFLOWINOUT_IN     
 2020                                                                                                            .    Methanol_synthesis_TG_50     .    BIOSYNGAS_FLOW      .    IFLOWINOUT_IN     
                                                                                                                                                                                                   
-2020                                                                                                            .    Methanol_synthesis_biogas_20 .    METHANOL_FLOW       .    IFLOWINOUT_OUT    
-2020                                                                                                            .    Methanol_synthesis_biogas_25 .    METHANOL_FLOW       .    IFLOWINOUT_OUT    
-2020                                                                                                            .    Methanol_synthesis_biogas_30 .    METHANOL_FLOW       .    IFLOWINOUT_OUT    
-2020                                                                                                            .    Methanol_synthesis_biogas_35 .    METHANOL_FLOW       .    IFLOWINOUT_OUT    
-2020                                                                                                            .    Methanol_synthesis_biogas_40 .    METHANOL_FLOW       .    IFLOWINOUT_OUT    
-2020                                                                                                            .    Methanol_synthesis_biogas_45 .    METHANOL_FLOW       .    IFLOWINOUT_OUT    
-2020                                                                                                            .    Methanol_synthesis_biogas_50 .    METHANOL_FLOW       .    IFLOWINOUT_OUT    
+2020                                                                                                            .    Methanol_synthesis_biogas_20 .    METHANOL_FLOW_BIOGAS       .    IFLOWINOUT_OUT    
+2020                                                                                                            .    Methanol_synthesis_biogas_25 .    METHANOL_FLOW_BIOGAS       .    IFLOWINOUT_OUT    
+2020                                                                                                            .    Methanol_synthesis_biogas_30 .    METHANOL_FLOW_BIOGAS       .    IFLOWINOUT_OUT    
+2020                                                                                                            .    Methanol_synthesis_biogas_35 .    METHANOL_FLOW_BIOGAS       .    IFLOWINOUT_OUT    
+2020                                                                                                            .    Methanol_synthesis_biogas_40 .    METHANOL_FLOW_BIOGAS       .    IFLOWINOUT_OUT    
+2020                                                                                                            .    Methanol_synthesis_biogas_45 .    METHANOL_FLOW_BIOGAS       .    IFLOWINOUT_OUT    
+2020                                                                                                            .    Methanol_synthesis_biogas_50 .    METHANOL_FLOW_BIOGAS       .    IFLOWINOUT_OUT    
                                                                                                                                                                                                   
 2020                                                                                                            .    EMethanol_synthesis_20       .    METHANOL_FLOW       .    IFLOWINOUT_OUT    
 2020                                                                                                            .    EMethanol_synthesis_25       .    METHANOL_FLOW       .    IFLOWINOUT_OUT    
