@@ -374,5 +374,9 @@ SOSIBUBOUND('2040',AAA,'Shipping_Buffer','SHIPPING_FLOW',iLOUPFXSET) = SOSIBUBOU
 SOSIBUBOUND('2030',AAA,'Manure_Source','BIOMASS_FLOW_MANURE',iLOUPFXSET) = SOSIBUBOUND('2050',AAA,'Manure_Source','BIOMASS_FLOW_MANURE',iLOUPFXSET);                                                                                                                                  
 SOSIBUBOUND('2040',AAA,'Manure_Source','BIOMASS_FLOW_MANURE',iLOUPFXSET) = SOSIBUBOUND('2050',AAA,'Manure_Source','BIOMASS_FLOW_MANURE',iLOUPFXSET);                                                                                                                                  
 
+***CO2 sequestration: geographical storage limits are the same in all model years (bounds are given for 2050).
+* Placed after the zero-fill above, so areas without storage potential in 2050 also get EPS (none) in these years.
+SOSIBUBOUND('2030',AAA,'CO2_Seq_Buffer','CO2_FLOW',iLOUPFXSET) = SOSIBUBOUND('2050',AAA,'CO2_Seq_Buffer','CO2_FLOW',iLOUPFXSET);
+SOSIBUBOUND('2040',AAA,'CO2_Seq_Buffer','CO2_FLOW',iLOUPFXSET) = SOSIBUBOUND('2050',AAA,'CO2_Seq_Buffer','CO2_FLOW',iLOUPFXSET);
                                                                                                                                                                                                                                                                                       
                                                                                                                                                                                                                                                                                       
