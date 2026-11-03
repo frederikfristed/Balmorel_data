@@ -82,6 +82,9 @@ CO2_Source_Biogen
 CO2_Source_DAC                              
 CO2_Source_Fossil                           
 DAC_Y                                       
+CO2_Comp_Bio                                
+CO2_Comp_Fos                                
+CO2_Comp_Gen                                
 Digestion_Tank_Manure_20                    
 Digestion_Tank_Manure_25                    
 Digestion_Tank_Manure_30                    

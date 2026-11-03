@@ -8,6 +8,9 @@ CO2_DAC_35                        .    DAC_Y
 CO2_DAC_40                        .    DAC_Y                       
 CO2_DAC_45                        .    DAC_Y                       
 CO2_DAC_50                        .    DAC_Y                       
+CO2_Comp_Bio                      .    CO2_Comp                    
+CO2_Comp_Fos                      .    CO2_Comp                    
+CO2_Comp_Gen                      .    CO2_Comp                    
 * Tech group must not share the PROC name: TECH_GROUP_AS_PROC would treat the pipeline as a vintage template and zero its arcs (nordic-maritime-fuels e2c5dbd)
 Transport_Pipeline_CO2            .    Pipeline_CO2_Group      
 OCC_30                            .    OCC_Y                       

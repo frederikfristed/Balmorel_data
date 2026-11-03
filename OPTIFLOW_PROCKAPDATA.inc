@@ -11,6 +11,9 @@ SET  PROCKAPDATA(YYY,PROC,FLOW,IFLOWINOUT)    "Process data: capacity relative t
 2020                                                                                                            .    CO2_DAC_40                   .    CO2_FLOW            .    IFLOWINOUT_OUT    
 2020                                                                                                            .    CO2_DAC_45                   .    CO2_FLOW            .    IFLOWINOUT_OUT    
 2020                                                                                                            .    CO2_DAC_50                   .    CO2_FLOW            .    IFLOWINOUT_OUT    
+2020                                                                                                            .    CO2_Comp_Bio                 .    CO2_FLOW_BIO        .    IFLOWINOUT_OUT    
+2020                                                                                                            .    CO2_Comp_Fos                 .    CO2_FLOW_FOSSIL     .    IFLOWINOUT_OUT    
+2020                                                                                                            .    CO2_Comp_Gen                 .    CO2_FLOW            .    IFLOWINOUT_OUT    
 ***OBS FF                                                                                                                                                                                         
 2020                                                                                                            .    Transport_Pipeline_CO2       .    CO2_FLOW            .    IFLOWINOUT_SYM_INV
                                                                                                                                                                                                   

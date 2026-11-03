@@ -10,6 +10,21 @@ SET APROCKAPNEW(YYY,AAA,PROC)     'Areas for possible location of new Proc or ca
 2040                                                                                                               .    DK1_Large .    CO2_DAC_40                  
 2045                                                                                                               .    DK1_Large .    CO2_DAC_45                  
 2050                                                                                                               .    DK1_Large .    CO2_DAC_50                  
+2030                                                                                                               .    DK1_Large .    CO2_Comp_Bio                
+2030                                                                                                               .    DK1_Large .    CO2_Comp_Fos                
+2030                                                                                                               .    DK1_Large .    CO2_Comp_Gen                
+2035                                                                                                               .    DK1_Large .    CO2_Comp_Bio                
+2035                                                                                                               .    DK1_Large .    CO2_Comp_Fos                
+2035                                                                                                               .    DK1_Large .    CO2_Comp_Gen                
+2040                                                                                                               .    DK1_Large .    CO2_Comp_Bio                
+2040                                                                                                               .    DK1_Large .    CO2_Comp_Fos                
+2040                                                                                                               .    DK1_Large .    CO2_Comp_Gen                
+2045                                                                                                               .    DK1_Large .    CO2_Comp_Bio                
+2045                                                                                                               .    DK1_Large .    CO2_Comp_Fos                
+2045                                                                                                               .    DK1_Large .    CO2_Comp_Gen                
+2050                                                                                                               .    DK1_Large .    CO2_Comp_Bio                
+2050                                                                                                               .    DK1_Large .    CO2_Comp_Fos                
+2050                                                                                                               .    DK1_Large .    CO2_Comp_Gen                
                                                                                                                                                                    
 $ifi not %baloptCCS%==yes $goto NO_CCS                                                                                                                             
 2020                                                                                                               .    DK1_Large .    CO2_Seq_On_20               

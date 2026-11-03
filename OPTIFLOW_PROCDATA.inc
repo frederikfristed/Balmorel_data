@@ -14,6 +14,10 @@ CO2_DAC_35                                                 4.156               1
 CO2_DAC_40                                                 4.051               1               2040         30           162040             
 CO2_DAC_45                                                 3.989               1               2045         30           159560             
 CO2_DAC_50                                                 3.928               1               2050         30           157120              
+* CO2 compression stage (cost and electricity), ported from nordic-maritime-fuels 4692fe4
+CO2_Comp_Bio                                               0.03                1               2020         25           1500                
+CO2_Comp_Fos                                               0.03                1               2020         25           1500                
+CO2_Comp_Gen                                               0.03                1               2020         25           1500                
                                                                                                                                             
 ***OCC                                                                                                                                      
 $ifi not %optiOCC%==yes $goto NO_OCC_MDO                                                                                                    

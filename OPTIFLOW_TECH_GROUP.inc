@@ -2,6 +2,7 @@ SET TECH_GROUP "Technology Groups"
                                   
 /                                 
 DAC_Y                             
+CO2_Comp                          
 Pipeline_CO2_Group                
 OCC_Y                             
 Seq_On_Y                          
