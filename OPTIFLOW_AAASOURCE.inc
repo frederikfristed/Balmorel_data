@@ -57,7 +57,7 @@ UK_A
 DE4-N_Offshore                                                           
 *DE4-W_Offshore                                                          
 DK1_Offshore                                                             
-*DK2_Offshore                                                            
+DK2_Offshore                                                            
 *EE_Offshore                                                             
 *ES_Offshore                                                             
 *FIN_Offshore                                                            

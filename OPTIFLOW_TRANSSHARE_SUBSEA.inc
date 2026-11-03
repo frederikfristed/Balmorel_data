@@ -33,3 +33,24 @@ Transport_Pipeline_CO2 . SE3A       0.000000  0.000000  0.000000  0.000000  0.00
 Transport_Pipeline_CO2 . SE4A       0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000   0.000000   0.092376  0.624187   0.0  0.000000  0.229366  0.000000  0.000000  0.504126  0.450860  0.000000  0.000000e+00  0.000000e+00  0.000000e+00  0.000000  0.000000e+00  0.345665   0.0  0.000000  0.000000e+00  0.000000  0.000000  0.000000
 Transport_Pipeline_CO2 . UK_A       0.000000  0.255375  0.000000  0.000000  0.000000  0.000000  0.000000   0.000000   0.728660  0.000000   0.0  0.138409  0.000000  0.534934  0.000000  0.000000  0.000000  0.545309  0.000000e+00  7.139934e-01  6.044107e-01  0.000000  0.000000e+00  0.000000   0.0  0.000000  0.000000e+00  0.000000  0.000000  0.000000
 ;
+
+* Onshore<->offshore CO2 pipeline links are fully subsea (as nordic-maritime-fuels 4692fe4). Both directions,
+* since low-reg links are two-way and book half the cost per direction.
+OPTIFLOW_TRANSSHARE_SUBSEA('Transport_Pipeline_CO2','DK1_Large','DK1_Offshore') = 1;
+OPTIFLOW_TRANSSHARE_SUBSEA('Transport_Pipeline_CO2','DK1_Offshore','DK1_Large') = 1;
+OPTIFLOW_TRANSSHARE_SUBSEA('Transport_Pipeline_CO2','DK2_Large','DK2_Offshore') = 1;
+OPTIFLOW_TRANSSHARE_SUBSEA('Transport_Pipeline_CO2','DK2_Offshore','DK2_Large') = 1;
+OPTIFLOW_TRANSSHARE_SUBSEA('Transport_Pipeline_CO2','NO2_A1','NO2_Offshore') = 1;
+OPTIFLOW_TRANSSHARE_SUBSEA('Transport_Pipeline_CO2','NO2_Offshore','NO2_A1') = 1;
+OPTIFLOW_TRANSSHARE_SUBSEA('Transport_Pipeline_CO2','NO5_A1','NO5_Offshore') = 1;
+OPTIFLOW_TRANSSHARE_SUBSEA('Transport_Pipeline_CO2','NO5_Offshore','NO5_A1') = 1;
+OPTIFLOW_TRANSSHARE_SUBSEA('Transport_Pipeline_CO2','IT_A','IT_Offshore') = 1;
+OPTIFLOW_TRANSSHARE_SUBSEA('Transport_Pipeline_CO2','IT_Offshore','IT_A') = 1;
+OPTIFLOW_TRANSSHARE_SUBSEA('Transport_Pipeline_CO2','LV_A','LV_Offshore') = 1;
+OPTIFLOW_TRANSSHARE_SUBSEA('Transport_Pipeline_CO2','LV_Offshore','LV_A') = 1;
+OPTIFLOW_TRANSSHARE_SUBSEA('Transport_Pipeline_CO2','IE_A','IE_Offshore') = 1;
+OPTIFLOW_TRANSSHARE_SUBSEA('Transport_Pipeline_CO2','IE_Offshore','IE_A') = 1;
+OPTIFLOW_TRANSSHARE_SUBSEA('Transport_Pipeline_CO2','PT_A','PT_Offshore') = 1;
+OPTIFLOW_TRANSSHARE_SUBSEA('Transport_Pipeline_CO2','PT_Offshore','PT_A') = 1;
+OPTIFLOW_TRANSSHARE_SUBSEA('Transport_Pipeline_CO2','UK_A','UK_Offshore') = 1;
+OPTIFLOW_TRANSSHARE_SUBSEA('Transport_Pipeline_CO2','UK_Offshore','UK_A') = 1;
