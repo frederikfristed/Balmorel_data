@@ -38,6 +38,7 @@ METHANOL_JET_FLOW
 METHANOL_LPG_FLOW                                                                                                  
 NITROGEN_FLOW                                                                                                      
 OCC_FLOW                                                                                                           
+OCC_LNG_FLOW                                                                                                       
 OPERATIONCOST                                                                                                      
 ROAD_FLOW                                                                                                          
 SHIPPING_FLOW                                                                                                      

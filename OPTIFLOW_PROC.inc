@@ -187,6 +187,14 @@ OCC_40
 OCC_45                                      
 OCC_50                                      
 OCC_Y                                       
+OCC_LNG                                     
+OCC_LNG_30                                  
+OCC_LNG_35                                  
+OCC_LNG_40                                  
+OCC_LNG_45                                  
+OCC_LNG_50                                  
+OCC_LNG_Y                                   
+CO2_Port_Handling                           
 Pyrolysis_Straw_25                          
 Pyrolysis_Straw_30                          
 Pyrolysis_Straw_35                          

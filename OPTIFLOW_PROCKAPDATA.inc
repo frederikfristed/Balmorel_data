@@ -23,6 +23,11 @@ $ifi not %optiOCC%==yes $goto NO_OCC_MDO
 2020                                                                                                            .    OCC_40                       .    OCC_FLOW            .    IFLOWINOUT_IN     
 2020                                                                                                            .    OCC_45                       .    OCC_FLOW            .    IFLOWINOUT_IN     
 2020                                                                                                            .    OCC_50                       .    OCC_FLOW            .    IFLOWINOUT_IN     
+2020                                                                                                            .    OCC_LNG_30                   .    OCC_LNG_FLOW        .    IFLOWINOUT_IN     
+2020                                                                                                            .    OCC_LNG_35                   .    OCC_LNG_FLOW        .    IFLOWINOUT_IN     
+2020                                                                                                            .    OCC_LNG_40                   .    OCC_LNG_FLOW        .    IFLOWINOUT_IN     
+2020                                                                                                            .    OCC_LNG_45                   .    OCC_LNG_FLOW        .    IFLOWINOUT_IN     
+2020                                                                                                            .    OCC_LNG_50                   .    OCC_LNG_FLOW        .    IFLOWINOUT_IN     
 $label NO_OCC_MDO                                                                                                                                                                                 
                                                                                                                                                                                                   
                                                                                                                                                                                                   

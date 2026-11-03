@@ -51,6 +51,11 @@ $ifi not %optiOCC%==yes $goto NO_OCC_MDO
 2040                                                                                                               .    DK1_Large .    OCC_40                      
 2045                                                                                                               .    DK1_Large .    OCC_45                      
 2050                                                                                                               .    DK1_Large .    OCC_50                      
+2030                                                                                                               .    DK1_Large .    OCC_LNG_30                  
+2035                                                                                                               .    DK1_Large .    OCC_LNG_35                  
+2040                                                                                                               .    DK1_Large .    OCC_LNG_40                  
+2045                                                                                                               .    DK1_Large .    OCC_LNG_45                  
+2050                                                                                                               .    DK1_Large .    OCC_LNG_50                  
 $label NO_OCC_MDO                                                                                                                                                  
                                                                                                                                                                    
                                                                                                                                                                    

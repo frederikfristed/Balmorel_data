@@ -20,12 +20,19 @@ CO2_Comp_Fos                                               0.03                1
 CO2_Comp_Gen                                               0.03                1               2020         25           1500                
                                                                                                                                             
 ***OCC                                                                                                                                      
+* OCC cost = OCC-vs-ICE vessel premium in nordic-maritime-fuels (same for every vessel class), MEUR and EUR per GJ/h of fuel:
+*   diesel-type 0.067487 / 4300, LNG 0.060548 / 4100, lifetime 30 (vessel). Equals ~1.245 MEUR per tCO2/h captured for both fuels.
 $ifi not %optiOCC%==yes $goto NO_OCC_MDO                                                                                                    
-OCC_30                                                     0.0605              1               2030         25           2420               
-OCC_35                                                     0.0605              1               2035         25           2420               
-OCC_40                                                     0.0605              1               2040         25           2420               
-OCC_45                                                     0.0605              1               2045         25           2420               
-OCC_50                                                     0.0605              1               2050         25           2420               
+OCC_30                                                     0.067487            1               2030         30           4300               
+OCC_35                                                     0.067487            1               2035         30           4300               
+OCC_40                                                     0.067487            1               2040         30           4300               
+OCC_45                                                     0.067487            1               2045         30           4300               
+OCC_50                                                     0.067487            1               2050         30           4300               
+OCC_LNG_30                                                 0.060548            1               2030         30           4100               
+OCC_LNG_35                                                 0.060548            1               2035         30           4100               
+OCC_LNG_40                                                 0.060548            1               2040         30           4100               
+OCC_LNG_45                                                 0.060548            1               2045         30           4100               
+OCC_LNG_50                                                 0.060548            1               2050         30           4100               
 $label NO_OCC_MDO                                                                                                                           
                                                                                                                                             
 ***CO2 Sequestration Onshore                                                                                                                

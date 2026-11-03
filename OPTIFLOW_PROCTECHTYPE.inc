@@ -18,6 +18,11 @@ OCC_35                            .    OCC_Y
 OCC_40                            .    OCC_Y                       
 OCC_45                            .    OCC_Y                       
 OCC_50                            .    OCC_Y                       
+OCC_LNG_30                        .    OCC_LNG_Y                   
+OCC_LNG_35                        .    OCC_LNG_Y                   
+OCC_LNG_40                        .    OCC_LNG_Y                   
+OCC_LNG_45                        .    OCC_LNG_Y                   
+OCC_LNG_50                        .    OCC_LNG_Y                   
 CO2_Seq_On_20                     .    Seq_On_Y                    
 CO2_Seq_On_25                     .    Seq_On_Y                    
 CO2_Seq_On_30                     .    Seq_On_Y                    
