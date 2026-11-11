@@ -27,6 +27,8 @@ BA         . ME              193.1
 ME         . BA              193.1
 BA         . RS              242.4
 RS         . BA              242.4
+BE         . DE4-S           436.0
+DE4-S      . BE              436.0
 BE         . DE4-W           304.0
 DE4-W      . BE              304.0
 BE         . DK1             688.0
@@ -65,6 +67,8 @@ CZ         . PL              391.0
 PL         . CZ              391.0
 CZ         . SK              322.7
 SK         . CZ              322.7
+DE4-E      . DE4-N           283.0
+DE4-N      . DE4-E           283.0
 DE4-E      . DE4-S           396.0
 DE4-S      . DE4-E           396.0
 DE4-E      . DE4-W           276.0
@@ -89,6 +93,8 @@ DE4-N      . NO2             582.0
 NO2        . DE4-N           582.0
 DE4-N      . SE4             401.0
 SE4        . DE4-N           401.0
+DE4-N      . UK              824.0
+UK         . DE4-N           824.0
 DE4-S      . DE4-W           346.0
 DE4-W      . DE4-S           346.0
 DE4-S      . FR              632.0
@@ -145,6 +151,8 @@ GR         . TR             1054.9
 TR         . GR             1054.9
 HR         . HU              329.1
 HU         . HR              329.1
+HR         . ME              339.8
+ME         . HR              339.8
 HR         . RS              362.3
 RS         . HR              362.3
 HR         . SI              170.3
@@ -187,6 +195,8 @@ NO1        . NO3             237.0
 NO3        . NO1             237.0
 NO1        . NO5             197.0
 NO5        . NO1             197.0
+NO1        . SE2             403.0
+SE2        . NO1             403.0
 NO1        . SE3             269.0
 SE3        . NO1             269.0
 NO2        . NO5             168.0
@@ -199,6 +209,8 @@ NO3        . NO5             254.0
 NO5        . NO3             254.0
 NO3        . SE2             339.0
 SE2        . NO3             339.0
+NO3        . SE3             470.0
+SE3        . NO3             470.0
 NO4        . SE1             197.0
 SE1        . NO4             197.0
 NO4        . SE2             596.0
