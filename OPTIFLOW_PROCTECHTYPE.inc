@@ -23,6 +23,17 @@ OCC_LNG_35                        .    OCC_LNG_Y
 OCC_LNG_40                        .    OCC_LNG_Y                   
 OCC_LNG_45                        .    OCC_LNG_Y                   
 OCC_LNG_50                        .    OCC_LNG_Y                   
+* OCC_ALL joins both OCC chains in one group for the deployment-rate limit (QEXPANSION_OPTIFLOW). It is not a PROC name, so TECH_GROUP_AS_PROC ignores it.
+OCC_30                            .    OCC_ALL                     
+OCC_35                            .    OCC_ALL                     
+OCC_40                            .    OCC_ALL                     
+OCC_45                            .    OCC_ALL                     
+OCC_50                            .    OCC_ALL                     
+OCC_LNG_30                        .    OCC_ALL                     
+OCC_LNG_35                        .    OCC_ALL                     
+OCC_LNG_40                        .    OCC_ALL                     
+OCC_LNG_45                        .    OCC_ALL                     
+OCC_LNG_50                        .    OCC_ALL                     
 CO2_Seq_On_20                     .    Seq_On_Y                    
 CO2_Seq_On_25                     .    Seq_On_Y                    
 CO2_Seq_On_30                     .    Seq_On_Y                    
