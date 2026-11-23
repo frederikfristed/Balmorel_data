@@ -17,6 +17,7 @@ BIOSYNGAS_FLOW
 CO2_FLOW                       
 CO2_FLOW_BIO                   
 CO2_FLOW_FOSSIL                
+CO2_FLOW_OCC                   
 CO2DIR_FLOW                    
 CO2NEG_FLOW                    
 CO2PROC_FLOW                   

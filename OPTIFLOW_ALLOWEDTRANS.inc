@@ -6,6 +6,7 @@ SET ALLOWEDTRANS(PROC, FLOW)
 Transport_Pipeline_CO2       .    CO2_FLOW_FOSSIL   
 Transport_Pipeline_CO2       .    CO2_FLOW_BIO      
 Transport_Pipeline_CO2       .    CO2_FLOW          
+Transport_Pipeline_CO2       .    CO2_FLOW_OCC      
                                                     
 Transport_Truck_CO2          .    CO2_FLOW_FOSSIL   
 Transport_Truck_CO2          .    CO2_FLOW_BIO      
@@ -14,6 +15,7 @@ Transport_Truck_CO2          .    CO2_FLOW
 Transport_Ship_CO2           .    CO2_FLOW_FOSSIL   
 Transport_Ship_CO2           .    CO2_FLOW_BIO      
 Transport_Ship_CO2           .    CO2_FLOW          
+Transport_Ship_CO2           .    CO2_FLOW_OCC      
                                                     
 *Fuels                                              
                                                     
