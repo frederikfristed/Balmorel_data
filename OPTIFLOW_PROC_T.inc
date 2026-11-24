@@ -321,7 +321,6 @@ Shipping_Fuel_Long
 Shipping_Fuel_Medium                                          
 Shipping_Fuel_Short                                           
 Shipping_Fuel_Tanker                                          
-SNG_Total                                                     
 Straw                                                         
 Straw_Source                                                  
 TG_20                                                         
