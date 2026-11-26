@@ -39,8 +39,8 @@ Transport_Pipeline_CO2 . SE1A                                                   
 Transport_Pipeline_CO2 . SE2A                                                                                                                                        518.0                                                              403.0  640.0                339.0   596.0                                                             414.0         441.0                            
 Transport_Pipeline_CO2 . SE3A                                                                                                          458.0  643.0                  806.0                             715.0  665.0                     269.0                                                                                                        441.0          298.0                    
 Transport_Pipeline_CO2 . SE4A                                                                                                          197.0  721.0                 1057.0                             621.0  651.0                                                                                     613.0                                               298.0                            
-Transport_Pipeline_CO2 . UK_A                   600.0                                                                                  939.0                 880.0           386.0                                   566.0                     855.0               1203.0                                                                                                               455.57
-Transport_Pipeline_CO2 . UK_Offshore                                                                                                                                                                                                                                                                                                                                        455.57            
+Transport_Pipeline_CO2 . UK_A                   600.0                                                                                  939.0                 880.0           386.0                                   566.0                     855.0               1203.0                                                                                                               222.70
+Transport_Pipeline_CO2 . UK_Offshore                                                                                                                                                                                                                                                                                                                                        222.70            
 ;
 
 * Onshore<->offshore CO2 links (pipeline and ship) without a matrix cell, (re-aggregated from nordic-maritime-fuels 4692fe4 with the granular->low-reg region mapping; storage-weighted onshore->offshore distances)
@@ -56,3 +56,7 @@ TRANSDIST1('Transport_Ship_CO2','IT_A','IT_Offshore') = 201.40;
 TRANSDIST1('Transport_Ship_CO2','IT_Offshore','IT_A') = 201.40;
 TRANSDIST1('Transport_Ship_CO2','LV_A','LV_Offshore') = 275.30;
 TRANSDIST1('Transport_Ship_CO2','LV_Offshore','LV_A') = 275.30;
+TRANSDIST1('Transport_Pipeline_CO2','NL_A','UK_Offshore') = 349.40;
+TRANSDIST1('Transport_Pipeline_CO2','BE_A','UK_Offshore') = 421.70;
+TRANSDIST1('Transport_Pipeline_CO2','UK_Offshore','NL_A') = 349.40;
+TRANSDIST1('Transport_Pipeline_CO2','UK_Offshore','BE_A') = 421.70;
