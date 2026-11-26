@@ -16,6 +16,8 @@ SET  PROCKAPDATA(YYY,PROC,FLOW,IFLOWINOUT)    "Process data: capacity relative t
 2020                                                                                                            .    CO2_Comp_Gen                 .    CO2_FLOW            .    IFLOWINOUT_OUT    
 ***OBS FF                                                                                                                                                                                         
 2020                                                                                                            .    Transport_Pipeline_CO2       .    CO2_FLOW            .    IFLOWINOUT_SYM_INV
+2020                                                                                                            .    Transport_Pipeline_CO2       .    CO2_FLOW_FOSSIL            .    IFLOWINOUT_SYM_INV
+2020                                                                                                            .    Transport_Pipeline_CO2       .    CO2_FLOW_BIO            .    IFLOWINOUT_SYM_INV
                                                                                                                                                                                                   
 $ifi not %optiOCC%==yes $goto NO_OCC_MDO                                                                                                                                                          
 2020                                                                                                            .    OCC_30                       .    OCC_FLOW            .    IFLOWINOUT_IN     
