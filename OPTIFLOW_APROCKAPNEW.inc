@@ -30,7 +30,8 @@ $ifi not %baloptCCS%==yes $goto NO_CCS
 2020                                                                                                               .    DK1_Large .    CO2_Seq_On_20               
 2025                                                                                                               .    DK1_Large .    CO2_Seq_On_25               
 2030                                                                                                               .    DK1_Large .    CO2_Seq_On_30               
-2035                                                                                                               .    DK1_Large .    CO2_Seq_On_35               
+* No new CO2 storage in 2035: storage in 2035 is the existing capacity in OPTIFLOW_PROCKAPFX.
+*2035                                                                                                               .    DK1_Large .    CO2_Seq_On_35               
 2040                                                                                                               .    DK1_Large .    CO2_Seq_On_40               
 2045                                                                                                               .    DK1_Large .    CO2_Seq_On_45               
 2050                                                                                                               .    DK1_Large .    CO2_Seq_On_50               
@@ -38,7 +39,7 @@ $ifi not %baloptCCS%==yes $goto NO_CCS
 2020                                                                                                               .    DK1_Large .    CO2_Seq_Off_20              
 2025                                                                                                               .    DK1_Large .    CO2_Seq_Off_25              
 2030                                                                                                               .    DK1_Large .    CO2_Seq_Off_30              
-2035                                                                                                               .    DK1_Large .    CO2_Seq_Off_35              
+*2035                                                                                                               .    DK1_Large .    CO2_Seq_Off_35              
 2040                                                                                                               .    DK1_Large .    CO2_Seq_Off_40              
 2045                                                                                                               .    DK1_Large .    CO2_Seq_Off_45              
 2050                                                                                                               .    DK1_Large .    CO2_Seq_Off_50              
