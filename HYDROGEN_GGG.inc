@@ -257,6 +257,7 @@ GNR_FC_H2_SOFCC_Y-2020
 GNR_FC_H2_SOFCC_Y-2030                             
 GNR_FC_H2_SOFCC_Y-2040                             
 GNR_FC_H2_SOFCC_Y-2050                             
+GNR_IND-DF_H2_E-100_MS-3-MW_Y-2020
 *HYDROGEN STORAGE                                  
 GNR_H2S_H2-TNKC_Y-2020                             
 GNR_H2S_H2-TNKC_Y-2030                             
